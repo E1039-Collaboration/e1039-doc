@@ -215,73 +215,95 @@ var NAVTREE =
     [ "Macro to generate signal events", "d9/db7/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_macro_gen_signal_README.html", [
       [ "Alternative", "d9/db7/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_macro_gen_signal_README.html#autotoc_md143", null ],
       [ "Default Setting of Event Generation", "d9/db7/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_macro_gen_signal_README.html#autotoc_md144", null ],
-      [ "Usage", "d9/db7/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_macro_gen_signal_README.html#autotoc_md145", null ]
+      [ "Usage", "d9/db7/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_macro_gen_signal_README.html#autotoc_md145", null ],
+      [ "Recommended Job Configurations", "d9/db7/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_macro_gen_signal_README.html#autotoc_md146", null ]
     ] ],
     [ "A Package to Generate and Analyze Hit-Embedded MC Events", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html", [
-      [ "Terminology", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md147", null ],
-      [ "Prerequisite", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md148", null ],
-      [ "Software structure", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md149", [
-        [ "Source codes", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md150", null ],
-        [ "Fun4All macros", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md151", null ]
+      [ "Terminology", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md148", null ],
+      [ "Prerequisite", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md149", null ],
+      [ "Software structure", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md150", [
+        [ "Source codes", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md151", null ],
+        [ "Fun4All macros", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md152", null ]
       ] ],
-      [ "To-do list", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md152", null ],
-      [ "Contact", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md153", null ]
+      [ "To-do list", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md153", null ],
+      [ "Contact", "d7/d16/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_README.html#autotoc_md154", null ]
     ] ],
     [ "clone the analysis repository", "db/d29/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HodoAccGap_README.html", null ],
     [ "e1039-analysis/MultiThreadReco", "d4/d79/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_MultiThreadReco_README.html", null ],
     [ "PileupDev", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html", [
-      [ "Source Files", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md159", null ],
-      [ "Analysis Procedure", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md160", null ],
-      [ "Advanced Usage", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md161", [
-        [ "run the Fun4All macro to perform the simulation", "db/d29/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HodoAccGap_README.html#autotoc_md155", null ],
-        [ "analysis", "db/d29/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HodoAccGap_README.html#autotoc_md156", null ],
-        [ "<tt>cmake-this</tt>", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md162", null ],
-        [ "<tt>make-this</tt>", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md163", null ]
+      [ "Source Files", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md160", null ],
+      [ "Analysis Procedure", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md161", null ],
+      [ "Advanced Usage", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md162", [
+        [ "run the Fun4All macro to perform the simulation", "db/d29/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HodoAccGap_README.html#autotoc_md156", null ],
+        [ "analysis", "db/d29/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HodoAccGap_README.html#autotoc_md157", null ],
+        [ "<tt>cmake-this</tt>", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md163", null ],
+        [ "<tt>make-this</tt>", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md164", null ]
       ] ],
-      [ "Author", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md164", null ]
+      [ "Author", "d2/d41/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_PileupDev_README.html#autotoc_md165", null ]
     ] ],
     [ "Usage", "de/daf/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_Pythia8Demo_README.html", null ],
     [ "e1039-analysis", "dd/d95/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_README.html", [
-      [ "Short-Term Usage", "dd/d95/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_README.html#autotoc_md171", null ],
-      [ "Long-Term Usage", "dd/d95/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_README.html#autotoc_md172", null ]
+      [ "Short-Term Usage", "dd/d95/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_README.html#autotoc_md172", null ],
+      [ "Long-Term Usage", "dd/d95/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_README.html#autotoc_md173", null ]
     ] ],
     [ "e1039-analysis/RecalRealDst", "d0/d21/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecalRealDst_README.html", [
-      [ "Basic Usage", "d0/d21/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecalRealDst_README.html#autotoc_md174", null ],
-      [ "Advanced Usage", "d0/d21/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecalRealDst_README.html#autotoc_md175", null ],
-      [ "Contact", "d0/d21/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecalRealDst_README.html#autotoc_md176", null ]
+      [ "Basic Usage", "d0/d21/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecalRealDst_README.html#autotoc_md175", null ],
+      [ "Advanced Usage", "d0/d21/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecalRealDst_README.html#autotoc_md176", null ],
+      [ "Contact", "d0/d21/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecalRealDst_README.html#autotoc_md177", null ]
     ] ],
     [ "e1039-analysis/RecoData2024", "d7/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_README.html", [
-      [ "Shell Environment and Source Code", "d7/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_README.html#autotoc_md178", null ],
-      [ "Analysis of Reconstructed Data", "d7/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_README.html#autotoc_md179", null ],
-      [ "Reconstruction of Data", "d7/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_README.html#autotoc_md180", null ],
-      [ "Contact", "d7/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_README.html#autotoc_md181", null ]
+      [ "Shell Environment and Source Code", "d7/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_README.html#autotoc_md179", null ],
+      [ "Analysis of Reconstructed Data", "d7/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_README.html#autotoc_md180", null ],
+      [ "Reconstruction of Data", "d7/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_README.html#autotoc_md181", null ],
+      [ "Contact", "d7/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_README.html#autotoc_md182", null ]
     ] ],
     [ "e1039-analysis/RecoData2024/work_ana", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html", [
-      [ "Test of Analysis Using a Few Runs", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html#autotoc_md183", null ],
-      [ "Analysis Using All Runs", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html#autotoc_md184", null ],
-      [ "Analysis Condition", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html#autotoc_md185", null ],
-      [ "Dimuon Vertexing", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html#autotoc_md186", null ],
-      [ "Analysis of Officially-Reconstructed Data", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html#autotoc_md187", null ]
+      [ "Test of Analysis Using a Few Runs", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html#autotoc_md184", null ],
+      [ "Analysis Using All Runs", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html#autotoc_md185", null ],
+      [ "Analysis Condition", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html#autotoc_md186", null ],
+      [ "Dimuon Vertexing", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html#autotoc_md187", null ],
+      [ "Analysis of Officially-Reconstructed Data", "dd/d89/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_ana_README.html#autotoc_md188", null ]
     ] ],
     [ "e1039-analysis/RecoData2024/work_reco", "d6/d69/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_reco_README.html", [
-      [ "Test of Reconstruction Using a Few Runs", "d6/d69/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_reco_README.html#autotoc_md189", null ],
-      [ "Reconstruction of All Runs/Spills", "d6/d69/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_reco_README.html#autotoc_md190", null ],
-      [ "Reconstruction Condition", "d6/d69/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_reco_README.html#autotoc_md191", null ],
-      [ "Re-Analysis of Reconstructed Data", "d6/d69/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_reco_README.html#autotoc_md192", null ]
+      [ "Test of Reconstruction Using a Few Runs", "d6/d69/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_reco_README.html#autotoc_md190", null ],
+      [ "Reconstruction of All Runs/Spills", "d6/d69/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_reco_README.html#autotoc_md191", null ],
+      [ "Reconstruction Condition", "d6/d69/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_reco_README.html#autotoc_md192", null ],
+      [ "Re-Analysis of Reconstructed Data", "d6/d69/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoData2024_work_reco_README.html#autotoc_md193", null ]
     ] ],
     [ "README", "d1/d58/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoDev_grid_script_README.html", null ],
+    [ "RUS Reconstructor", "d6/d44/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RUSReconstructor_README.html", [
+      [ "Test Process", "d6/d44/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RUSReconstructor_README.html#autotoc_md196", null ],
+      [ "RUS Input Tree Variables", "d6/d44/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RUSReconstructor_README.html#autotoc_md197", [
+        [ "Setup", "de/daf/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_Pythia8Demo_README.html#autotoc_md167", null ],
+        [ "checkout analysis repository", "de/daf/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_Pythia8Demo_README.html#autotoc_md168", null ],
+        [ "Run simulation macro", "de/daf/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_Pythia8Demo_README.html#autotoc_md169", null ],
+        [ "Run example analysis macro", "de/daf/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_Pythia8Demo_README.html#autotoc_md170", null ],
+        [ "Note:", "d1/d58/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoDev_grid_script_README.html#autotoc_md194", null ],
+        [ "Hit-Level Variables`", "d6/d44/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RUSReconstructor_README.html#autotoc_md198", null ],
+        [ "Truth-Track-Level Variables", "d6/d44/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RUSReconstructor_README.html#autotoc_md200", [
+          [ "Position (Vertex, Station 1, Station 3)", "d6/d44/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RUSReconstructor_README.html#autotoc_md201", null ],
+          [ "Momentum (Vertex, Station 1, Station 3)", "d6/d44/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RUSReconstructor_README.html#autotoc_md202", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "A Program to Run Full Chain of E1039 Simulation", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html", [
-      [ "Environment", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html#autotoc_md195", null ],
-      [ "Download", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html#autotoc_md196", null ],
-      [ "Test Process", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html#autotoc_md197", null ],
-      [ "Large Process", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html#autotoc_md198", null ],
-      [ "More information", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html#autotoc_md199", null ]
+      [ "Environment", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html#autotoc_md204", null ],
+      [ "Download", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html#autotoc_md205", null ],
+      [ "Test Process", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html#autotoc_md206", null ],
+      [ "Large Process", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html#autotoc_md207", null ],
+      [ "More information", "da/d0e/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_SimChainDev_README.html#autotoc_md208", null ]
     ] ],
     [ "TargetSim", "d1/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TargetSim_README.html", [
-      [ "setup environment", "d1/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TargetSim_README.html#autotoc_md201", null ],
-      [ "check out analysis repository", "d1/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TargetSim_README.html#autotoc_md202", null ],
-      [ "analysis module", "d1/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TargetSim_README.html#autotoc_md203", null ],
-      [ "How to run", "d1/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TargetSim_README.html#autotoc_md204", null ]
+      [ "setup environment", "d1/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TargetSim_README.html#autotoc_md210", null ],
+      [ "check out analysis repository", "d1/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TargetSim_README.html#autotoc_md211", null ],
+      [ "analysis module", "d1/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TargetSim_README.html#autotoc_md212", null ],
+      [ "How to run", "d1/df8/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TargetSim_README.html#autotoc_md213", null ]
+    ] ],
+    [ "e1039-analysis/TrackMixingNMSU", "d1/dc2/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TrackMixingNMSU_README.html", [
+      [ "Key modifications", "d1/dc2/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TrackMixingNMSU_README.html#autotoc_md215", null ],
+      [ "Usage", "d1/dc2/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TrackMixingNMSU_README.html#autotoc_md216", null ],
+      [ "To-Do List", "d1/dc2/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TrackMixingNMSU_README.html#autotoc_md217", null ],
+      [ "Contact", "d1/dc2/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_TrackMixingNMSU_README.html#autotoc_md218", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -331,61 +353,62 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"d0/d64/structRunData.html#a0ac215203c09152b9cb0d9ffbaebc87b",
-"d0/d88/classHit.html#abdb2265c17959de3de21955ee4292741",
-"d0/db9/ExtractTdcDist_8h_source.html",
-"d1/d18/classRoad.html#a6acd5d70a171381ebf983ebe32747a7e",
-"d1/d83/PHG4GDMLWriteSetup_8cc.html",
-"d1/dd7/classPHG4BlockCellGeom.html#a2cfaf99b041e74fceeb46394d677c628",
-"d2/d26/classTracklet.html#ae35d72a1a17879f996f97a31df948db4",
-"d2/d72/classPHG4GDMLWriteStructure.html#a6f43dec8d3aac69dda385a18e6391528",
-"d2/ddb/classPHG4CylinderCellGeomContainer.html#a720565c4aa146811102a6ea351d67a8a",
-"d3/d21/classChanMapTaiwan.html",
-"d3/d63/classPHG4CylinderGeomv1.html#a0d97422d0e0864c1aae651f16beb5576",
-"d3/d9e/classPHG4Hit.html#a778d7816dc2863a37ca4b7a84a43bdda",
-"d3/df2/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_HitEmbedding_macro_embed_README.html#autotoc_md132",
-"d4/d42/structSignalData.html#af8b332f8141f364e1934201ced914a22",
-"d4/d7e/classFun4AllVectEventInputManager.html#a97a8b8d970c7c2e1c7ee7a657373b456",
-"d4/dc9/classPHG4DSTReader.html#aa32c5027cd9c3e4d667a0e84d7243412",
-"d5/d2f/classSRecEvent.html#a8fa6258d9d8ddd686835e86c2d114f71",
-"d5/d71/classSQParamDeco__v1.html#aa893f7c8a6ce9b0b8f571d2c1cf58c52",
-"d5/dae/RunNumberRanges_8h.html#a13f2ed66ddea4c90031d5345cdfb2aa6",
-"d5/dda/classEventReducer.html#aa2a5d32a483fd636c689d9306f3e4c6e",
-"d6/d37/SQParamDeco__v1LinkDef_8h_source.html",
-"d6/d88/classSQTrack__v1.html#a9a575d9c3ad84836d856e9a3ff1eaef7",
-"d6/db6/classCalibParam.html#a47703e979fa6f8a22f1af6600ce651b9",
-"d7/d0b/classFun4AllDstInputManager.html#ade26017b627e0e1f1ec0dec62ac7fd52",
-"d7/d54/classPHG4PrimaryGeneratorAction.html#a142593fe986f71cf9ec4a6661cdfb8e9",
-"d7/d87/classSQSpillMap.html#a55a9f792a1b30441257e41c431816612",
-"d7/dc9/CalibParamXT_8h_source.html",
-"d8/d21/classPdbParameterMap.html#a98ad662e9db8d8899755227a9cd48c84",
-"d8/db2/classEventHeader.html",
-"d8/dfd/PHNodeIterator_8h.html",
-"d9/d36/PHTimeServer_8h_source.html",
-"d9/d8b/classPHPy8ParticleTrigger.html#a197c981422dd5e267d3094320005ede2",
-"d9/dc3/classKalmanTrack.html#aa38619d8d72a92c8f82d428a3ebd8062",
-"da/d10/Fun4AllEventOutStream_8cc.html",
-"da/d29/classPHG4Parameters.html#a0206cf595826755dcf82f411008ed02a",
-"da/d6c/classPHG4TruthInfoContainer.html#a5f3f30ff74c7397069c6f0041849b53c",
-"da/db3/classFlagSavev1.html#a8aa3983319a8685a8d517de9fabf3b7f",
-"db/d1f/classFun4AllOscarInputManager.html#a03e9d9238b810ae729936a2b21089f8a",
-"db/d88/classPHG4Shower.html#a4cb6ca0beb4c749ccd8e34c56b96a867",
-"db/de3/classPHFieldConfig__v3.html#a5e329c4f5211d1adc6e8f23b7648e63e",
-"dc/d1e/AnaChamHit_8cc.html",
-"dc/d8e/classAnaCleanAndMessyData.html#aec4f413f437769c2616883c9970d0a1b",
-"dc/da2/classSQHardEvent__v1.html#aa1c44aabe67200b317dcf139581d4ec8",
-"dc/dfe/classPHG4Cell.html#a16ed9dd0d8cf44a1f84861df55ac1828",
-"dd/d3e/namespaceFun4AllUtils.html",
-"dd/d9d/classPHG4TruthEventAction.html#a9386edd44a251ac77d1453c216288b01",
-"dd/dec/Fun4AllDummyInputManager_8cc_source.html",
-"de/d45/classSignedHit.html#ab4907134a746e3763976fba22c7c21b1",
-"de/d7e/classTDirectoryHelper.html#a05fda94e95bcb216abc68086c009cfb5",
-"de/de3/classPHGeomIOTGeo.html#ab11914a5bcebed763edba73798b25a08",
-"df/d41/classSQHardEvent.html#ae2bea9267d292bf3a9c1a0d5f3332b27",
-"df/da2/classUtilOnline.html#a77bb4df07b55c28ab99df1fa75d88e79",
-"df/df2/classSQReco.html#a7620e152b35aeef5873594e8e845d3cd",
-"functions_u.html"
+"annotated.html",
+"d0/d39/classAnaSortMixVertex.html#ab9c0bb7198ce8e86e8bf755db9b5d440",
+"d0/d78/classSQSpill.html#a47570576a9372a886b38b2c2536ff59a",
+"d0/da0/classGeomSvc.html#a98916fbccf85f10f1e8b714d2315c882",
+"d0/dec/classFun4AllHepMCOutputManager.html#a158e706026e7d2caf18b605afc50c046",
+"d1/d42/classPHG4Particlev1.html#a9d4f67e6889cb23424e7c184918969fb",
+"d1/db0/namespacevarids.html",
+"d2/d01/classNMREvent.html#ae658d57515e441e9ae17f7dc2af59c8d",
+"d2/d4f/classChanMapV1495.html#aed02da6643001ad7e5bcba0d4ffd9b83",
+"d2/da1/classPHGeomUtility.html#ae062424701e91fed6173ca3aa29779e4",
+"d2/dfd/PHGenIntegral_8h_source.html",
+"d3/d46/classKalmanFastTracking.html#a3deb95ac6b2fba8e3928ec2b7c124906",
+"d3/d8e/classDimuAnaRUS.html#a4179ccff58774a23e7536507e4b22c3c",
+"d3/db9/UtilTdc_8h.html#a43b54bd1854c089011688715f89077fd",
+"d4/d06/classSQPrimaryParticleGen.html#acccab0c078ac6a33680e1d30449d7369",
+"d4/d52/SubsysRecoBG_8h_source.html",
+"d4/d89/AnaTriggerHit_8h.html",
+"d4/dcc/namespaceUtilDimuon.html#af7b039bf4df4b8a88ef94143ee10c076",
+"d5/d3a/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_AnaRealDst_README.html#autotoc_md25",
+"d5/d72/classTriggerRoad.html#a46c52673f9b4888af1424a730bea8795",
+"d5/da5/classEvent.html#ab864fd85c758006c42cd7a1b3369b483",
+"d5/dd4/classFun4AllSRawEventInputManager.html#aebaa414c57aa571e3869b12db6abe84e",
+"d6/d2a/classKalmanFilter.html#a3f4f044f2dcf3a810f385b00b7229d57",
+"d6/d86/classPHPointerList.html#af5fc4e6958b5b90c57bfb497566f503c",
+"d6/db1/classSRecTrack.html#aee4c662216abc8bcb4fb88ea0daf9a0c",
+"d7/d0b/classFun4AllDstInputManager.html#a33ba8ba9d1dac601d13b03a5f19dead7",
+"d7/d4d/classPHNodeIOManager.html#a8fe87c81674f4a7223b4801bee3ee124",
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#ab0a3fd0c62d1248cc844008cc91041b6",
+"d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#aeab920ee2c82b88ab79cb3c80a6eb6b9",
+"d8/d1e/CalibParamInTimeTaiwanLinkDef_8h_source.html",
+"d8/d7a/Fun4AllServer_8cc.html",
+"d8/de3/classSRMakeRTCurve.html#a8e160bbbaac6e7ecfd1b9ab2a1edfcf6",
+"d9/d35/classPHG4Hitv1.html#a827908f3f4f1f433f9e70841be2723b6",
+"d9/d85/classPHG4CylinderCellGeom.html#a88e9f9a852becb9cfac39728da9440ec",
+"d9/dbf/classSQHitVector__v1.html#a338a564b009b4a98b734300ccff432ee",
+"d9/df7/classPHG4BNLTargetCoilSubsystem.html",
+"da/d29/classFun4AllServer.html#a596005b9bc46ff6f5167378423248271",
+"da/d6a/classDPTriggerRoad.html",
+"da/da8/classSQRun__v2.html#aaa7472b41190200a0f1a915be86a9131",
+"db/d03/SQField3DCartesian_8cc_source.html",
+"db/d6c/classHepMCNodeReader.html#a098557b405da31e536646e0e6e8ad5db",
+"db/db6/KalmanFastTracking_8h_source.html",
+"db/dfa/classPHG4Showerv1.html#ac35ad00577f7c3e49b046e29110ea03e",
+"dc/d5b/classDetectorConstruction.html#aa18b4e7fa9d7170feb008649215d1afb",
+"dc/d96/classSQRun__v1.html#a5c225df84d64974c527169bcfc5c3a06",
+"dc/dd3/unionPHDataNode_1_1tobjcast.html",
+"dd/d28/PHFieldUtilityLinkDef_8h_source.html",
+"dd/d77/classSQSingleMuonGen.html#a03a8f79ad3bdd8367a35324baaa68ede",
+"dd/dc0/AnaCleanAndMessyData_8h.html",
+"dd/df6/structUtilHodo_1_1Track2D.html#aef68e9d4c8d036682ee9b4ffd52c12b1",
+"de/d72/classMakeRTCurve.html#a802a83b4d2438acd8eb3a6ca9f3225c0",
+"de/da7/structEventData.html#af3e9149e315c62ac312cdd15be447791",
+"df/d19/classRunList.html#a905de5375ed4a0507ca29b5a3d2d9efe",
+"df/d5f/CalibParamXTLinkDef_8h_source.html",
+"df/dd0/classNode.html#aba6dd9d4c392f430d1c93d4af381dbaa",
+"dir_7f1148ba26dc9e65061f1d995327068e.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -109,26 +109,66 @@ $(document).ready(function(){initNavTree('df/dd5/HitEmbedding_2src_2TreeData_8cc
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  ;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<a class="code" href="../../dd/d7f/structTrackData.html#a7f60a06862d3b68011eac879566fcae8">TrackData::TrackData</a>() </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  : charge(0)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  ;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<a class="code" href="../../dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a">DimuonData::DimuonData</a>() </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  : mass(0)</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  , pT(0)</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  , x1(0)</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  , x2(0)</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  , xF(0)</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  , costh_cs(0)</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  , phi_cs(0)</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  ;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d3/dda/structOccData.html#a1837569e4fa47b17af66487db226f595">   24</a></span>&#160;<a class="code" href="../../d3/dda/structOccData.html#a1837569e4fa47b17af66487db226f595">OccData::OccData</a>() </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  : D1 (0)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  , D2 (0)</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  , D3p(0)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  , D3m(0)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  ;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<a class="code" href="../../dd/d7f/structTrackData.html#a7f60a06862d3b68011eac879566fcae8">TrackData::TrackData</a>() </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  : charge (0)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  , road_id(0)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  , n_hits (0)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  , chi2   (0)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  , pos_vtx(0,0,0)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  , mom_vtx(0,0,0,0)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  ;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<a class="code" href="../../dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a">DimuonData::DimuonData</a>() </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  : road_pos(0)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  , road_neg(0)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  , pos_top(true)</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  , pos_bot(true)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  , neg_top(true)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  , neg_bot(true)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  , pos(0,0,0)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  , mom(0,0,0,0)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  , mom_pos(0,0,0,0)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  , mom_neg(0,0,0,0)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  , mass(0)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  , pT(0)</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  , x1(0)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  , x2(0)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  , xF(0)</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  , costh_cs(0)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  , phi_cs(0)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  ;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="../../d0/df0/structEmbQAData.html#abd29412b0ccb5a1f59cee6d1683fd51e">   66</a></span>&#160;<a class="code" href="../../d0/df0/structEmbQAData.html#abd29412b0ccb5a1f59cee6d1683fd51e">EmbQAData::EmbQAData</a>()</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  : turn_id(0)</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  , rf_id  (0)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  , rfp01  (0)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  , rfp00  (0)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  , rfm01  (0)</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  , D1     (0)</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  , D2     (0)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  , D3p    (0)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  , D3m    (0)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  ;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
 <div class="ttc" id="aTriggerAna_2src_2TreeData_8h_html"><div class="ttname"><a href="../../dc/dac/TriggerAna_2src_2TreeData_8h.html">TreeData.h</a></div></div>
 <div class="ttc" id="astructDimuonData_html_a200494267cc1629fc211ba8312de740a"><div class="ttname"><a href="../../dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a">DimuonData::DimuonData</a></div><div class="ttdeci">DimuonData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd3/AnaSimDst_2src_2TreeData_8cc_source.html#l00024">TreeData.cc:24</a></div></div>
+<div class="ttc" id="astructEmbQAData_html_abd29412b0ccb5a1f59cee6d1683fd51e"><div class="ttname"><a href="../../d0/df0/structEmbQAData.html#abd29412b0ccb5a1f59cee6d1683fd51e">EmbQAData::EmbQAData</a></div><div class="ttdeci">EmbQAData()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd5/HitEmbedding_2src_2TreeData_8cc_source.html#l00066">TreeData.cc:66</a></div></div>
 <div class="ttc" id="astructEventData_html_a5ccfae751d54851f1069e9e4985183b2"><div class="ttname"><a href="../../de/da7/structEventData.html#a5ccfae751d54851f1069e9e4985183b2">EventData::EventData</a></div><div class="ttdeci">EventData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d19/DecoData_8cc_source.html#l00102">DecoData.cc:102</a></div></div>
+<div class="ttc" id="astructOccData_html_a1837569e4fa47b17af66487db226f595"><div class="ttname"><a href="../../d3/dda/structOccData.html#a1837569e4fa47b17af66487db226f595">OccData::OccData</a></div><div class="ttdeci">OccData()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd5/HitEmbedding_2src_2TreeData_8cc_source.html#l00024">TreeData.cc:24</a></div></div>
 <div class="ttc" id="astructTrackData_html_a7f60a06862d3b68011eac879566fcae8"><div class="ttname"><a href="../../dd/d7f/structTrackData.html#a7f60a06862d3b68011eac879566fcae8">TrackData::TrackData</a></div><div class="ttdeci">TrackData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd3/AnaSimDst_2src_2TreeData_8cc_source.html#l00018">TreeData.cc:18</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -140,7 +180,7 @@ $(document).ready(function(){initNavTree('df/dd5/HitEmbedding_2src_2TreeData_8cc
 		<li class="navelem"><a class="el" href="../../dir_39f21cb5a780a113fea29b03e1144b41.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_4fffab89599c799d6ada06c4cfc120d7.html">HitEmbedding</a></li><li class="navelem"><a class="el" href="../../dir_0cda6dd30e58f4295871aafbbd58f60b.html">src</a></li><li class="navelem"><a class="el" href="../../df/dd5/HitEmbedding_2src_2TreeData_8cc.html">TreeData.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 30 2025 10:15:15</em> using <a
+			updated: <em>Thu Nov 20 2025 08:33:26</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

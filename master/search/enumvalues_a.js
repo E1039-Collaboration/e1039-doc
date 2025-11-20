@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['lastbin_13877',['LASTBIN',['../d0/d60/Fun4AllHistoBinDefs_8h.html#a99fb83031ce9923c84392b4e92f956b5a1a4e901031933c46d34c08e3cc49614d',1,'Fun4AllHistoBinDefs.h']]],
-  ['legacy_13878',['LEGACY',['../df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0af6b1e879fffdc86eb3aab80053074081',1,'SQReco']]],
-  ['lite_13879',['LITE',['../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a138450a0e1543e532ac3ec659b546e90',1,'DbSvc']]],
-  ['local_13880',['LOCAL',['../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a0c6c825682b9935836ddb4e373e7197e',1,'DbSvc']]]
+  ['kf_14314',['KF',['../df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0a3cdae1f10bab017b9b0b95bc394a0475',1,'SQReco']]],
+  ['kfield2d_14315',['kField2D',['../d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1a91259f1191e4ae89a21c9a63d1bcaacb',1,'PHFieldConfig']]],
+  ['kfield3dcartesian_14316',['kField3DCartesian',['../d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1a9de13fe306f2b804fea268d76a7ba60a',1,'PHFieldConfig']]],
+  ['kfield3dcylindrical_14317',['kField3DCylindrical',['../d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1aad039735ffe64bcfef45593e2b078bd4',1,'PHFieldConfig']]],
+  ['kfieldinvalid_14318',['kFieldInvalid',['../d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1af25a4b12c7c7e61b722e2925be97d0fc',1,'PHFieldConfig']]],
+  ['kfieldseaquest_14319',['kFieldSeaQuest',['../d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1a6e9deefffabeab9db4272d06548bc4cb',1,'PHFieldConfig']]],
+  ['kfielduniform_14320',['kFieldUniform',['../d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1a1cd1c4480988f0f6fc769df5bf993599',1,'PHFieldConfig']]],
+  ['kfref_14321',['KFREF',['../df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0ab361121968d67698dc68c8515726ce67',1,'SQReco']]]
 ];

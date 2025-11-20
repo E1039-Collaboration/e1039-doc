@@ -1,13 +1,17 @@
 <map id="UtilTrigger::Hodo2Road" name="UtilTrigger::Hodo2Road">
-<area shape="rect" id="node1" title="Convert a set of hodo IDs to a roadset ID." alt="" coords="776,143,948,170"/>
-<area shape="rect" id="node2" href="$df/d60/namespaceUtilTrigger.html#afdd030c4cb67c41d7abc754c205b0626" title="Find a unique road in the given list of SQHits." alt="" coords="515,38,705,65"/>
-<area shape="rect" id="node4" href="$db/df7/classAnaBG.html#af8f10c82afe01ac1ad2a3f78634e08bf" title=" " alt="" coords="531,114,689,141"/>
-<area shape="rect" id="node8" href="$d5/de8/classGenRoadset.html#aeb585165cd41982bf80f749133515c0e" title=" " alt="" coords="515,165,705,207"/>
-<area shape="rect" id="node11" href="$d5/de8/classGenRoadset.html#a73e653e3aec868da34acccc593e4eed8" title=" " alt="" coords="492,231,728,258"/>
+<area shape="rect" id="node1" title="Convert a set of hodo IDs to a roadset ID." alt="" coords="776,202,948,229"/>
+<area shape="rect" id="node2" href="$df/d60/namespaceUtilTrigger.html#afdd030c4cb67c41d7abc754c205b0626" title="Find a unique road in the given list of SQHits." alt="" coords="515,17,705,43"/>
+<area shape="rect" id="node4" href="$db/df7/classAnaBG.html#af8f10c82afe01ac1ad2a3f78634e08bf" title=" " alt="" coords="531,71,689,98"/>
+<area shape="rect" id="node8" href="$df/d60/namespaceUtilTrigger.html#a2b160f34a1e1b7ad19e724764a803eb4" title="Find all fired roads enabled in rs, by taking all hit combinations from vec." alt="" coords="512,122,708,149"/>
+<area shape="rect" id="node9" href="$d2/d1e/namespaceUtilTrack.html#ac7d22f1b53f29b760e5097fa5344bc4d" title="Find all roads that match to the given track within the hodo paddle width plus the given margin." alt="" coords="505,173,715,199"/>
+<area shape="rect" id="node10" href="$d5/de8/classGenRoadset.html#aeb585165cd41982bf80f749133515c0e" title=" " alt="" coords="515,224,705,265"/>
+<area shape="rect" id="node13" href="$df/d60/namespaceUtilTrigger.html#a16bebd496d3f6cfe29343aa87ff09adf" title="Flip the given road ID in the left&#45;right direction." alt="" coords="521,341,699,383"/>
+<area shape="rect" id="node14" href="$d5/de8/classGenRoadset.html#a73e653e3aec868da34acccc593e4eed8" title=" " alt="" coords="492,290,728,317"/>
+<area shape="rect" id="node15" href="$df/d60/namespaceUtilTrigger.html#aef25f39135dcdcbb8e9291a7294a63ca" title="Flip the given road ID in the top&#45;bottom direction." alt="" coords="522,407,698,448"/>
 <area shape="rect" id="node3" href="$d4/d8e/classSubsysRecoSignal.html#a023c927af2d203e52b156711e260d277" title=" " alt="" coords="225,5,423,47"/>
 <area shape="rect" id="node5" href="$db/df7/classAnaBG.html#a1079f44bd1460e62164aee07107c4e25" title=" " alt="" coords="231,122,417,149"/>
 <area shape="rect" id="node7" href="$d4/dfb/classReAnaBG.html#aa658b4411fb937cb060d0bb2dc74b051" title=" " alt="" coords="222,71,426,98"/>
 <area shape="rect" id="node6" href="$db/df7/classAnaBG.html#a8e880a489af0c3ab11e36d8d7eb721c3" title=" " alt="" coords="5,122,156,149"/>
-<area shape="rect" id="node9" href="$d5/de8/classGenRoadset.html#a1f7eca7d2d7140afea75c196027ebfd0" title=" " alt="" coords="204,224,444,265"/>
-<area shape="rect" id="node10" href="$d5/de8/classGenRoadset.html#a7879ec872f5b96b6139bc65af5304fac" title=" " alt="" coords="210,173,438,199"/>
+<area shape="rect" id="node11" href="$d5/de8/classGenRoadset.html#a1f7eca7d2d7140afea75c196027ebfd0" title=" " alt="" coords="204,283,444,324"/>
+<area shape="rect" id="node12" href="$d5/de8/classGenRoadset.html#a7879ec872f5b96b6139bc65af5304fac" title=" " alt="" coords="210,231,438,258"/>
 </map>

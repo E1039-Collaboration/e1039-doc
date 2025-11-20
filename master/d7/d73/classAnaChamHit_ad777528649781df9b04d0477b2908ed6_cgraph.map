@@ -1,11 +1,11 @@
 <map id="AnaChamHit::AnalyzeTree" name="AnaChamHit::AnalyzeTree">
 <area shape="rect" id="node1" title=" " alt="" coords="5,107,196,133"/>
-<area shape="rect" id="node2" href="$d3/daf/namespaceUtilHist.html#a5c646c763a7d90ed6ae5b9eb7d6b9719" title="Adjust the axis range via &quot;h1&#45;&gt;GetXaxis()&#45;&gt;SetRange(bin_lo, bin_hi)&quot; to zoom up non&#45;empty bins." alt="" coords="269,5,439,32"/>
+<area shape="rect" id="node2" href="$d3/daf/namespaceUtilHist.html#a52c2bd7dcd82fb1f44e59a7d8d567fbd" title="Adjust the axis range via &quot;h1&#45;&gt;GetXaxis()&#45;&gt;SetRange(bin_lo, bin_hi)&quot; to zoom up non&#45;empty bins." alt="" coords="269,5,439,32"/>
 <area shape="rect" id="node4" href="$d0/da0/classGeomSvc.html#ac4edd9b5679db2ac9b6f6bea59929447" title=" " alt="" coords="1037,49,1245,76"/>
 <area shape="rect" id="node5" href="$d0/da0/classGeomSvc.html#a8ddb02bb19817504a5a0fec673322320" title=" " alt="" coords="244,157,464,184"/>
 <area shape="rect" id="node6" href="$d0/da0/classGeomSvc.html#ad2f70310acc214b9e37e7961511a5257" title=" " alt="" coords="254,208,454,235"/>
 <area shape="rect" id="node7" href="$d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4" title="singlton instance" alt="" coords="281,107,427,133"/>
-<area shape="rect" id="node3" href="$d3/daf/namespaceUtilHist.html#a3cf821e9299974225cc90084beadcb30" title="Find the lowest and highest bins (&quot;bin_lo&quot; and &quot;bin_hi&quot;) out of non&#45;empty bins of &quot;h1&quot;." alt="" coords="512,5,695,32"/>
+<area shape="rect" id="node3" href="$d3/daf/namespaceUtilHist.html#a19b452b742fe4b2f47c9397ad7403e30" title="Find the lowest and highest bins (&quot;bin_lo&quot; and &quot;bin_hi&quot;) out of non&#45;empty bins of &quot;h1&quot;." alt="" coords="512,5,695,32"/>
 <area shape="rect" id="node8" href="$d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6" title="Initialization, either from MySQL or from ascii file." alt="" coords="547,277,660,304"/>
 <area shape="rect" id="node9" href="$d0/da0/classGeomSvc.html#adbe1473f9b3a8ff942da8d7d8ee28322" title=" " alt="" coords="762,353,953,380"/>
 <area shape="rect" id="node16" href="$d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85" title=" " alt="" coords="1063,708,1220,735"/>

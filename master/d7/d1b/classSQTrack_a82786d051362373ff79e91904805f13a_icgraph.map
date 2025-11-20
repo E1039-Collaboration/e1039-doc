@@ -1,4 +1,6 @@
 <map id="SQTrack::set_pos_st1" name="SQTrack::set_pos_st1">
-<area shape="rect" id="node1" title=" " alt="" coords="240,13,399,39"/>
-<area shape="rect" id="node2" href="$dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397" title=" " alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="504,46,663,73"/>
+<area shape="rect" id="node2" href="$dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397" title=" " alt="" coords="269,5,456,47"/>
+<area shape="rect" id="node3" href="$da/d1f/classFun4AllRUSInputManager.html#a944672a880a9e110401f773e1ce3f0ae" title=" " alt="" coords="269,71,456,112"/>
+<area shape="rect" id="node4" href="$da/d1f/classFun4AllRUSInputManager.html#a8ee161a7ef24168128596705790e3cb6" title=" " alt="" coords="5,78,221,105"/>
 </map>

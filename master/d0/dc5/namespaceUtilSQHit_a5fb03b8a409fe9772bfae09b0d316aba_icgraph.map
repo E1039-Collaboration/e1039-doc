@@ -1,7 +1,8 @@
 <map id="UtilSQHit::FindFirstHits" name="UtilSQHit::FindFirstHits">
-<area shape="rect" id="node1" title="Extract a set of first hits that are of the given detector (det_name), where &quot;first&quot; means the earlie..." alt="" coords="477,71,648,98"/>
+<area shape="rect" id="node1" title="Extract a set of first hits that are of the given detector (det_name), where &quot;first&quot; means the earlie..." alt="" coords="477,93,648,119"/>
 <area shape="rect" id="node2" href="$d6/d44/classSubsysRecoBG.html#a48e2f33bfc0e198d81e58285a88e0c29" title=" " alt="" coords="231,13,429,39"/>
-<area shape="rect" id="node4" href="$db/d63/classAnaEffCham.html#a0b70f8e06c1af83ab6ad800b85fdc688" title=" " alt="" coords="250,64,410,105"/>
-<area shape="rect" id="node5" href="$db/d7d/classAnaEffHodo.html#a8ba24e76d3e1a45eb7378c9dab192a76" title=" " alt="" coords="252,129,408,171"/>
+<area shape="rect" id="node4" href="$df/d60/namespaceUtilTrigger.html#a2b160f34a1e1b7ad19e724764a803eb4" title="Find all fired roads enabled in rs, by taking all hit combinations from vec." alt="" coords="232,63,428,90"/>
+<area shape="rect" id="node5" href="$db/d63/classAnaEffCham.html#a0b70f8e06c1af83ab6ad800b85fdc688" title=" " alt="" coords="250,115,410,156"/>
+<area shape="rect" id="node6" href="$db/d7d/classAnaEffHodo.html#a8ba24e76d3e1a45eb7378c9dab192a76" title=" " alt="" coords="252,180,408,221"/>
 <area shape="rect" id="node3" href="$d6/d44/classSubsysRecoBG.html#a5d64a662a245dbc30fa75653b0669029" title=" " alt="" coords="5,5,183,47"/>
 </map>

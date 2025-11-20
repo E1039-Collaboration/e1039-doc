@@ -166,9 +166,9 @@ $(document).ready(function(){initNavTree('dd/dc7/PHG4EMCalDetector_8cc_source.ht
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  }</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="comment">// Overal envelop volume for the entire detector</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordtype">double</span> xLength_enve = m_tower_size_x*m_ntowers_x*cm;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keywordtype">double</span> yLength_enve = m_tower_size_y*m_ntowers_y*cm;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">double</span> zLength_enve = m_tower_size_z*cm;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordtype">double</span> xLength_enve = m_tower_size_x*m_ntowers_x;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keywordtype">double</span> yLength_enve = m_tower_size_y*m_ntowers_y;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">double</span> zLength_enve = m_tower_size_z;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  G4VSolid* emcal_enve_solid = <span class="keyword">new</span> G4Box(<a class="code" href="../../d3/de7/classPHG4Detector.html#a8790611ab760c902d64f821e79433253">name</a>+<span class="stringliteral">&quot;_enve_solid&quot;</span>, xLength_enve/2., yLength_enve/2., zLength_enve/2.);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  G4Material* mat_Air = G4Material::GetMaterial(<span class="stringliteral">&quot;G4_AIR&quot;</span>);</div>
@@ -284,7 +284,7 @@ $(document).ready(function(){initNavTree('dd/dc7/PHG4EMCalDetector_8cc_source.ht
 		<li class="navelem"><a class="el" href="../../dir_c252d373c2dfd5bf2b63283e19448f22.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_e5abb80fcde6b9c136266c766a80ff0e.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_d24f21f0718b4eb46f396dc68ca5f1b6.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../dd/dc7/PHG4EMCalDetector_8cc.html">PHG4EMCalDetector.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 30 2025 10:15:16</em> using <a
+			updated: <em>Thu Nov 20 2025 08:33:27</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

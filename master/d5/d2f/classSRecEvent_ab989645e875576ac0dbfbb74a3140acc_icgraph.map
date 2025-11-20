@@ -1,7 +1,10 @@
 <map id="SRecEvent::insertDimuon" name="SRecEvent::insertDimuon">
-<area shape="rect" id="node1" title="Insert dimuon." alt="" coords="432,78,619,105"/>
-<area shape="rect" id="node2" href="$d8/d20/classSQTruthVertexing.html#a6a575557b10800326ed193fa397229bd" title=" " alt="" coords="192,5,384,47"/>
-<area shape="rect" id="node3" href="$d5/d65/classSQVertexing.html#a0f9835a784584f7779ba9b9a93809e31" title=" " alt="" coords="208,71,368,112"/>
-<area shape="rect" id="node4" href="$d1/d13/classVertexFit.html#a080d08ef76e4108261aaf89373c07211" title="Set the SRecEvent, main external call the use vertex fit." alt="" coords="203,137,373,163"/>
-<area shape="rect" id="node5" href="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e" title=" " alt="" coords="5,129,144,171"/>
+<area shape="rect" id="node1" title="Insert dimuon." alt="" coords="507,129,693,156"/>
+<area shape="rect" id="node2" href="$d0/d39/classAnaSortMixVertex.html#a5e195f16137ddd9cd8a6bf8c79812e45" title=" " alt="" coords="252,5,459,32"/>
+<area shape="rect" id="node4" href="$d5/d90/classSQVertexing__v2.html#a943939538d529dcc89041075c4dc68f1" title=" " alt="" coords="264,57,447,98"/>
+<area shape="rect" id="node5" href="$d8/d20/classSQTruthVertexing.html#a6a575557b10800326ed193fa397229bd" title=" " alt="" coords="259,122,451,163"/>
+<area shape="rect" id="node6" href="$d5/d65/classSQVertexing.html#a0f9835a784584f7779ba9b9a93809e31" title=" " alt="" coords="275,187,435,229"/>
+<area shape="rect" id="node7" href="$d1/d13/classVertexFit.html#a080d08ef76e4108261aaf89373c07211" title="Set the SRecEvent, main external call the use vertex fit." alt="" coords="271,253,440,280"/>
+<area shape="rect" id="node3" href="$d0/d39/classAnaSortMixVertex.html#adb2e66e2fb6d8829b0bb4b4e7ca4551c" title=" " alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node8" href="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e" title=" " alt="" coords="35,246,174,287"/>
 </map>

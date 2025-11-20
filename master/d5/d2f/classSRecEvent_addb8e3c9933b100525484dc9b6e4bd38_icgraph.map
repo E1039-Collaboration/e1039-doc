@@ -1,5 +1,6 @@
 <map id="SRecEvent::clearDimuons" name="SRecEvent::clearDimuons">
-<area shape="rect" id="node1" title="Clear the dimuon list." alt="" coords="213,46,403,73"/>
-<area shape="rect" id="node2" href="$d5/d65/classSQVertexing.html#a0f9835a784584f7779ba9b9a93809e31" title=" " alt="" coords="5,5,165,47"/>
-<area shape="rect" id="node3" href="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e" title=" " alt="" coords="16,71,155,112"/>
+<area shape="rect" id="node1" title="Clear the dimuon list." alt="" coords="236,78,425,105"/>
+<area shape="rect" id="node2" href="$d5/d90/classSQVertexing__v2.html#a943939538d529dcc89041075c4dc68f1" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node3" href="$d5/d65/classSQVertexing.html#a0f9835a784584f7779ba9b9a93809e31" title=" " alt="" coords="17,71,177,112"/>
+<area shape="rect" id="node4" href="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e" title=" " alt="" coords="27,136,166,177"/>
 </map>

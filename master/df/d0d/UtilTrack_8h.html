@@ -84,16 +84,26 @@ $(document).ready(function(){initNavTree('df/d0d/UtilTrack_8h.html','../../'); i
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">UtilTrack.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for UtilTrack.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/db2/UtilTrack_8h__incl.svg" width="256" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d04/UtilTrack_8h__dep__incl.svg" width="472" height="186"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -122,6 +132,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a179c80b71b2e0cb0da3192259a60b283"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1e/namespaceUtilTrack.html#a179c80b71b2e0cb0da3192259a60b283">UtilTrack::FindHodoHitsOfTrack</a> (const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *vec_in, const int id_trk)</td></tr>
 <tr class="memdesc:a179c80b71b2e0cb0da3192259a60b283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all hodoscope hits hits associated with the given track.  <a href="../../d2/d1e/namespaceUtilTrack.html#a179c80b71b2e0cb0da3192259a60b283">More...</a><br /></td></tr>
 <tr class="separator:a179c80b71b2e0cb0da3192259a60b283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a080bcbd1788cdfed720699b1d7624f6e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1e/namespaceUtilTrack.html#a080bcbd1788cdfed720699b1d7624f6e">UtilTrack::FindMatchedRoads</a> (<a class="el" href="../../d6/db1/classSRecTrack.html">SRecTrack</a> *trk, const double margin=0)</td></tr>
+<tr class="memdesc:a080bcbd1788cdfed720699b1d7624f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all roads that match to the given track within the hodo paddle width plus the given margin.  <a href="../../d2/d1e/namespaceUtilTrack.html#a080bcbd1788cdfed720699b1d7624f6e">More...</a><br /></td></tr>
+<tr class="separator:a080bcbd1788cdfed720699b1d7624f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7d22f1b53f29b760e5097fa5344bc4d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1e/namespaceUtilTrack.html#ac7d22f1b53f29b760e5097fa5344bc4d">UtilTrack::FindMatchedRoads</a> (const TVector3 pos1, const TLorentzVector mom1, const TVector3 pos3, const TLorentzVector mom3, const double margin=0)</td></tr>
+<tr class="memdesc:ac7d22f1b53f29b760e5097fa5344bc4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all roads that match to the given track within the hodo paddle width plus the given margin.  <a href="../../d2/d1e/namespaceUtilTrack.html#ac7d22f1b53f29b760e5097fa5344bc4d">More...</a><br /></td></tr>
+<tr class="separator:ac7d22f1b53f29b760e5097fa5344bc4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a0f41c24f29e9cf59c47a35029a8e617c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">UtilTrack::verbosity</a> = 0</td></tr>
+<tr class="separator:a0f41c24f29e9cf59c47a35029a8e617c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -133,7 +154,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_c252d373c2dfd5bf2b63283e19448f22.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_580285352ad11749b46c2981d6aa0acd.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_2c8b3d4df1d6999bc985fb31920d0f6a.html">UtilAna</a></li><li class="navelem"><a class="el" href="../../df/d0d/UtilTrack_8h.html">UtilTrack.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
+			updated: <em>Thu Nov 20 2025 08:33:27</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

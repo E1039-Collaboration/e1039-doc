@@ -1,10 +1,5 @@
 var namespaces_dup =
 [
-    [ "Setup", "de/daf/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_Pythia8Demo_README.html#autotoc_md166", null ],
-    [ "checkout analysis repository", "de/daf/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_Pythia8Demo_README.html#autotoc_md167", null ],
-    [ "Run simulation macro", "de/daf/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_Pythia8Demo_README.html#autotoc_md168", null ],
-    [ "Run example analysis macro", "de/daf/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_Pythia8Demo_README.html#autotoc_md169", null ],
-    [ "Note:", "d1/d58/md__dev_shm_kenichi_update_github_e1039_doc_e1039_analysis_RecoDev_grid_script_README.html#autotoc_md193", null ],
     [ "boost", "d4/da9/namespaceboost.html", "d4/da9/namespaceboost" ],
     [ "classes", "d0/d8c/namespaceclasses.html", null ],
     [ "findNode", "da/dc3/namespacefindNode.html", [
@@ -121,7 +116,11 @@ var namespaces_dup =
     ] ],
     [ "UtilBeam", "de/dba/namespaceUtilBeam.html", [
       [ "ListOfRfValues", "de/dba/namespaceUtilBeam.html#a9c7481dcb971e7ee503cfbcc70e921a3", null ],
-      [ "ListOfRfValues", "de/dba/namespaceUtilBeam.html#a3df2257c9faf4451b949631e2ce09b17", null ]
+      [ "ListOfRfValues", "de/dba/namespaceUtilBeam.html#a3df2257c9faf4451b949631e2ce09b17", null ],
+      [ "PoTLive", "de/dba/namespaceUtilBeam.html#acbbf97c806b30c165bcb631118eb33c2", null ],
+      [ "PoTPerQIE", "de/dba/namespaceUtilBeam.html#a0dd278300da50ff551a38daaf526e40c", null ],
+      [ "PoTRaw", "de/dba/namespaceUtilBeam.html#a66803066c9e850b0bb29069324d8e817", null ],
+      [ "QIE2Proton", "de/dba/namespaceUtilBeam.html#a4ddc571571c220d4ded61c17b082710e", null ]
     ] ],
     [ "UtilDimuon", "d4/dcc/namespaceUtilDimuon.html", [
       [ "CalcVar", "d4/dcc/namespaceUtilDimuon.html#ac02089aa04111adab00a7286b3ef0bcb", null ],
@@ -139,10 +138,10 @@ var namespaces_dup =
       [ "Lab2CollinsSoper", "d4/dcc/namespaceUtilDimuon.html#a401ca52e725b67b1abe46265e66c5eeb", null ]
     ] ],
     [ "UtilHist", "d3/daf/namespaceUtilHist.html", [
-      [ "AutoSetRange", "d3/daf/namespaceUtilHist.html#a5c646c763a7d90ed6ae5b9eb7d6b9719", null ],
-      [ "AutoSetRangeX", "d3/daf/namespaceUtilHist.html#a5a7e54ef651bcbd391328c9398214e26", null ],
-      [ "AutoSetRangeY", "d3/daf/namespaceUtilHist.html#a9b4097c0abd026534b2deecdf3b6d963", null ],
-      [ "FindFilledRange", "d3/daf/namespaceUtilHist.html#a3cf821e9299974225cc90084beadcb30", null ]
+      [ "AutoSetRange", "d3/daf/namespaceUtilHist.html#a52c2bd7dcd82fb1f44e59a7d8d567fbd", null ],
+      [ "AutoSetRangeX", "d3/daf/namespaceUtilHist.html#a8d1850e8030d1e82935828992163c8c0", null ],
+      [ "AutoSetRangeY", "d3/daf/namespaceUtilHist.html#a4e2eb336102ae18783827e34c64f0578", null ],
+      [ "FindFilledRange", "d3/daf/namespaceUtilHist.html#a19b452b742fe4b2f47c9397ad7403e30", null ]
     ] ],
     [ "UtilHodo", "d9/d7c/namespaceUtilHodo.html", "d9/d7c/namespaceUtilHodo" ],
     [ "UtilMine", "de/dfb/namespaceUtilMine.html", [
@@ -170,12 +169,24 @@ var namespaces_dup =
       [ "SetSpill", "d6/d43/namespaceUtilSRawEvent.html#a8853964972fa88e4c6bf69baa3a1f4da", null ],
       [ "SetTriggerHit", "d6/d43/namespaceUtilSRawEvent.html#a0274b2101761ecc05a87a5302590759d", null ]
     ] ],
+    [ "UtilTarget", "d3/da0/namespaceUtilTarget.html", [
+      [ "GetName", "d3/da0/namespaceUtilTarget.html#a9371fab29a8653781930d0d9c93015d0", null ]
+    ] ],
+    [ "UtilTdc", "d2/d43/namespaceUtilTdc.html", [
+      [ "FindTaiwanTdcBinning", "d2/d43/namespaceUtilTdc.html#a2803f0f546033f8c4b4ce3f041675783", null ],
+      [ "GetOccupancy", "d2/d43/namespaceUtilTdc.html#a753f712aa6296e0c41e5099308db3ffd", null ],
+      [ "GetOccupancy", "d2/d43/namespaceUtilTdc.html#aedde14b815ddcbce797bb00e7b25c40d", null ],
+      [ "N_DET", "d2/d43/namespaceUtilTdc.html#a43b54bd1854c089011688715f89077fd", null ]
+    ] ],
     [ "UtilTrack", "d2/d1e/namespaceUtilTrack.html", [
       [ "FindDetectorHitsOfTrack", "d2/d1e/namespaceUtilTrack.html#a55db6cb14121511e40dd8248a27002c5", null ],
       [ "FindDetectorHitsOfTrack", "d2/d1e/namespaceUtilTrack.html#a066646acae0efd8b9e0429ee5b46c6ef", null ],
       [ "FindHitsOfTrack", "d2/d1e/namespaceUtilTrack.html#a4f98351af026365c3239050066154f65", null ],
       [ "FindHodoHitsOfTrack", "d2/d1e/namespaceUtilTrack.html#a179c80b71b2e0cb0da3192259a60b283", null ],
-      [ "FindTrackByID", "d2/d1e/namespaceUtilTrack.html#aefd238d0135515157f220ff1b7ede535", null ]
+      [ "FindMatchedRoads", "d2/d1e/namespaceUtilTrack.html#ac7d22f1b53f29b760e5097fa5344bc4d", null ],
+      [ "FindMatchedRoads", "d2/d1e/namespaceUtilTrack.html#a080bcbd1788cdfed720699b1d7624f6e", null ],
+      [ "FindTrackByID", "d2/d1e/namespaceUtilTrack.html#aefd238d0135515157f220ff1b7ede535", null ],
+      [ "verbosity", "d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c", null ]
     ] ],
     [ "UtilTrigger", "df/d60/namespaceUtilTrigger.html", "df/d60/namespaceUtilTrigger" ],
     [ "varids", "d1/db0/namespacevarids.html", [

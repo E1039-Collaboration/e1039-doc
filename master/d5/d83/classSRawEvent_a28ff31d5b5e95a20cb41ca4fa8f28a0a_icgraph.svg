@@ -12,194 +12,209 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="616,-107.5 616,-126.5 741,-126.5 741,-107.5 616,-107.5"/>
-<text text-anchor="middle" x="678.5" y="-114.5" font-family="FreeSans" font-size="10.00">SRawEvent::getSpillID</text>
+<polygon fill="#bfbfbf" stroke="black" points="616,-126.5 616,-145.5 741,-145.5 741,-126.5 616,-126.5"/>
+<text text-anchor="middle" x="678.5" y="-133.5" font-family="FreeSans" font-size="10.00">SRawEvent::getSpillID</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../df/df2/classSQReco.html#aa71a1b4406e5d02575ed860c2861030d" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="422.5,-202.5 422.5,-221.5 562.5,-221.5 562.5,-202.5 422.5,-202.5"/>
-<text text-anchor="middle" x="492.5" y="-209.5" font-family="FreeSans" font-size="10.00">SQReco::BuildSRawEvent</text>
+<g id="a_node2"><a xlink:href="../../d0/d39/classAnaSortMixVertex.html#adb2e66e2fb6d8829b0bb4b4e7ca4551c" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="418,-240.5 418,-259.5 567,-259.5 567,-240.5 418,-240.5"/>
+<text text-anchor="middle" x="492.5" y="-247.5" font-family="FreeSans" font-size="10.00">AnaSortMixVertex::Analyze</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M660.79,-133.9C642.54,-151.37 611.67,-178.12 580,-193 571.79,-196.86 562.77,-199.95 553.75,-202.41"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="663.55,-136.1 668.25,-126.61 658.65,-131.1 663.55,-136.1"/>
+<path fill="none" stroke="midnightblue" d="M664.53,-153.64C647.59,-175.35 615.84,-211.68 580,-231 572.83,-234.87 564.92,-237.95 556.88,-240.4"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="667.39,-155.67 670.66,-145.59 661.82,-151.43 667.39,-155.67"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node">
-<title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d5/d83/classSRawEvent.html#ad51593b8a33085c35b0a2ffefb3c4282" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="427,-126.5 427,-145.5 558,-145.5 558,-126.5 427,-126.5"/>
-<text text-anchor="middle" x="492.5" y="-133.5" font-family="FreeSans" font-size="10.00">SRawEvent::DeepClone</text>
+<!-- Node3 -->
+<g id="node3" class="node">
+<title>Node3</title>
+<g id="a_node3"><a xlink:href="../../df/df2/classSQReco.html#aa71a1b4406e5d02575ed860c2861030d" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="422.5,-202.5 422.5,-221.5 562.5,-221.5 562.5,-202.5 422.5,-202.5"/>
+<text text-anchor="middle" x="492.5" y="-209.5" font-family="FreeSans" font-size="10.00">SQReco::BuildSRawEvent</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge6" class="edge">
-<title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M605.79,-124.4C590.08,-126.03 573.53,-127.74 558.12,-129.33"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="606.39,-127.86 615.97,-123.35 605.67,-120.9 606.39,-127.86"/>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2" class="edge">
+<title>Node1&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M656.02,-151.22C636.9,-164.1 607.75,-182.15 580,-193 570.26,-196.81 559.59,-199.93 549.18,-202.47"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="658.04,-154.08 664.3,-145.54 654.08,-148.31 658.04,-154.08"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d5/dd4/classFun4AllSRawEventInputManager.html#a099eb2a97c632559682325679485dc5f" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="405,-39 405,-69 580,-69 580,-39 405,-39"/>
-<text text-anchor="start" x="413" y="-57" font-family="FreeSans" font-size="10.00">Fun4AllSRawEventInputManager</text>
-<text text-anchor="middle" x="492.5" y="-46" font-family="FreeSans" font-size="10.00">::E906ToE1039</text>
+<g id="a_node8"><a xlink:href="../../d5/d83/classSRawEvent.html#ad51593b8a33085c35b0a2ffefb3c4282" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="427,-126.5 427,-145.5 558,-145.5 558,-126.5 427,-126.5"/>
+<text text-anchor="middle" x="492.5" y="-133.5" font-family="FreeSans" font-size="10.00">SRawEvent::DeepClone</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M639.97,-104.15C610.28,-93.98 568.75,-79.77 537.5,-69.07"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="638.96,-107.5 649.55,-107.43 641.23,-100.88 638.96,-107.5"/>
+<path fill="none" stroke="midnightblue" d="M605.79,-136C590.08,-136 573.53,-136 558.12,-136"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="605.97,-139.5 615.97,-136 605.97,-132.5 605.97,-139.5"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d5/dd4/classFun4AllSRawEventInputManager.html#a6fb883458d575781c7ae1da38ecf30dd" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="172,-66.5 172,-85.5 369,-85.5 369,-66.5 172,-66.5"/>
-<text text-anchor="middle" x="270.5" y="-73.5" font-family="FreeSans" font-size="10.00">Fun4AllSRawEventInputManager::run</text>
+<g id="a_node9"><a xlink:href="../../d5/dd4/classFun4AllSRawEventInputManager.html#a099eb2a97c632559682325679485dc5f" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="405,-77 405,-107 580,-107 580,-77 405,-77"/>
+<text text-anchor="start" x="413" y="-95" font-family="FreeSans" font-size="10.00">Fun4AllSRawEventInputManager</text>
+<text text-anchor="middle" x="492.5" y="-84" font-family="FreeSans" font-size="10.00">::E906ToE1039</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
-<g id="edge9" class="edge">
+<g id="edge8" class="edge">
 <title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M605.83,-109.76C539.07,-103.02 439.1,-92.93 365.87,-85.53"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="605.54,-113.25 615.84,-110.77 606.24,-106.29 605.54,-113.25"/>
+<path fill="none" stroke="midnightblue" d="M627.8,-124.12C605.85,-118.87 579.8,-112.64 556.5,-107.07"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="627.03,-127.53 637.57,-126.45 628.66,-120.72 627.03,-127.53"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d5/d83/classSRawEvent.html#aa2c13ed45fb6c0d5f054f98593e842ef" target="_top" xlink:title="Set the event info from another event.">
-<polygon fill="none" stroke="black" points="423,-0.5 423,-19.5 562,-19.5 562,-0.5 423,-0.5"/>
-<text text-anchor="middle" x="492.5" y="-7.5" font-family="FreeSans" font-size="10.00">SRawEvent::setEventInfo</text>
+<g id="a_node10"><a xlink:href="../../d5/dd4/classFun4AllSRawEventInputManager.html#a6fb883458d575781c7ae1da38ecf30dd" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="172,-60.5 172,-79.5 369,-79.5 369,-60.5 172,-60.5"/>
+<text text-anchor="middle" x="270.5" y="-67.5" font-family="FreeSans" font-size="10.00">Fun4AllSRawEventInputManager::run</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
 <g id="edge10" class="edge">
 <title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M663.21,-99.48C645.73,-79.29 614.24,-46.62 580,-29 572.48,-25.13 564.2,-22.05 555.83,-19.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="660.68,-101.91 669.8,-107.29 666.02,-97.39 660.68,-101.91"/>
+<path fill="none" stroke="midnightblue" d="M661.01,-119.36C642.94,-102.43 612.22,-77.25 580,-67 491.44,-38.83 381.22,-50.22 319.38,-60.49"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="658.76,-122.05 668.38,-126.48 663.62,-117.02 658.76,-122.05"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d5/d2f/classSRecEvent.html#ac5d74e36a889c49679ab6549c09c8bf7" target="_top" xlink:title="Set/Get event info.">
-<polygon fill="none" stroke="black" points="424.5,-164.5 424.5,-183.5 560.5,-183.5 560.5,-164.5 424.5,-164.5"/>
-<text text-anchor="middle" x="492.5" y="-171.5" font-family="FreeSans" font-size="10.00">SRecEvent::setEventInfo</text>
+<g id="a_node11"><a xlink:href="../../d5/d83/classSRawEvent.html#aa2c13ed45fb6c0d5f054f98593e842ef" target="_top" xlink:title="Set the event info from another event.">
+<polygon fill="none" stroke="black" points="423,-0.5 423,-19.5 562,-19.5 562,-0.5 423,-0.5"/>
+<text text-anchor="middle" x="492.5" y="-7.5" font-family="FreeSans" font-size="10.00">SRawEvent::setEventInfo</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node11 -->
 <g id="edge11" class="edge">
 <title>Node1&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M646.45,-130.53C627.5,-138.42 602.65,-148.14 580,-155 568.23,-158.56 555.37,-161.76 543.24,-164.46"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="647.92,-133.71 655.77,-126.59 645.2,-127.26 647.92,-133.71"/>
+<path fill="none" stroke="midnightblue" d="M665.13,-118.01C648.44,-95.11 616.56,-55.88 580,-34 569.57,-27.76 557.46,-23.09 545.67,-19.62"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="662.3,-120.07 670.95,-126.19 668.01,-116.02 662.3,-120.07"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node">
-<title>Node3</title>
-<g id="a_node3"><a xlink:href="../../de/d91/classMultiThreadReco.html#af9632a25ad8fea6a2c1c60fcf9b21db0" target="_top" xlink:title=" ">
+<!-- Node12 -->
+<g id="node12" class="node">
+<title>Node12</title>
+<g id="a_node12"><a xlink:href="../../d5/d2f/classSRecEvent.html#ac5d74e36a889c49679ab6549c09c8bf7" target="_top" xlink:title="Set/Get event info.">
+<polygon fill="none" stroke="black" points="424.5,-164.5 424.5,-183.5 560.5,-183.5 560.5,-164.5 424.5,-164.5"/>
+<text text-anchor="middle" x="492.5" y="-171.5" font-family="FreeSans" font-size="10.00">SRecEvent::setEventInfo</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge12" class="edge">
+<title>Node1&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M620.94,-147.68C594.85,-153.07 564.26,-159.39 539.6,-164.48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="621.98,-151.04 631.07,-145.59 620.57,-144.18 621.98,-151.04"/>
+</g>
+<!-- Node4 -->
+<g id="node4" class="node">
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="../../de/d91/classMultiThreadReco.html#af9632a25ad8fea6a2c1c60fcf9b21db0" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="199,-241 199,-271 342,-271 342,-241 199,-241"/>
 <text text-anchor="start" x="207" y="-259" font-family="FreeSans" font-size="10.00">MultiThreadReco::process</text>
 <text text-anchor="middle" x="270.5" y="-248" font-family="FreeSans" font-size="10.00">_event</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
-<title>Node2&#45;&gt;Node3</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3" class="edge">
+<title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M433.71,-223.56C405.66,-229.17 371.71,-235.96 342.13,-241.87"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="434.64,-226.94 443.76,-221.55 433.27,-220.08 434.64,-226.94"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node">
-<title>Node4</title>
-<g id="a_node4"><a xlink:href="../../df/df2/classSQReco.html#a4b0d94299406e4c437ecd4e1f598fcda" target="_top" xlink:title=" ">
+<!-- Node5 -->
+<g id="node5" class="node">
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="../../df/df2/classSQReco.html#a4b0d94299406e4c437ecd4e1f598fcda" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="197,-202.5 197,-221.5 344,-221.5 344,-202.5 197,-202.5"/>
 <text text-anchor="middle" x="270.5" y="-209.5" font-family="FreeSans" font-size="10.00">SQReco::ProcessEventPrep</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
-<title>Node2&#45;&gt;Node4</title>
+<!-- Node3&#45;&gt;Node5 -->
+<g id="edge4" class="edge">
+<title>Node3&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M412.39,-212C390.1,-212 365.96,-212 344.06,-212"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="412.49,-215.5 422.49,-212 412.49,-208.5 412.49,-215.5"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node">
-<title>Node5</title>
-<g id="a_node5"><a xlink:href="../../df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb" target="_top" xlink:title=" ">
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="../../df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="2.5,-205.5 2.5,-224.5 133.5,-224.5 133.5,-205.5 2.5,-205.5"/>
 <text text-anchor="middle" x="68" y="-212.5" font-family="FreeSans" font-size="10.00">SQReco::process_event</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
-<title>Node4&#45;&gt;Node5</title>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge">
+<title>Node5&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M186.56,-213.24C168.95,-213.5 150.6,-213.78 133.78,-214.03"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="186.88,-216.74 196.83,-213.09 186.78,-209.74 186.88,-216.74"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node">
-<title>Node6</title>
-<g id="a_node6"><a xlink:href="../../dd/d62/classSQTrackletReco.html#a8da2377e83fb17bc8189b89175833872" target="_top" xlink:title=" ">
+<!-- Node7 -->
+<g id="node7" class="node">
+<title>Node7</title>
+<g id="a_node7"><a xlink:href="../../dd/d62/classSQTrackletReco.html#a8da2377e83fb17bc8189b89175833872" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-156 0,-186 136,-186 136,-156 0,-156"/>
 <text text-anchor="start" x="8" y="-174" font-family="FreeSans" font-size="10.00">SQTrackletReco::process</text>
 <text text-anchor="middle" x="68" y="-163" font-family="FreeSans" font-size="10.00">_event</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node6 -->
-<g id="edge5" class="edge">
-<title>Node4&#45;&gt;Node6</title>
+<!-- Node5&#45;&gt;Node7 -->
+<g id="edge6" class="edge">
+<title>Node5&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M209.76,-200.53C197.27,-198.09 184.2,-195.49 172,-193 160.35,-190.62 147.98,-188.03 136,-185.49"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="209.13,-203.98 219.61,-202.46 210.47,-197.11 209.13,-203.98"/>
 </g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge8" class="edge">
-<title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M394.82,-63.67C385.51,-64.6 376.07,-65.54 366.77,-66.47"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="395.26,-67.14 404.87,-62.66 394.57,-60.18 395.26,-67.14"/>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge9" class="edge">
+<title>Node9&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M394.82,-82.33C385.51,-81.4 376.07,-80.46 366.77,-79.53"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="394.57,-85.82 404.87,-83.34 395.26,-78.86 394.57,-85.82"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node">
-<title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d5/d2f/classSRecEvent.html#a79c7950118ac5e00c6a7e2e1ef4301ff" target="_top" xlink:title="directly setup everything by raw event">
+<!-- Node13 -->
+<g id="node13" class="node">
+<title>Node13</title>
+<g id="a_node13"><a xlink:href="../../d5/d2f/classSRecEvent.html#a79c7950118ac5e00c6a7e2e1ef4301ff" target="_top" xlink:title="directly setup everything by raw event">
 <polygon fill="none" stroke="black" points="201.5,-164.5 201.5,-183.5 339.5,-183.5 339.5,-164.5 201.5,-164.5"/>
 <text text-anchor="middle" x="270.5" y="-171.5" font-family="FreeSans" font-size="10.00">SRecEvent::setRawEvent</text>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node12 -->
-<g id="edge12" class="edge">
-<title>Node11&#45;&gt;Node12</title>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge13" class="edge">
+<title>Node12&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M414.08,-174C389.87,-174 363.34,-174 339.81,-174"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="414.3,-177.5 424.3,-174 414.3,-170.5 414.3,-177.5"/>
 </g>
-<!-- Node12&#45;&gt;Node5 -->
-<g id="edge13" class="edge">
-<title>Node12&#45;&gt;Node5</title>
+<!-- Node13&#45;&gt;Node6 -->
+<g id="edge14" class="edge">
+<title>Node13&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M209.76,-185.47C197.27,-187.91 184.2,-190.51 172,-193 152.56,-196.97 131.1,-201.53 112.82,-205.46"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="210.47,-188.89 219.61,-183.54 209.13,-182.02 210.47,-188.89"/>
 </g>
-<!-- Node12&#45;&gt;Node6 -->
-<g id="edge14" class="edge">
-<title>Node12&#45;&gt;Node6</title>
+<!-- Node13&#45;&gt;Node7 -->
+<g id="edge15" class="edge">
+<title>Node13&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M191.1,-172.83C172.99,-172.56 153.88,-172.27 136.29,-172.01"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="191.29,-176.33 201.34,-172.98 191.39,-169.33 191.29,-176.33"/>
 </g>

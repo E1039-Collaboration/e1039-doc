@@ -1,5 +1,8 @@
 <map id="SRecDimuon::calcVariables" name="SRecDimuon::calcVariables">
-<area shape="rect" id="node1" title="Calculate the kinematic vairables, 0 = vertex, 1 = target, 2 = dump." alt="" coords="409,13,608,39"/>
-<area shape="rect" id="node2" href="$d1/d13/classVertexFit.html#a080d08ef76e4108261aaf89373c07211" title="Set the SRecEvent, main external call the use vertex fit." alt="" coords="192,13,361,39"/>
-<area shape="rect" id="node3" href="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e" title=" " alt="" coords="5,5,144,47"/>
+<area shape="rect" id="node1" title="Calculate the kinematic vairables, 0 = vertex, 1 = target, 2 = dump." alt="" coords="507,64,705,91"/>
+<area shape="rect" id="node2" href="$d0/d39/classAnaSortMixVertex.html#a5e195f16137ddd9cd8a6bf8c79812e45" title=" " alt="" coords="252,5,459,32"/>
+<area shape="rect" id="node4" href="$d3/d8e/classDimuAnaRUS.html#a29fa669c7c19fac8dad50b557dba9449" title=" " alt="" coords="272,57,439,98"/>
+<area shape="rect" id="node5" href="$d1/d13/classVertexFit.html#a080d08ef76e4108261aaf89373c07211" title="Set the SRecEvent, main external call the use vertex fit." alt="" coords="271,123,440,149"/>
+<area shape="rect" id="node3" href="$d0/d39/classAnaSortMixVertex.html#adb2e66e2fb6d8829b0bb4b4e7ca4551c" title=" " alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node6" href="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e" title=" " alt="" coords="35,115,174,157"/>
 </map>

@@ -21,6 +21,7 @@ var classSQGenFit_1_1GFTrack =
     [ "getSRecTrack", "d2/d6b/classSQGenFit_1_1GFTrack.html#a4c47a82cf378aae1787e2dc4d168b658", null ],
     [ "postFitUpdate", "d2/d6b/classSQGenFit_1_1GFTrack.html#a2e82f17d76cfb0e2f1b74e7199a42168", null ],
     [ "print", "d2/d6b/classSQGenFit_1_1GFTrack.html#a11e6a9fba368ce5f8116ad4d660e4c52", null ],
+    [ "setMaxErrorCount", "d2/d6b/classSQGenFit_1_1GFTrack.html#a6b87e6dc2ad8bc8412c8e3f456e5a364", null ],
     [ "setTracklet", "d2/d6b/classSQGenFit_1_1GFTrack.html#aa12a74dbecdfcb395e1e3b44859ce6b8", null ],
     [ "setVerbosity", "d2/d6b/classSQGenFit_1_1GFTrack.html#a2a0f27f6d51c7ebf4c9fca7f9d7e19ce", null ],
     [ "swimToVertex", "d2/d6b/classSQGenFit_1_1GFTrack.html#a352ab02b1657c0f530671adff791787f", null ],

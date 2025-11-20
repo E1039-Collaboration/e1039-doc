@@ -127,11 +127,11 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<a class="code" href="../../da/ddc/classPHField.html">PHField</a> *</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../df/d4d/classPHFieldUtility.html#af731a02ce323b6a94e98279f2b93c124">   42</a></span>&#160;<a class="code" href="../../df/d4d/classPHFieldUtility.html#af731a02ce323b6a94e98279f2b93c124">PHFieldUtility::BuildFieldMap</a>(<span class="keyword">const</span> <a class="code" href="../../d9/d8c/classPHFieldConfig.html">PHFieldConfig</a> *field_config, <span class="keyword">const</span> <span class="keywordtype">int</span> verbosity)</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../df/d4d/classPHFieldUtility.html#af731a02ce323b6a94e98279f2b93c124">   42</a></span>&#160;<a class="code" href="../../df/d4d/classPHFieldUtility.html#af731a02ce323b6a94e98279f2b93c124">PHFieldUtility::BuildFieldMap</a>(<span class="keyword">const</span> <a class="code" href="../../d9/d8c/classPHFieldConfig.html">PHFieldConfig</a> *field_config, <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>)</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  assert(field_config);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">if</span> (verbosity)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;PHFieldUtility::BuildFieldMap - construction field with configuration: &quot;</span>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    field_config-&gt;<a class="code" href="../../d9/d8c/classPHFieldConfig.html#a23b0f32643333428d0bde631c904aae5">identify</a>();</div>
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">//    return &quot;2D field map expressed in cylindrical coordinates&quot;;</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    field = <span class="keyword">new</span> <a class="code" href="../../db/d49/classPHField2D.html">PHField2D</a>(</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        field_config-&gt;<a class="code" href="../../d9/d8c/classPHFieldConfig.html#a9fc48cfedc908ea15991f6db140fbba1">get_filename</a>(),</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        verbosity,</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>,</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        field_config-&gt;<a class="code" href="../../d9/d8c/classPHFieldConfig.html#a7ab382138c9789c497ed6633233f17cf">get_magfield_rescale</a>());</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">break</span>;</div>
@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">//    return &quot;3D field map expressed in cylindrical coordinates&quot;;</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    field = <span class="keyword">new</span> <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html">PHField3DCylindrical</a>(</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        field_config-&gt;<a class="code" href="../../d9/d8c/classPHFieldConfig.html#a9fc48cfedc908ea15991f6db140fbba1">get_filename</a>(),</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        verbosity,</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>,</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        field_config-&gt;<a class="code" href="../../d9/d8c/classPHFieldConfig.html#a7ab382138c9789c497ed6633233f17cf">get_magfield_rescale</a>());</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">break</span>;</div>
@@ -206,7 +206,7 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<a class="code" href="../../da/ddc/classPHField.html">PHField</a> *</div>
-<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="../../df/d4d/classPHFieldUtility.html#a3afdd4e878d02b30b6f2c396e52b8e48">  126</a></span>&#160;<a class="code" href="../../df/d4d/classPHFieldUtility.html#a3afdd4e878d02b30b6f2c396e52b8e48">PHFieldUtility::GetFieldMapNode</a>(<span class="keyword">const</span> <a class="code" href="../../d9/d8c/classPHFieldConfig.html">PHFieldConfig</a> *default_config, <a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode, <span class="keyword">const</span> <span class="keywordtype">int</span> verbosity)</div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="../../df/d4d/classPHFieldUtility.html#a3afdd4e878d02b30b6f2c396e52b8e48">  126</a></span>&#160;<a class="code" href="../../df/d4d/classPHFieldUtility.html#a3afdd4e878d02b30b6f2c396e52b8e48">PHFieldUtility::GetFieldMapNode</a>(<span class="keyword">const</span> <a class="code" href="../../d9/d8c/classPHFieldConfig.html">PHFieldConfig</a> *default_config, <a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode, <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>)</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;{</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="keywordflow">if</span> (topNode == <span class="keyword">nullptr</span>) topNode = <a class="code" href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a>()-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a6d16c322884bdb48e0e36b0c2b92dd00">topNode</a>();</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  assert(topNode);</div>
@@ -230,10 +230,10 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  <span class="keywordflow">if</span> (!field)</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  {</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="../../d9/d8c/classPHFieldConfig.html">PHFieldConfig</a> *field_config =</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        GetFieldConfigNode(default_config, topNode, verbosity);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        GetFieldConfigNode(default_config, topNode, <a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>);</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    assert(field_config);</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    field = BuildFieldMap(field_config, verbosity&gt;0?verbosity-1:verbosity);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    field = BuildFieldMap(field_config, <a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>&gt;0?<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>-1:<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>);</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    assert(field);</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    parNode-&gt;<a class="code" href="../../d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf">addNode</a>(<span class="keyword">new</span> <a class="code" href="../../d1/d3e/classPHDataNode.html">PHDataNode&lt;PHObject&gt;</a>(field, GetDSTFieldMapNodeName(), <span class="stringliteral">&quot;PHObject&quot;</span>));</div>
@@ -243,7 +243,7 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;}</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<a class="code" href="../../d9/d8c/classPHFieldConfig.html">PHFieldConfig</a> *</div>
-<div class="line"><a name="l00164"></a><span class="lineno"><a class="line" href="../../df/d4d/classPHFieldUtility.html#a822dcd7d1978f7a23a5f6f26b13f2468">  164</a></span>&#160;<a class="code" href="../../df/d4d/classPHFieldUtility.html#a822dcd7d1978f7a23a5f6f26b13f2468">PHFieldUtility::GetFieldConfigNode</a>(<span class="keyword">const</span> <a class="code" href="../../d9/d8c/classPHFieldConfig.html">PHFieldConfig</a> *default_config, <a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode, <span class="keyword">const</span> <span class="keywordtype">int</span> verbosity)</div>
+<div class="line"><a name="l00164"></a><span class="lineno"><a class="line" href="../../df/d4d/classPHFieldUtility.html#a822dcd7d1978f7a23a5f6f26b13f2468">  164</a></span>&#160;<a class="code" href="../../df/d4d/classPHFieldUtility.html#a822dcd7d1978f7a23a5f6f26b13f2468">PHFieldUtility::GetFieldConfigNode</a>(<span class="keyword">const</span> <a class="code" href="../../d9/d8c/classPHFieldConfig.html">PHFieldConfig</a> *default_config, <a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode, <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>)</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;{</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keywordflow">if</span> (topNode == <span class="keyword">nullptr</span>) topNode = <a class="code" href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a>()-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a6d16c322884bdb48e0e36b0c2b92dd00">topNode</a>();</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  assert(topNode);</div>
@@ -271,7 +271,7 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordflow">if</span> (!default_config)</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    {</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;      field = DefaultFieldConfig();</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      <span class="keywordflow">if</span> (verbosity)</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>)</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;          {</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;          cout &lt;&lt;<span class="stringliteral">&quot;PHFieldUtility::GetFieldConfigNode - field map with configuration from build-in default: &quot;</span>;</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;          field-&gt;<a class="code" href="../../d9/d8c/classPHFieldConfig.html#a23b0f32643333428d0bde631c904aae5">identify</a>();</div>
@@ -280,7 +280,7 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    {</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      field = <span class="keyword">static_cast&lt;</span><a class="code" href="../../d9/d8c/classPHFieldConfig.html">PHFieldConfig</a> *<span class="keyword">&gt;</span>(default_config-&gt;Clone());</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      <span class="keywordflow">if</span> (verbosity)</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>)</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;          {</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;          cout &lt;&lt;<span class="stringliteral">&quot;PHFieldUtility::GetFieldConfigNode - field map with configuration from input default: &quot;</span>;</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;          field-&gt;<a class="code" href="../../d9/d8c/classPHFieldConfig.html#a23b0f32643333428d0bde631c904aae5">identify</a>();</div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  }</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  {</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">if</span> (verbosity)</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>)</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    {</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    cout &lt;&lt;<span class="stringliteral">&quot;PHFieldUtility::GetFieldConfigNode - field map with configuration from DST/RUN: &quot;</span>;</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    field-&gt;<a class="code" href="../../d9/d8c/classPHFieldConfig.html#a23b0f32643333428d0bde631c904aae5">identify</a>();</div>
@@ -358,6 +358,7 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 <div class="ttc" id="aclassPHNodeIterator_html"><div class="ttname"><a href="../../d5/d07/classPHNodeIterator.html">PHNodeIterator</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dfd/PHNodeIterator_8h_source.html#l00014">PHNodeIterator.h:14</a></div></div>
 <div class="ttc" id="aclassPHNodeIterator_html_aea98bf8619af59b1212a94fb32106baa"><div class="ttname"><a href="../../d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa">PHNodeIterator::findFirst</a></div><div class="ttdeci">PHNode * findFirst(const std::string &amp;, const std::string &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/PHNodeIterator_8cc_source.html#l00050">PHNodeIterator.cc:50</a></div></div>
 <div class="ttc" id="agetClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
+<div class="ttc" id="anamespaceUtilTrack_html_a0f41c24f29e9cf59c47a35029a8e617c"><div class="ttname"><a href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">UtilTrack::verbosity</a></div><div class="ttdeci">int verbosity</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd0/UtilTrack_8cc_source.html#l00010">UtilTrack.cc:10</a></div></div>
 <div class="ttc" id="arecoConsts_8h_html"><div class="ttname"><a href="../../d2/dcb/recoConsts_8h.html">recoConsts.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -369,7 +370,7 @@ $(document).ready(function(){initNavTree('d1/d51/PHFieldUtility_8cc_source.html'
 		<li class="navelem"><a class="el" href="../../dir_c252d373c2dfd5bf2b63283e19448f22.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_580285352ad11749b46c2981d6aa0acd.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_f437deb6292e096feb5259db6b455759.html">PHField</a></li><li class="navelem"><a class="el" href="../../d1/d51/PHFieldUtility_8cc.html">PHFieldUtility.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 30 2025 10:15:16</em> using <a
+			updated: <em>Thu Nov 20 2025 08:33:26</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

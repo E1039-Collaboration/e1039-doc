@@ -1,5 +1,5 @@
 <map id="SQDigitizer::digitizeEMCal" name="SQDigitizer::digitizeEMCal">
-<area shape="rect" id="node1" title="digitize the emcal hits" alt="" coords="5,816,197,843"/>
+<area shape="rect" id="node1" title="digitize the emcal hits" alt="" coords="5,841,197,868"/>
 <area shape="rect" id="node2" href="$da/db1/classSQCalHit__v1.html#a83616a96bae3ecde643c761fc32627b1" title=" " alt="" coords="268,5,433,32"/>
 <area shape="rect" id="node3" href="$d3/d9e/classPHG4Hit.html#a46bad8844c95e7fce6f0f366931873b7" title=" " alt="" coords="278,56,423,83"/>
 <area shape="rect" id="node4" href="$d3/d9e/classPHG4Hit.html#aaf28bc9de3034670ec3808393a2026d9" title=" " alt="" coords="276,107,425,133"/>
@@ -17,20 +17,21 @@
 <area shape="rect" id="node16" href="$d9/dbc/classSQHitVector.html#ae19e25eb6c51cbdd56d80cb865ffb6ef" title=" " alt="" coords="262,715,439,741"/>
 <area shape="rect" id="node17" href="$da/db1/classSQCalHit__v1.html#aeb11c77a1b2eb1985f9af7b2cbf51720" title=" " alt="" coords="245,765,456,792"/>
 <area shape="rect" id="node18" href="$de/d79/classSQHit.html#ac4a04a2324c69db1a38fa0b19040b361" title=" " alt="" coords="259,816,442,843"/>
-<area shape="rect" id="node19" href="$da/db1/classSQCalHit__v1.html#a98e855863129b8c7d210bbd60ef1eb61" title=" " alt="" coords="245,867,456,893"/>
-<area shape="rect" id="node20" href="$d7/d16/classSQCalMCHit__v1.html#aabf3756152dba82b0a9b90949687e370" title=" " alt="" coords="275,918,427,959"/>
-<area shape="rect" id="node21" href="$de/d79/classSQHit.html#ab7ef5cd97220b7bec19f37db5e2875b3" title=" " alt="" coords="266,984,435,1011"/>
-<area shape="rect" id="node22" href="$de/d79/classSQHit.html#af76759313e6258d1a2c526591ef79aa6" title=" " alt="" coords="279,1035,422,1061"/>
-<area shape="rect" id="node23" href="$de/d79/classSQHit.html#a7549b98c01465679c34eedaab71381e6" title=" " alt="" coords="292,1085,409,1112"/>
-<area shape="rect" id="node24" href="$d7/d16/classSQCalMCHit__v1.html#a9b8c6bb00c7e08e634a91607e388b0e4" title=" " alt="" coords="275,1137,427,1178"/>
-<area shape="rect" id="node25" href="$de/d79/classSQHit.html#a9b0e74b024716ff77dcec3f480f2434b" title=" " alt="" coords="275,1203,426,1229"/>
-<area shape="rect" id="node26" href="$d7/d16/classSQCalMCHit__v1.html#a956faefc76344cf2be71333ad69b19f9" title=" " alt="" coords="275,1254,427,1295"/>
-<area shape="rect" id="node27" href="$d7/d16/classSQCalMCHit__v1.html#a4a9b49c73ec4b9075d3969e88354822a" title=" " alt="" coords="275,1319,427,1361"/>
-<area shape="rect" id="node28" href="$d7/d16/classSQCalMCHit__v1.html#a54c0af44451f6ad75ba395c84476d745" title=" " alt="" coords="275,1385,427,1426"/>
-<area shape="rect" id="node29" href="$d7/d16/classSQCalMCHit__v1.html#a3ab5980bf1f235d2c14b16cba39e86c0" title=" " alt="" coords="275,1450,427,1491"/>
-<area shape="rect" id="node30" href="$d7/d16/classSQCalMCHit__v1.html#aeec9c4004e6f5bda52c0b8ba826a8a1a" title=" " alt="" coords="275,1515,427,1557"/>
-<area shape="rect" id="node31" href="$d7/d16/classSQCalMCHit__v1.html#a1c8d94e0f9d3707104fae8a1aee3d5c7" title=" " alt="" coords="275,1581,427,1622"/>
-<area shape="rect" id="node32" href="$d7/d16/classSQCalMCHit__v1.html#a55400749a4b081e6f17f996ddf5c077c" title=" " alt="" coords="275,1646,427,1687"/>
-<area shape="rect" id="node33" href="$d9/dbc/classSQHitVector.html#af50e2bbdb2e27f21fe1ca95d16541965" title=" " alt="" coords="283,1712,418,1739"/>
-<area shape="rect" id="node34" href="$d4/d30/classPHG4HitContainer.html#a2254ba46925ca1137a05851893a80746" title=" " alt="" coords="263,1763,438,1789"/>
+<area shape="rect" id="node19" href="$da/db1/classSQCalHit__v1.html#a332d769cf4f79daa4abcc335cd30c7f8" title=" " alt="" coords="265,867,436,893"/>
+<area shape="rect" id="node20" href="$da/db1/classSQCalHit__v1.html#a98e855863129b8c7d210bbd60ef1eb61" title=" " alt="" coords="245,917,456,944"/>
+<area shape="rect" id="node21" href="$d7/d16/classSQCalMCHit__v1.html#aabf3756152dba82b0a9b90949687e370" title=" " alt="" coords="275,969,427,1010"/>
+<area shape="rect" id="node22" href="$de/d79/classSQHit.html#ab7ef5cd97220b7bec19f37db5e2875b3" title=" " alt="" coords="266,1035,435,1061"/>
+<area shape="rect" id="node23" href="$de/d79/classSQHit.html#af76759313e6258d1a2c526591ef79aa6" title=" " alt="" coords="279,1085,422,1112"/>
+<area shape="rect" id="node24" href="$de/d79/classSQHit.html#a7549b98c01465679c34eedaab71381e6" title=" " alt="" coords="292,1136,409,1163"/>
+<area shape="rect" id="node25" href="$d7/d16/classSQCalMCHit__v1.html#a9b8c6bb00c7e08e634a91607e388b0e4" title=" " alt="" coords="275,1187,427,1229"/>
+<area shape="rect" id="node26" href="$de/d79/classSQHit.html#a9b0e74b024716ff77dcec3f480f2434b" title=" " alt="" coords="275,1253,426,1280"/>
+<area shape="rect" id="node27" href="$d7/d16/classSQCalMCHit__v1.html#a956faefc76344cf2be71333ad69b19f9" title=" " alt="" coords="275,1305,427,1346"/>
+<area shape="rect" id="node28" href="$d7/d16/classSQCalMCHit__v1.html#a4a9b49c73ec4b9075d3969e88354822a" title=" " alt="" coords="275,1370,427,1411"/>
+<area shape="rect" id="node29" href="$d7/d16/classSQCalMCHit__v1.html#a54c0af44451f6ad75ba395c84476d745" title=" " alt="" coords="275,1435,427,1477"/>
+<area shape="rect" id="node30" href="$d7/d16/classSQCalMCHit__v1.html#a3ab5980bf1f235d2c14b16cba39e86c0" title=" " alt="" coords="275,1501,427,1542"/>
+<area shape="rect" id="node31" href="$d7/d16/classSQCalMCHit__v1.html#aeec9c4004e6f5bda52c0b8ba826a8a1a" title=" " alt="" coords="275,1566,427,1607"/>
+<area shape="rect" id="node32" href="$d7/d16/classSQCalMCHit__v1.html#a1c8d94e0f9d3707104fae8a1aee3d5c7" title=" " alt="" coords="275,1631,427,1673"/>
+<area shape="rect" id="node33" href="$d7/d16/classSQCalMCHit__v1.html#a55400749a4b081e6f17f996ddf5c077c" title=" " alt="" coords="275,1697,427,1738"/>
+<area shape="rect" id="node34" href="$d9/dbc/classSQHitVector.html#af50e2bbdb2e27f21fe1ca95d16541965" title=" " alt="" coords="283,1763,418,1789"/>
+<area shape="rect" id="node35" href="$d4/d30/classPHG4HitContainer.html#a2254ba46925ca1137a05851893a80746" title=" " alt="" coords="263,1813,438,1840"/>
 </map>

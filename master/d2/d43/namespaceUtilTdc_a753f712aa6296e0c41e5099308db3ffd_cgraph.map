@@ -1,0 +1,7 @@
+<map id="UtilTdc::GetOccupancy" name="UtilTdc::GetOccupancy">
+<area shape="rect" id="node1" title="Get the occupancy of each station." alt="" coords="5,56,176,83"/>
+<area shape="rect" id="node2" href="$d2/d43/namespaceUtilTdc.html#aedde14b815ddcbce797bb00e7b25c40d" title="Get the occupancy of each detector (plane)." alt="" coords="224,56,395,83"/>
+<area shape="rect" id="node3" href="$d5/d83/classSRawEvent.html#a659ce19883485b43f7e4a100e8ca6ccf" title=" " alt="" coords="460,5,603,32"/>
+<area shape="rect" id="node4" href="$d5/d83/classSRawEvent.html#a565e2bbd3b852d7e203c35130b066719" title=" " alt="" coords="443,56,620,83"/>
+<area shape="rect" id="node5" href="$d0/d88/classHit.html#a28916ce0582b7a22373a7e81984c3ae3" title=" " alt="" coords="479,107,584,133"/>
+</map>

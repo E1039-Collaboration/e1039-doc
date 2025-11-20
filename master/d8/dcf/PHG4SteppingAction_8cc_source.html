@@ -179,9 +179,9 @@ $(document).ready(function(){initNavTree('d8/dcf/PHG4SteppingAction_8cc_source.h
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  G4EmSaturation* emSaturation = G4LossTableManager::Instance()-&gt;EmSaturation();</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="keywordflow">if</span> (emSaturation)</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="keywordflow">if</span> (verbosity)</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>)</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;          emSaturation-&gt;SetVerbose(verbosity);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;          emSaturation-&gt;SetVerbose(<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a>);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        }</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <span class="keywordtype">double</span> visen = emSaturation-&gt;VisibleEnergyDeposition(step) / GeV;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      <span class="keywordflow">return</span> visen;</div>
@@ -265,6 +265,7 @@ $(document).ready(function(){initNavTree('d8/dcf/PHG4SteppingAction_8cc_source.h
 <div class="ttc" id="aclassPHG4SteppingAction_html_a57fef5578f2f19918f0460413162cec1"><div class="ttname"><a href="../../df/d3f/classPHG4SteppingAction.html#a57fef5578f2f19918f0460413162cec1">PHG4SteppingAction::GetScintLightYield</a></div><div class="ttdeci">virtual double GetScintLightYield(const G4Step *step)</div><div class="ttdoc">get scintillation photon count. It require a custom set SCINTILLATIONYIELD property to work</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcf/PHG4SteppingAction_8cc_source.html#l00031">PHG4SteppingAction.cc:31</a></div></div>
 <div class="ttc" id="aclassPHG4SteppingAction_html_a9c43a6ccd8187e44c20782a31521047a"><div class="ttname"><a href="../../df/d3f/classPHG4SteppingAction.html#a9c43a6ccd8187e44c20782a31521047a">PHG4SteppingAction::GetIntOpt</a></div><div class="ttdeci">int GetIntOpt(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcf/PHG4SteppingAction_8cc_source.html#l00167">PHG4SteppingAction.cc:167</a></div></div>
 <div class="ttc" id="aclassPHG4SteppingAction_html_aea99a3121d5ff333ed1a6e7cfd7a0645"><div class="ttname"><a href="../../df/d3f/classPHG4SteppingAction.html#aea99a3121d5ff333ed1a6e7cfd7a0645">PHG4SteppingAction::StoreLocalCoordinate</a></div><div class="ttdeci">virtual void StoreLocalCoordinate(PHG4Hit *hit, const G4Step *step, const bool do_prepoint, const bool do_postpoint)</div><div class="ttdoc">Extract local coordinate of the hit and save to PHG4Hit.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcf/PHG4SteppingAction_8cc_source.html#l00119">PHG4SteppingAction.cc:119</a></div></div>
+<div class="ttc" id="anamespaceUtilTrack_html_a0f41c24f29e9cf59c47a35029a8e617c"><div class="ttname"><a href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">UtilTrack::verbosity</a></div><div class="ttdeci">int verbosity</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd0/UtilTrack_8cc_source.html#l00010">UtilTrack.cc:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -275,7 +276,7 @@ $(document).ready(function(){initNavTree('d8/dcf/PHG4SteppingAction_8cc_source.h
 		<li class="navelem"><a class="el" href="../../dir_c252d373c2dfd5bf2b63283e19448f22.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_e5abb80fcde6b9c136266c766a80ff0e.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_ccbccb681ea26d533a1a3b304ec95606.html">g4main</a></li><li class="navelem"><a class="el" href="../../d8/dcf/PHG4SteppingAction_8cc.html">PHG4SteppingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 30 2025 10:15:16</em> using <a
+			updated: <em>Thu Nov 20 2025 08:33:27</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

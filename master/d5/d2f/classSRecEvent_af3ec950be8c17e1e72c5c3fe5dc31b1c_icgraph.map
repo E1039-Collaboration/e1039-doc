@@ -1,10 +1,9 @@
 <map id="SRecEvent::getNDimuons" name="SRecEvent::getNDimuons">
-<area shape="rect" id="node1" title="Get dimuons." alt="" coords="445,177,633,203"/>
-<area shape="rect" id="node2" href="$d1/d9e/classAnaSimDst.html#a2cf8cb92aa16247867fe679f439e01ee" title=" " alt="" coords="219,5,371,47"/>
-<area shape="rect" id="node3" href="$d1/d07/classAnaSimDimuon.html#a1e8c1159cbd93f2068d72d799594b4f4" title=" " alt="" coords="204,71,385,112"/>
-<area shape="rect" id="node4" href="$d2/de6/classAnaEmbeddedData.html#a8e1eeccd8b4d4b05a79fc4c5b599a879" title=" " alt="" coords="192,136,397,177"/>
-<area shape="rect" id="node5" href="$d6/d3f/classAnaDimuon.html#af2c4fd419b7028ef14b5647d0906e3b3" title=" " alt="" coords="217,201,373,243"/>
-<area shape="rect" id="node6" href="$d8/d20/classSQTruthVertexing.html#a6a575557b10800326ed193fa397229bd" title=" " alt="" coords="199,267,391,308"/>
-<area shape="rect" id="node7" href="$d1/d13/classVertexFit.html#a080d08ef76e4108261aaf89373c07211" title="Set the SRecEvent, main external call the use vertex fit." alt="" coords="210,333,379,359"/>
-<area shape="rect" id="node8" href="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e" title=" " alt="" coords="5,325,144,367"/>
+<area shape="rect" id="node1" title="Get dimuons." alt="" coords="432,143,620,170"/>
+<area shape="rect" id="node2" href="$d1/d9e/classAnaSimDst.html#a2cf8cb92aa16247867fe679f439e01ee" title=" " alt="" coords="212,5,364,47"/>
+<area shape="rect" id="node3" href="$d1/d07/classAnaSimDimuon.html#a1e8c1159cbd93f2068d72d799594b4f4" title=" " alt="" coords="197,71,379,112"/>
+<area shape="rect" id="node4" href="$d5/d93/classAnaDimuonSRec.html#a5c563f137405680bce2e3e89fbc2f956" title=" " alt="" coords="194,136,382,177"/>
+<area shape="rect" id="node5" href="$d8/d20/classSQTruthVertexing.html#a6a575557b10800326ed193fa397229bd" title=" " alt="" coords="192,201,384,243"/>
+<area shape="rect" id="node6" href="$d1/d13/classVertexFit.html#a080d08ef76e4108261aaf89373c07211" title="Set the SRecEvent, main external call the use vertex fit." alt="" coords="203,267,373,294"/>
+<area shape="rect" id="node7" href="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e" title=" " alt="" coords="5,260,144,301"/>
 </map>

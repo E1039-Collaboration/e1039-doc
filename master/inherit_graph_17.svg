@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="dd/daa/classboost_1_1enable__shared__from__this.html" target="_top" xlink:title=" ">
+<g id="a_node1"><a xlink:href="d6/d47/classboost_1_1enable__shared__from__this2.html" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-30.5 121,-30.5 121,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">boost::enable_shared</text>
-<text text-anchor="middle" x="60.5" y="-7.5" font-family="FreeSans" font-size="10.00">_from_this&lt; T &gt;</text>
+<text text-anchor="middle" x="60.5" y="-7.5" font-family="FreeSans" font-size="10.00">_from_this2&lt; T &gt;</text>
 </a>
 </g>
 </g>

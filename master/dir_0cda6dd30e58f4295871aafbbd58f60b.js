@@ -20,6 +20,10 @@ var dir_0cda6dd30e58f4295871aafbbd58f60b =
     [ "GenEmbeddingData.h", "d5/d2c/GenEmbeddingData_8h.html", [
       [ "GenEmbeddingData", "d6/d29/classGenEmbeddingData.html", "d6/d29/classGenEmbeddingData" ]
     ] ],
+    [ "GenEmbeddingDataNim4.cc", "d8/d84/GenEmbeddingDataNim4_8cc.html", null ],
+    [ "GenEmbeddingDataNim4.h", "d6/da0/GenEmbeddingDataNim4_8h.html", [
+      [ "GenEmbeddingDataNim4", "d7/d27/classGenEmbeddingDataNim4.html", "d7/d27/classGenEmbeddingDataNim4" ]
+    ] ],
     [ "LinkDef.h", "dd/dee/e1039-analysis_2HitEmbedding_2src_2LinkDef_8h.html", null ],
     [ "TreeData.cc", "df/dd5/HitEmbedding_2src_2TreeData_8cc.html", null ],
     [ "TreeData.h", "d8/d52/HitEmbedding_2src_2TreeData_8h.html", "d8/d52/HitEmbedding_2src_2TreeData_8h" ]

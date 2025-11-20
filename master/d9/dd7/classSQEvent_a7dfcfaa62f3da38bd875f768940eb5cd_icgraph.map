@@ -1,6 +1,8 @@
 <map id="SQEvent::get_qie_turn_id" name="SQEvent::get_qie_turn_id">
-<area shape="rect" id="node1" title="Return the QIE turn ID." alt="" coords="289,78,475,105"/>
-<area shape="rect" id="node2" href="$d2/d1b/classDoEmbedding.html#a08f06aee61f980a00108c593ad864913" title=" " alt="" coords="38,5,209,47"/>
-<area shape="rect" id="node3" href="$d7/d48/classFun4AllVectEventOutputManager.html#a0e22c7fb31ec2e4e9199430b474c9dfd" title="write starting from given node" alt="" coords="5,71,241,112"/>
-<area shape="rect" id="node4" href="$d2/d94/classFun4AllRUSOutputManager.html#ad25332eccd44a2ea2132790876cb2584" title="write starting from given node" alt="" coords="24,136,223,177"/>
+<area shape="rect" id="node1" title="Return the QIE turn ID." alt="" coords="289,143,475,170"/>
+<area shape="rect" id="node2" href="$d3/d8e/classDimuAnaRUS.html#a29fa669c7c19fac8dad50b557dba9449" title=" " alt="" coords="40,5,207,47"/>
+<area shape="rect" id="node3" href="$d2/d1b/classDoEmbedding.html#a08f06aee61f980a00108c593ad864913" title=" " alt="" coords="38,71,209,112"/>
+<area shape="rect" id="node4" href="$d7/d27/classGenEmbeddingDataNim4.html#ad95973e0c0480f079e3b5f9a28972ac0" title=" " alt="" coords="30,136,217,177"/>
+<area shape="rect" id="node5" href="$d7/d48/classFun4AllVectEventOutputManager.html#a0e22c7fb31ec2e4e9199430b474c9dfd" title="write starting from given node" alt="" coords="5,201,241,243"/>
+<area shape="rect" id="node6" href="$d2/d94/classFun4AllRUSOutputManager.html#ad25332eccd44a2ea2132790876cb2584" title="write starting from given node" alt="" coords="24,267,223,308"/>
 </map>

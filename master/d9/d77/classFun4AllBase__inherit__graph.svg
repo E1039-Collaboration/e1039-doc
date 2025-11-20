@@ -471,7 +471,7 @@
 <!-- Node37 -->
 <g id="node32" class="node">
 <title>Node37</title>
-<g id="a_node32"><a xlink:href="../../d6/d3f/classAnaDimuon.html" target="_top" xlink:title="An example class to analyze hodoscope hits in E1039 DST file.">
+<g id="a_node32"><a xlink:href="../../d6/d3f/classAnaDimuon.html" target="_top" xlink:title="An example class to analyze dimuons.">
 <polygon fill="none" stroke="black" points="343,-646.5 343,-665.5 417,-665.5 417,-646.5 343,-646.5"/>
 <text text-anchor="middle" x="380" y="-653.5" font-family="FreeSans" font-size="10.00">AnaDimuon</text>
 </a>
@@ -501,16 +501,16 @@
 <!-- Node39 -->
 <g id="node34" class="node">
 <title>Node39</title>
-<g id="a_node34"><a xlink:href="../../d6/d91/classAnaDimuonV2.html" target="_top" xlink:title="An example class to analyze hodoscope hits in E1039 DST file.">
-<polygon fill="none" stroke="black" points="337,-570.5 337,-589.5 423,-589.5 423,-570.5 337,-570.5"/>
-<text text-anchor="middle" x="380" y="-577.5" font-family="FreeSans" font-size="10.00">AnaDimuonV2</text>
+<g id="a_node34"><a xlink:href="../../d5/d93/classAnaDimuonSRec.html" target="_top" xlink:title="An example class to analyze dimuons stored as SRecEvent.">
+<polygon fill="none" stroke="black" points="331,-570.5 331,-589.5 429,-589.5 429,-570.5 331,-570.5"/>
+<text text-anchor="middle" x="380" y="-577.5" font-family="FreeSans" font-size="10.00">AnaDimuonSRec</text>
 </a>
 </g>
 </g>
 <!-- Node34&#45;&gt;Node39 -->
 <g id="edge33" class="edge">
 <title>Node34&#45;&gt;Node39</title>
-<path fill="none" stroke="midnightblue" d="M183.99,-371.64C192.53,-413.62 218.62,-512.21 282,-561 297.5,-572.93 318.43,-578.01 336.88,-579.96"/>
+<path fill="none" stroke="midnightblue" d="M183.99,-371.64C192.53,-413.62 218.62,-512.21 282,-561 295.87,-571.68 314.09,-576.86 330.98,-579.24"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="187.42,-370.98 182.1,-361.82 180.55,-372.3 187.42,-370.98"/>
 </g>
 <!-- Node40 -->

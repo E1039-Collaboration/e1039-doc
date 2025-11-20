@@ -92,62 +92,88 @@ $(document).ready(function(){initNavTree('dd/dc0/AnaCleanAndMessyData_8h_source.
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">class </span>TFile;</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">class </span>TTree;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span>TH1;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../dc/d8e/classAnaCleanAndMessyData.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html">AnaCleanAndMessyData</a> {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  <span class="keywordtype">int</span> m_verb;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  TFile*      m_cl_file;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  TTree*      m_cl_tree;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  <a class="code" href="../../de/da7/structEventData.html">EventData</a>*  m_cl_evt;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#add8a14eeacf4f74d5f56590b395a1c7f">TrackList</a>*  m_cl_trk_true;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#add8a14eeacf4f74d5f56590b395a1c7f">TrackList</a>*  m_cl_trk_reco;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#a42fd2bc8706ddc5b04982b2a121b0bd1">DimuonList</a>* m_cl_dim_true;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#a42fd2bc8706ddc5b04982b2a121b0bd1">DimuonList</a>* m_cl_dim_reco;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  TFile*      m_me_file;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  TTree*      m_me_tree;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <a class="code" href="../../de/da7/structEventData.html">EventData</a>*  m_me_evt;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#add8a14eeacf4f74d5f56590b395a1c7f">TrackList</a>*  m_me_trk_true;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#add8a14eeacf4f74d5f56590b395a1c7f">TrackList</a>*  m_me_trk_reco;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#a42fd2bc8706ddc5b04982b2a121b0bd1">DimuonList</a>* m_me_dim_true;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#a42fd2bc8706ddc5b04982b2a121b0bd1">DimuonList</a>* m_me_dim_reco;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  TFile* m_out_file;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  TH1* m_h1_trk_pos_cl;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  TH1* m_h1_trk_pos_me;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  TH1* m_h1_trk_neg_cl;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  TH1* m_h1_trk_neg_me;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  TH1* m_h1_dim_cl;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  TH1* m_h1_dim_me;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#a9eab93cad805a03705df9d075352a634">AnaCleanAndMessyData</a>();</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keyword">virtual</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#a6053ef4168590f4adfac1b7ad5629709">~AnaCleanAndMessyData</a>();</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#aa9a39d008d10dd007dc1f2f9b551c1bd">Init</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fn_clean, <span class="keyword">const</span> <span class="keywordtype">char</span>* fn_messy);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#aec4f413f437769c2616883c9970d0a1b">Analyze</a>();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#ab93edb149a4c524201dfe1657c0f6d4b">End</a>();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../dc/d8e/classAnaCleanAndMessyData.html#a6fa6502544e9907b5c225766a3fb7f75">   46</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#a6fa6502544e9907b5c225766a3fb7f75">Verbosity</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> verb) { m_verb = verb; }</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../dc/d8e/classAnaCleanAndMessyData.html#a636ca711acb99d325181b77029c4ffa6">   47</a></span>&#160;  <span class="keywordtype">int</span>  <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#a636ca711acb99d325181b77029c4ffa6">Verbosity</a>()<span class="keyword"> const  </span>{ <span class="keywordflow">return</span> m_verb; }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordtype">void</span> AnalyzeEvent();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">void</span> DrawAndWriteOutput();</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;};</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _ANA_CLEAN_AND_MESSY_DATA__H_</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>TH2;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../dc/d8e/classAnaCleanAndMessyData.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html">AnaCleanAndMessyData</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  <span class="keywordtype">bool</span> m_req_fpga1;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keywordtype">int</span> m_verb;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  TFile*      m_cl_file;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  TTree*      m_cl_tree;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="../../de/da7/structEventData.html">EventData</a>*  m_cl_evt;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <a class="code" href="../../d3/dda/structOccData.html">OccData</a>*    m_cl_occ;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#add8a14eeacf4f74d5f56590b395a1c7f">TrackList</a>*  m_cl_trk_true;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#add8a14eeacf4f74d5f56590b395a1c7f">TrackList</a>*  m_cl_trk_reco;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#a42fd2bc8706ddc5b04982b2a121b0bd1">DimuonList</a>* m_cl_dim_true;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#a42fd2bc8706ddc5b04982b2a121b0bd1">DimuonList</a>* m_cl_dim_reco;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  TFile*      m_me_file;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  TTree*      m_me_tree;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <a class="code" href="../../de/da7/structEventData.html">EventData</a>*  m_me_evt;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <a class="code" href="../../d3/dda/structOccData.html">OccData</a>*    m_me_occ;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#add8a14eeacf4f74d5f56590b395a1c7f">TrackList</a>*  m_me_trk_true;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#add8a14eeacf4f74d5f56590b395a1c7f">TrackList</a>*  m_me_trk_reco;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#a42fd2bc8706ddc5b04982b2a121b0bd1">DimuonList</a>* m_me_dim_true;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <a class="code" href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#a42fd2bc8706ddc5b04982b2a121b0bd1">DimuonList</a>* m_me_dim_reco;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  TFile* m_out_file;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  TH1* m_h1_rfp00;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  TH1* m_h1_D1   ;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  TH1* m_h1_D2   ;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  TH1* m_h1_D3p  ;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  TH1* m_h1_D3m  ;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  TH1* m_h1_trk_pos_cl;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  TH1* m_h1_trk_pos_me;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  TH1* m_h1_trk_neg_cl;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  TH1* m_h1_trk_neg_me;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  TH1* m_h1_dim_cl;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  TH1* m_h1_dim_me;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  TH2* m_h2_ndim;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  TH1* m_h1_mass_cl;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  TH1* m_h1_mass_me;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  TH1* m_h1_mass_diff;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  TH1* m_h1_pz_cl;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  TH1* m_h1_pz_me;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  TH1* m_h1_pz_diff;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  TH1* m_h1_xF_cl;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  TH1* m_h1_xF_me;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  TH1* m_h1_xF_diff;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#a9eab93cad805a03705df9d075352a634">AnaCleanAndMessyData</a>();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keyword">virtual</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#a6053ef4168590f4adfac1b7ad5629709">~AnaCleanAndMessyData</a>();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#aa9a39d008d10dd007dc1f2f9b551c1bd">Init</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fn_clean, <span class="keyword">const</span> <span class="keywordtype">char</span>* fn_messy);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#aec4f413f437769c2616883c9970d0a1b">Analyze</a>();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#ab93edb149a4c524201dfe1657c0f6d4b">End</a>();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="../../dc/d8e/classAnaCleanAndMessyData.html#a4d087dd73bafbd06b56700f2337bf156">   67</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#a4d087dd73bafbd06b56700f2337bf156">RequireFpga1</a>(<span class="keyword">const</span> <span class="keywordtype">bool</span> val) { m_req_fpga1 = val; }</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="../../dc/d8e/classAnaCleanAndMessyData.html#ad48363e47555a9b0360d7cb95bab1c22">   68</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#ad48363e47555a9b0360d7cb95bab1c22">RequireFpga1</a>()<span class="keyword"> const  </span>{ <span class="keywordflow">return</span> m_req_fpga1; }</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="../../dc/d8e/classAnaCleanAndMessyData.html#a6fa6502544e9907b5c225766a3fb7f75">   69</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#a6fa6502544e9907b5c225766a3fb7f75">Verbosity</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> verb) { m_verb = verb; }</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="../../dc/d8e/classAnaCleanAndMessyData.html#a636ca711acb99d325181b77029c4ffa6">   70</a></span>&#160;  <span class="keywordtype">int</span>  <a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html#a636ca711acb99d325181b77029c4ffa6">Verbosity</a>()<span class="keyword"> const  </span>{ <span class="keywordflow">return</span> m_verb; }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <span class="keywordtype">void</span> AnalyzeEvent();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordtype">void</span> DrawAndWriteOutput();</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _ANA_CLEAN_AND_MESSY_DATA__H_</span></div>
 <div class="ttc" id="aAnaSimDst_2src_2TreeData_8h_html_a42fd2bc8706ddc5b04982b2a121b0bd1"><div class="ttname"><a href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#a42fd2bc8706ddc5b04982b2a121b0bd1">DimuonList</a></div><div class="ttdeci">std::vector&lt; DimuonData &gt; DimuonList</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d31/AnaSimDst_2src_2TreeData_8h_source.html#l00054">TreeData.h:54</a></div></div>
 <div class="ttc" id="aAnaSimDst_2src_2TreeData_8h_html_add8a14eeacf4f74d5f56590b395a1c7f"><div class="ttname"><a href="../../d7/d31/AnaSimDst_2src_2TreeData_8h.html#add8a14eeacf4f74d5f56590b395a1c7f">TrackList</a></div><div class="ttdeci">std::vector&lt; TrackData &gt; TrackList</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d31/AnaSimDst_2src_2TreeData_8h_source.html#l00053">TreeData.h:53</a></div></div>
 <div class="ttc" id="aTriggerAna_2src_2TreeData_8h_html"><div class="ttname"><a href="../../dc/dac/TriggerAna_2src_2TreeData_8h.html">TreeData.h</a></div></div>
-<div class="ttc" id="aclassAnaCleanAndMessyData_html"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html">AnaCleanAndMessyData</a></div><div class="ttdoc">A SubsysReco module to analyze the non-embedded and embedded data at once.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/AnaCleanAndMessyData_8h_source.html#l00009">AnaCleanAndMessyData.h:9</a></div></div>
-<div class="ttc" id="aclassAnaCleanAndMessyData_html_a6053ef4168590f4adfac1b7ad5629709"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#a6053ef4168590f4adfac1b7ad5629709">AnaCleanAndMessyData::~AnaCleanAndMessyData</a></div><div class="ttdeci">virtual ~AnaCleanAndMessyData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfe/AnaCleanAndMessyData_8cc_source.html#l00022">AnaCleanAndMessyData.cc:22</a></div></div>
-<div class="ttc" id="aclassAnaCleanAndMessyData_html_a636ca711acb99d325181b77029c4ffa6"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#a636ca711acb99d325181b77029c4ffa6">AnaCleanAndMessyData::Verbosity</a></div><div class="ttdeci">int Verbosity() const</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/AnaCleanAndMessyData_8h_source.html#l00047">AnaCleanAndMessyData.h:47</a></div></div>
-<div class="ttc" id="aclassAnaCleanAndMessyData_html_a6fa6502544e9907b5c225766a3fb7f75"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#a6fa6502544e9907b5c225766a3fb7f75">AnaCleanAndMessyData::Verbosity</a></div><div class="ttdeci">void Verbosity(const int verb)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/AnaCleanAndMessyData_8h_source.html#l00046">AnaCleanAndMessyData.h:46</a></div></div>
-<div class="ttc" id="aclassAnaCleanAndMessyData_html_a9eab93cad805a03705df9d075352a634"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#a9eab93cad805a03705df9d075352a634">AnaCleanAndMessyData::AnaCleanAndMessyData</a></div><div class="ttdeci">AnaCleanAndMessyData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfe/AnaCleanAndMessyData_8cc_source.html#l00012">AnaCleanAndMessyData.cc:12</a></div></div>
-<div class="ttc" id="aclassAnaCleanAndMessyData_html_aa9a39d008d10dd007dc1f2f9b551c1bd"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#aa9a39d008d10dd007dc1f2f9b551c1bd">AnaCleanAndMessyData::Init</a></div><div class="ttdeci">void Init(const char *fn_clean, const char *fn_messy)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfe/AnaCleanAndMessyData_8cc_source.html#l00027">AnaCleanAndMessyData.cc:27</a></div></div>
-<div class="ttc" id="aclassAnaCleanAndMessyData_html_ab93edb149a4c524201dfe1657c0f6d4b"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#ab93edb149a4c524201dfe1657c0f6d4b">AnaCleanAndMessyData::End</a></div><div class="ttdeci">void End()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfe/AnaCleanAndMessyData_8cc_source.html#l00107">AnaCleanAndMessyData.cc:107</a></div></div>
-<div class="ttc" id="aclassAnaCleanAndMessyData_html_aec4f413f437769c2616883c9970d0a1b"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#aec4f413f437769c2616883c9970d0a1b">AnaCleanAndMessyData::Analyze</a></div><div class="ttdeci">void Analyze()</div><div class="ttdoc">Function to analyze a pair of non-embedded and embedded (i.e. clean and messy) data.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfe/AnaCleanAndMessyData_8cc_source.html#l00069">AnaCleanAndMessyData.cc:69</a></div></div>
+<div class="ttc" id="aclassAnaCleanAndMessyData_html"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html">AnaCleanAndMessyData</a></div><div class="ttdoc">A SubsysReco module to analyze the non-embedded and embedded data at once.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/AnaCleanAndMessyData_8h_source.html#l00010">AnaCleanAndMessyData.h:10</a></div></div>
+<div class="ttc" id="aclassAnaCleanAndMessyData_html_a4d087dd73bafbd06b56700f2337bf156"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#a4d087dd73bafbd06b56700f2337bf156">AnaCleanAndMessyData::RequireFpga1</a></div><div class="ttdeci">void RequireFpga1(const bool val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/AnaCleanAndMessyData_8h_source.html#l00067">AnaCleanAndMessyData.h:67</a></div></div>
+<div class="ttc" id="aclassAnaCleanAndMessyData_html_a6053ef4168590f4adfac1b7ad5629709"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#a6053ef4168590f4adfac1b7ad5629709">AnaCleanAndMessyData::~AnaCleanAndMessyData</a></div><div class="ttdeci">virtual ~AnaCleanAndMessyData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfe/AnaCleanAndMessyData_8cc_source.html#l00024">AnaCleanAndMessyData.cc:24</a></div></div>
+<div class="ttc" id="aclassAnaCleanAndMessyData_html_a636ca711acb99d325181b77029c4ffa6"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#a636ca711acb99d325181b77029c4ffa6">AnaCleanAndMessyData::Verbosity</a></div><div class="ttdeci">int Verbosity() const</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/AnaCleanAndMessyData_8h_source.html#l00070">AnaCleanAndMessyData.h:70</a></div></div>
+<div class="ttc" id="aclassAnaCleanAndMessyData_html_a6fa6502544e9907b5c225766a3fb7f75"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#a6fa6502544e9907b5c225766a3fb7f75">AnaCleanAndMessyData::Verbosity</a></div><div class="ttdeci">void Verbosity(const int verb)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/AnaCleanAndMessyData_8h_source.html#l00069">AnaCleanAndMessyData.h:69</a></div></div>
+<div class="ttc" id="aclassAnaCleanAndMessyData_html_a9eab93cad805a03705df9d075352a634"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#a9eab93cad805a03705df9d075352a634">AnaCleanAndMessyData::AnaCleanAndMessyData</a></div><div class="ttdeci">AnaCleanAndMessyData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfe/AnaCleanAndMessyData_8cc_source.html#l00013">AnaCleanAndMessyData.cc:13</a></div></div>
+<div class="ttc" id="aclassAnaCleanAndMessyData_html_aa9a39d008d10dd007dc1f2f9b551c1bd"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#aa9a39d008d10dd007dc1f2f9b551c1bd">AnaCleanAndMessyData::Init</a></div><div class="ttdeci">void Init(const char *fn_clean, const char *fn_messy)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfe/AnaCleanAndMessyData_8cc_source.html#l00029">AnaCleanAndMessyData.cc:29</a></div></div>
+<div class="ttc" id="aclassAnaCleanAndMessyData_html_ab93edb149a4c524201dfe1657c0f6d4b"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#ab93edb149a4c524201dfe1657c0f6d4b">AnaCleanAndMessyData::End</a></div><div class="ttdeci">void End()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfe/AnaCleanAndMessyData_8cc_source.html#l00130">AnaCleanAndMessyData.cc:130</a></div></div>
+<div class="ttc" id="aclassAnaCleanAndMessyData_html_ad48363e47555a9b0360d7cb95bab1c22"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#ad48363e47555a9b0360d7cb95bab1c22">AnaCleanAndMessyData::RequireFpga1</a></div><div class="ttdeci">bool RequireFpga1() const</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/AnaCleanAndMessyData_8h_source.html#l00068">AnaCleanAndMessyData.h:68</a></div></div>
+<div class="ttc" id="aclassAnaCleanAndMessyData_html_aec4f413f437769c2616883c9970d0a1b"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html#aec4f413f437769c2616883c9970d0a1b">AnaCleanAndMessyData::Analyze</a></div><div class="ttdeci">void Analyze()</div><div class="ttdoc">Function to analyze a pair of non-embedded and embedded (i.e. clean and messy) data.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfe/AnaCleanAndMessyData_8cc_source.html#l00092">AnaCleanAndMessyData.cc:92</a></div></div>
 <div class="ttc" id="astructEventData_html"><div class="ttname"><a href="../../de/da7/structEventData.html">EventData</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7f/DecoData_8h_source.html#l00210">DecoData.h:210</a></div></div>
+<div class="ttc" id="astructOccData_html"><div class="ttname"><a href="../../d3/dda/structOccData.html">OccData</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d52/HitEmbedding_2src_2TreeData_8h_source.html#l00028">TreeData.h:28</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -158,7 +184,7 @@ $(document).ready(function(){initNavTree('dd/dc0/AnaCleanAndMessyData_8h_source.
 		<li class="navelem"><a class="el" href="../../dir_39f21cb5a780a113fea29b03e1144b41.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_4fffab89599c799d6ada06c4cfc120d7.html">HitEmbedding</a></li><li class="navelem"><a class="el" href="../../dir_0cda6dd30e58f4295871aafbbd58f60b.html">src</a></li><li class="navelem"><a class="el" href="../../dd/dc0/AnaCleanAndMessyData_8h.html">AnaCleanAndMessyData.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 30 2025 10:15:15</em> using <a
+			updated: <em>Thu Nov 20 2025 08:33:26</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

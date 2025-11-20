@@ -1,52 +1,52 @@
 <map id="PHFlag::set_DoubleFlag" name="PHFlag::set_DoubleFlag">
-<area shape="rect" id="node1" title=" " alt="" coords="939,568,1116,595"/>
+<area shape="rect" id="node1" title=" " alt="" coords="939,593,1116,620"/>
 <area shape="rect" id="node2" href="$d0/da0/classGeomSvc.html#af397f96a6429d869cc13a0d384becd59" title=" " alt="" coords="669,5,879,32"/>
 <area shape="rect" id="node3" href="$d0/da0/classGeomSvc.html#ae0aebaad257d6fb4c9a5e5d2a4dde0cf" title=" " alt="" coords="680,56,868,83"/>
 <area shape="rect" id="node4" href="$d0/da0/classGeomSvc.html#a8fa6dc15c50c794b0854ad9c88651f66" title=" " alt="" coords="687,107,861,149"/>
 <area shape="rect" id="node5" href="$d0/da0/classGeomSvc.html#adf63cc6a5fbc144d2a1a78928de02351" title=" " alt="" coords="687,173,861,214"/>
 <area shape="rect" id="node6" href="$d0/da0/classGeomSvc.html#a85e842b337031a09090a33a39d269a23" title=" " alt="" coords="679,239,869,265"/>
-<area shape="rect" id="node7" href="$d8/d14/classrecoConsts.html#a7c0a1405f7f0f8c2acca26831984b28d" title="initialize the constants by the runNo &#45; not implemented yet" alt="" coords="713,289,835,316"/>
-<area shape="rect" id="node8" href="$d5/df3/classPHG4SimpleEventGenerator.html#a54f0db778c3a2a4154b76b30e75baf44" title=" " alt="" coords="183,325,388,366"/>
-<area shape="rect" id="node9" href="$db/d86/test__minimum_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="258,391,313,417"/>
-<area shape="rect" id="node10" href="$da/db3/classFlagSavev1.html#acc15190540961e0209dc92236a83434b" title=" " alt="" coords="657,492,891,519"/>
-<area shape="rect" id="node11" href="$d8/d14/classrecoConsts.html#a864b1da9614924988d09542c268c42dc" title="set the default value for all the constants needed &#45; user is supposed to add a default value here to ..." alt="" coords="683,441,865,468"/>
-<area shape="rect" id="node39" href="$d0/da0/classGeomSvc.html#a3459dfd2c52b7c3a78f05988277da716" title=" " alt="" coords="685,543,863,569"/>
-<area shape="rect" id="node40" href="$d0/da0/classGeomSvc.html#a282a4a9583c8f69ba3289191f3d1c025" title=" " alt="" coords="671,593,877,620"/>
-<area shape="rect" id="node41" href="$d0/da0/classGeomSvc.html#a9cb03c505813153cab8bda78487c9086" title=" " alt="" coords="700,644,848,671"/>
-<area shape="rect" id="node42" href="$d0/da0/classGeomSvc.html#a15fea3de53c457eeb61468d3bdd87e67" title=" " alt="" coords="679,695,869,721"/>
-<area shape="rect" id="node43" href="$d0/da0/classGeomSvc.html#ade47f4c03313b45ea365db3af4dbac1f" title=" " alt="" coords="674,745,874,772"/>
-<area shape="rect" id="node44" href="$d0/da0/classGeomSvc.html#a5df2f64c48fd3cb4766650623cd9e437" title=" " alt="" coords="678,796,870,823"/>
-<area shape="rect" id="node45" href="$d0/da0/classGeomSvc.html#ac57478706be3faab46c4a151f9493405" title=" " alt="" coords="707,847,841,873"/>
-<area shape="rect" id="node46" href="$d0/da0/classGeomSvc.html#a4fa82f8c76dac72bad4dbcc48a87aa6a" title=" " alt="" coords="708,897,840,924"/>
-<area shape="rect" id="node47" href="$d0/da0/classGeomSvc.html#a3c7b3a4bc4b377eb555cdddf1c0a3109" title=" " alt="" coords="708,948,840,975"/>
-<area shape="rect" id="node48" href="$d0/da0/classGeomSvc.html#ae920624301e6ae4847ea85641fd1e251" title=" " alt="" coords="708,999,840,1025"/>
-<area shape="rect" id="node49" href="$d0/da0/classGeomSvc.html#a92a4e883ab3299d3b17d91e0807d9942" title=" " alt="" coords="695,1049,853,1076"/>
-<area shape="rect" id="node50" href="$d0/da0/classGeomSvc.html#ac8eba35e59a247e97b3651186b64aaad" title=" " alt="" coords="684,1100,864,1127"/>
-<area shape="rect" id="node12" href="$d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85" title=" " alt="" coords="452,1076,609,1103"/>
-<area shape="rect" id="node13" href="$d0/d06/FastTracklet_8cxx.html#af9f19d05dd700160d8e2a2c05dd87c61" title=" " alt="" coords="244,792,327,819"/>
-<area shape="rect" id="node14" href="$d1/d13/classPHG4PhenixDetector.html#aed5e9a8d0ba20e1fef8a48240aa06b85" title="this is called by geant to actually construct all detectors" alt="" coords="206,843,365,885"/>
-<area shape="rect" id="node15" href="$d3/d96/classFun4AllHistoManager.html#a61c2043c62739de451de3f9287832a08" title=" " alt="" coords="205,909,366,950"/>
-<area shape="rect" id="node16" href="$da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8" title=" " alt="" coords="213,975,357,1001"/>
-<area shape="rect" id="node17" href="$d5/df3/classPHG4SimpleEventGenerator.html#a422acd795cdae1c43198738dd7ee917e" title="Called at the end of all processing." alt="" coords="167,1025,404,1052"/>
-<area shape="rect" id="node18" href="$d5/dda/classEventReducer.html#a561a06dc56cee12696d12ba18d207433" title=" " alt="" coords="180,1076,391,1103"/>
-<area shape="rect" id="node19" href="$d6/d6f/classFun4AllHepMCInputManager.html#aaf891596a876957d656c23ea03b39f1a" title=" " alt="" coords="182,1127,389,1169"/>
-<area shape="rect" id="node20" href="$db/d1f/classFun4AllOscarInputManager.html#a6fbe420ea4972e895f4061bb94ab9d77" title=" " alt="" coords="187,1193,384,1234"/>
-<area shape="rect" id="node21" href="$d2/da1/classPHGeomUtility.html#a84ee9f9eaf686f5c98ddc1af089ae248" title="Verbosity for geometry IO like, TGeoMangers." alt="" coords="180,1259,391,1285"/>
-<area shape="rect" id="node22" href="$d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6" title="Initialization, either from MySQL or from ascii file." alt="" coords="5,1335,119,1361"/>
-<area shape="rect" id="node23" href="$d6/deb/classTriggerAnalyzer.html#a33bd7d0faf83282d6a1bcb50397a61cd" title=" " alt="" coords="209,1411,361,1437"/>
-<area shape="rect" id="node24" href="$d8/dda/classDPTriggerAnalyzer.html#aca73618ace2c3debcdd9a544e8a1da10" title=" " alt="" coords="200,1461,371,1488"/>
-<area shape="rect" id="node25" href="$dd/d12/classKScheduler.html#a839ae0a6e27508c80672ef5691417ef1" title=" " alt="" coords="223,1512,347,1539"/>
-<area shape="rect" id="node26" href="$d0/da0/classGeomSvc.html#adbe1473f9b3a8ff942da8d7d8ee28322" title=" " alt="" coords="190,1360,381,1387"/>
-<area shape="rect" id="node27" href="$d6/dc8/classFun4AllPrdfOutputManager.html#a34a327859dafb50190588e6393d8ec2b" title=" " alt="" coords="187,1563,384,1605"/>
-<area shape="rect" id="node28" href="$d5/d85/classPHG4TruthSubsystem.html#a0dc4476d86bcfecbb026ca2d98caca32" title="init" alt="" coords="204,1629,367,1670"/>
-<area shape="rect" id="node29" href="$dd/def/classCalibDriftDistMod.html#a7752167df8cf9a3766bce767b47617d6" title=" " alt="" coords="213,1694,358,1735"/>
-<area shape="rect" id="node30" href="$d4/d73/classCalibDriftDist.html#ab8f98ba3b01859d64f958f280d0fe22f" title=" " alt="" coords="204,1760,367,1787"/>
-<area shape="rect" id="node31" href="$d4/d41/classCalibHodoInTime.html#aa02bceb910335dc4ed67613212bf1eec" title=" " alt="" coords="191,1811,379,1837"/>
-<area shape="rect" id="node32" href="$d5/d65/classSQVertexing.html#a0b299744b58cb90fa2722eea3a42fb4b" title=" " alt="" coords="207,1861,363,1888"/>
-<area shape="rect" id="node33" href="$d1/d13/classVertexFit.html#a818383ba3a5c7c386c5c8bb3328aa0a3" title=" " alt="" coords="218,441,353,468"/>
-<area shape="rect" id="node34" href="$dc/dcd/classSQChamberRealization.html#a69eb66408dc5f9cb20f92dcc12c89d14" title=" " alt="" coords="199,493,371,534"/>
-<area shape="rect" id="node35" href="$d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b" title=" " alt="" coords="213,559,357,585"/>
-<area shape="rect" id="node36" href="$dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55" title=" " alt="" coords="192,609,379,636"/>
-<area shape="rect" id="node37" href="$d3/d46/classKalmanFastTracking.html#a5569cc1566375a23b00172e97b3f75d8" title=" " alt="" coords="205,661,365,702"/>
-<area shape="rect" id="node38" href="$de/d12/classKalmanFastTrackletting.html#ac67b3bb9b07ef9f78016944665081c75" title=" " alt="" coords="194,726,377,767"/>
+<area shape="rect" id="node7" href="$d0/d39/classAnaSortMixVertex.html#a50ecb35140382ac96b73a77bc7888436" title="Function to initialize all variables for the 1st analysis step." alt="" coords="201,277,369,304"/>
+<area shape="rect" id="node8" href="$d8/d14/classrecoConsts.html#a2a5a6e80492aeb8f1e25ef7ae4634c6c" title="initialize the constants by the runNo" alt="" coords="713,492,835,519"/>
+<area shape="rect" id="node9" href="$d5/df3/classPHG4SimpleEventGenerator.html#a54f0db778c3a2a4154b76b30e75baf44" title=" " alt="" coords="183,329,388,370"/>
+<area shape="rect" id="node10" href="$db/d86/test__minimum_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="258,395,313,421"/>
+<area shape="rect" id="node11" href="$da/db3/classFlagSavev1.html#acc15190540961e0209dc92236a83434b" title=" " alt="" coords="657,543,891,569"/>
+<area shape="rect" id="node12" href="$d8/d14/classrecoConsts.html#a864b1da9614924988d09542c268c42dc" title="set the default value for all the constants needed &#45; user is supposed to add a default value here to ..." alt="" coords="683,441,865,468"/>
+<area shape="rect" id="node39" href="$d0/da0/classGeomSvc.html#a3459dfd2c52b7c3a78f05988277da716" title=" " alt="" coords="685,593,863,620"/>
+<area shape="rect" id="node40" href="$d0/da0/classGeomSvc.html#a282a4a9583c8f69ba3289191f3d1c025" title=" " alt="" coords="671,644,877,671"/>
+<area shape="rect" id="node41" href="$d0/da0/classGeomSvc.html#a9cb03c505813153cab8bda78487c9086" title=" " alt="" coords="700,695,848,721"/>
+<area shape="rect" id="node42" href="$d0/da0/classGeomSvc.html#a15fea3de53c457eeb61468d3bdd87e67" title=" " alt="" coords="679,745,869,772"/>
+<area shape="rect" id="node43" href="$d0/da0/classGeomSvc.html#ade47f4c03313b45ea365db3af4dbac1f" title=" " alt="" coords="674,796,874,823"/>
+<area shape="rect" id="node44" href="$d0/da0/classGeomSvc.html#a5df2f64c48fd3cb4766650623cd9e437" title=" " alt="" coords="678,847,870,873"/>
+<area shape="rect" id="node45" href="$d0/da0/classGeomSvc.html#ac57478706be3faab46c4a151f9493405" title=" " alt="" coords="707,897,841,924"/>
+<area shape="rect" id="node46" href="$d0/da0/classGeomSvc.html#a4fa82f8c76dac72bad4dbcc48a87aa6a" title=" " alt="" coords="708,948,840,975"/>
+<area shape="rect" id="node47" href="$d0/da0/classGeomSvc.html#a3c7b3a4bc4b377eb555cdddf1c0a3109" title=" " alt="" coords="708,999,840,1025"/>
+<area shape="rect" id="node48" href="$d0/da0/classGeomSvc.html#ae920624301e6ae4847ea85641fd1e251" title=" " alt="" coords="708,1049,840,1076"/>
+<area shape="rect" id="node49" href="$d0/da0/classGeomSvc.html#a92a4e883ab3299d3b17d91e0807d9942" title=" " alt="" coords="695,1100,853,1127"/>
+<area shape="rect" id="node50" href="$d0/da0/classGeomSvc.html#ac8eba35e59a247e97b3651186b64aaad" title=" " alt="" coords="684,1151,864,1177"/>
+<area shape="rect" id="node13" href="$d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85" title=" " alt="" coords="452,1008,609,1035"/>
+<area shape="rect" id="node14" href="$d0/d06/FastTracklet_8cxx.html#af9f19d05dd700160d8e2a2c05dd87c61" title=" " alt="" coords="244,949,327,976"/>
+<area shape="rect" id="node15" href="$d1/d13/classPHG4PhenixDetector.html#aed5e9a8d0ba20e1fef8a48240aa06b85" title="this is called by geant to actually construct all detectors" alt="" coords="206,1001,365,1042"/>
+<area shape="rect" id="node16" href="$d3/d96/classFun4AllHistoManager.html#a61c2043c62739de451de3f9287832a08" title=" " alt="" coords="205,1066,366,1107"/>
+<area shape="rect" id="node17" href="$da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8" title=" " alt="" coords="213,1132,357,1159"/>
+<area shape="rect" id="node18" href="$d5/df3/classPHG4SimpleEventGenerator.html#a422acd795cdae1c43198738dd7ee917e" title="Called at the end of all processing." alt="" coords="167,1183,404,1209"/>
+<area shape="rect" id="node19" href="$d5/dda/classEventReducer.html#a561a06dc56cee12696d12ba18d207433" title=" " alt="" coords="180,1233,391,1260"/>
+<area shape="rect" id="node20" href="$d6/d6f/classFun4AllHepMCInputManager.html#aaf891596a876957d656c23ea03b39f1a" title=" " alt="" coords="182,1285,389,1326"/>
+<area shape="rect" id="node21" href="$db/d1f/classFun4AllOscarInputManager.html#a6fbe420ea4972e895f4061bb94ab9d77" title=" " alt="" coords="187,1350,384,1391"/>
+<area shape="rect" id="node22" href="$d2/da1/classPHGeomUtility.html#a84ee9f9eaf686f5c98ddc1af089ae248" title="Verbosity for geometry IO like, TGeoMangers." alt="" coords="180,1416,391,1443"/>
+<area shape="rect" id="node23" href="$d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6" title="Initialization, either from MySQL or from ascii file." alt="" coords="5,1492,119,1519"/>
+<area shape="rect" id="node24" href="$d6/deb/classTriggerAnalyzer.html#a33bd7d0faf83282d6a1bcb50397a61cd" title=" " alt="" coords="209,1568,361,1595"/>
+<area shape="rect" id="node25" href="$d8/dda/classDPTriggerAnalyzer.html#aca73618ace2c3debcdd9a544e8a1da10" title=" " alt="" coords="200,1619,371,1645"/>
+<area shape="rect" id="node26" href="$dd/d12/classKScheduler.html#a839ae0a6e27508c80672ef5691417ef1" title=" " alt="" coords="223,1669,347,1696"/>
+<area shape="rect" id="node27" href="$d5/d90/classSQVertexing__v2.html#ae83de371b67283d8ddedcb266d5974f1" title=" " alt="" coords="193,1720,378,1747"/>
+<area shape="rect" id="node28" href="$d0/da0/classGeomSvc.html#adbe1473f9b3a8ff942da8d7d8ee28322" title=" " alt="" coords="190,1517,381,1544"/>
+<area shape="rect" id="node29" href="$d6/dc8/classFun4AllPrdfOutputManager.html#a34a327859dafb50190588e6393d8ec2b" title=" " alt="" coords="187,1771,384,1813"/>
+<area shape="rect" id="node30" href="$d5/d85/classPHG4TruthSubsystem.html#a0dc4476d86bcfecbb026ca2d98caca32" title="init" alt="" coords="204,446,367,487"/>
+<area shape="rect" id="node31" href="$d2/de6/classAnaEmbeddedData.html#aec11a5ba2a17b9ad09db370994579597" title=" " alt="" coords="185,512,386,539"/>
+<area shape="rect" id="node32" href="$dd/def/classCalibDriftDistMod.html#a7752167df8cf9a3766bce767b47617d6" title=" " alt="" coords="213,563,358,605"/>
+<area shape="rect" id="node33" href="$dd/d77/classSQSingleMuonGen.html#ab79f507a7ac2a15674e4546793b380ff" title=" " alt="" coords="187,629,383,656"/>
+<area shape="rect" id="node34" href="$d4/d73/classCalibDriftDist.html#ab8f98ba3b01859d64f958f280d0fe22f" title=" " alt="" coords="204,680,367,707"/>
+<area shape="rect" id="node35" href="$d4/d41/classCalibHodoInTime.html#aa02bceb910335dc4ed67613212bf1eec" title=" " alt="" coords="191,731,379,757"/>
+<area shape="rect" id="node36" href="$d1/d13/classVertexFit.html#a818383ba3a5c7c386c5c8bb3328aa0a3" title=" " alt="" coords="218,781,353,808"/>
+<area shape="rect" id="node37" href="$dc/dcd/classSQChamberRealization.html#a69eb66408dc5f9cb20f92dcc12c89d14" title=" " alt="" coords="199,833,371,874"/>
+<area shape="rect" id="node38" href="$d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b" title=" " alt="" coords="213,899,357,925"/>
 </map>

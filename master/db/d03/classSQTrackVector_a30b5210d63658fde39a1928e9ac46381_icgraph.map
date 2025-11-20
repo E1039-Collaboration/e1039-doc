@@ -1,8 +1,10 @@
 <map id="SQTrackVector::push_back" name="SQTrackVector::push_back">
-<area shape="rect" id="node1" title=" " alt="" coords="671,89,863,116"/>
-<area shape="rect" id="node2" href="$df/df2/classSQReco.html#af708ab805d378d673079d4fdd5cf0776" title=" " alt="" coords="452,31,607,57"/>
-<area shape="rect" id="node5" href="$d2/d1b/classDoEmbedding.html#a08f06aee61f980a00108c593ad864913" title=" " alt="" coords="444,82,615,123"/>
-<area shape="rect" id="node6" href="$dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397" title=" " alt="" coords="436,147,623,189"/>
-<area shape="rect" id="node3" href="$df/df2/classSQReco.html#a2d24deb38cf514e80e9b53199f2c81a9" title=" " alt="" coords="228,5,388,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="727,123,919,149"/>
+<area shape="rect" id="node2" href="$df/df2/classSQReco.html#af708ab805d378d673079d4fdd5cf0776" title=" " alt="" coords="508,31,663,57"/>
+<area shape="rect" id="node5" href="$d2/d1b/classDoEmbedding.html#a08f06aee61f980a00108c593ad864913" title=" " alt="" coords="500,82,671,123"/>
+<area shape="rect" id="node6" href="$dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397" title=" " alt="" coords="492,147,679,189"/>
+<area shape="rect" id="node7" href="$da/d1f/classFun4AllRUSInputManager.html#a944672a880a9e110401f773e1ce3f0ae" title=" " alt="" coords="492,213,679,254"/>
+<area shape="rect" id="node3" href="$df/df2/classSQReco.html#a2d24deb38cf514e80e9b53199f2c81a9" title=" " alt="" coords="256,5,416,32"/>
 <area shape="rect" id="node4" href="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb" title=" " alt="" coords="5,31,180,57"/>
+<area shape="rect" id="node8" href="$da/d1f/classFun4AllRUSInputManager.html#a8ee161a7ef24168128596705790e3cb6" title=" " alt="" coords="228,220,444,247"/>
 </map>

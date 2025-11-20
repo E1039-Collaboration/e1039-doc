@@ -1,0 +1,11 @@
+<map id="AnaSortMixVertex" name="AnaSortMixVertex">
+<area shape="rect" id="node1" title="Base class of all analysis modules." alt="" coords="112,525,251,552"/>
+<area shape="rect" id="node2" href="$d5/d2f/classSRecEvent.html" title=" " alt="" coords="5,208,96,235"/>
+<area shape="rect" id="node3" href="$d9/d24/classPHObject.html" title=" " alt="" coords="40,81,123,108"/>
+<area shape="rect" id="node7" href="$d7/d1b/classSQTrack.html" title="An SQ interface class to hold one true or reconstructed track." alt="" coords="109,157,184,184"/>
+<area shape="rect" id="node4" title=" " alt="" coords="45,5,117,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="88,392,275,419"/>
+<area shape="rect" id="node6" href="$d6/db1/classSRecTrack.html" title=" " alt="" coords="111,259,199,285"/>
+<area shape="rect" id="node8" href="$d4/db7/classSQGenFit_1_1GFField.html" title=" " alt="" coords="299,392,437,419"/>
+<area shape="rect" id="node9" title=" " alt="" coords="303,259,433,285"/>
+</map>

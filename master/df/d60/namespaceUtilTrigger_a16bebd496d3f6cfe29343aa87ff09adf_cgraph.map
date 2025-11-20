@@ -1,0 +1,5 @@
+<map id="UtilTrigger::FlipRoadLeftRight" name="UtilTrigger::FlipRoadLeftRight">
+<area shape="rect" id="node1" title="Flip the given road ID in the left&#45;right direction." alt="" coords="5,23,184,65"/>
+<area shape="rect" id="node2" href="$df/d60/namespaceUtilTrigger.html#a36f02c79502113f6ce616ca486f2d8fe" title="Convert a set of hodo IDs to a roadset ID." alt="" coords="232,5,404,32"/>
+<area shape="rect" id="node3" href="$df/d60/namespaceUtilTrigger.html#a26c776dbd619458af7fa35b6faae6056" title="Convert a roadset ID to a set of hodo IDs." alt="" coords="232,56,404,83"/>
+</map>

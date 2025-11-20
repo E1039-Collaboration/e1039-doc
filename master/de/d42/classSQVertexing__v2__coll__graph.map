@@ -1,0 +1,14 @@
+<map id="SQVertexing_v2" name="SQVertexing_v2">
+<area shape="rect" id="node1" title=" " alt="" coords="293,364,419,391"/>
+<area shape="rect" id="node2" href="$d0/d32/classSubsysReco.html" title=" " alt="" coords="111,275,211,301"/>
+<area shape="rect" id="node3" href="$d5/dec/classFun4AllBase.html" title=" " alt="" coords="111,185,214,212"/>
+<area shape="rect" id="node4" title=" " alt="" coords="31,96,118,123"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,5,144,47"/>
+<area shape="rect" id="node6" href="$db/d03/classSQTrackVector.html" title="An SQ interface class to hold a list of SQTrack objects." alt="" coords="236,275,351,301"/>
+<area shape="rect" id="node7" href="$d9/d24/classPHObject.html" title=" " alt="" coords="379,185,461,212"/>
+<area shape="rect" id="node9" href="$d5/d2f/classSRecEvent.html" title=" " alt="" coords="375,275,465,301"/>
+<area shape="rect" id="node10" href="$d3/df1/classSQDimuonVector.html" title="An SQ interface class to hold a list of SQDimuon objects." alt="" coords="490,275,622,301"/>
+<area shape="rect" id="node8" title=" " alt="" coords="384,96,456,123"/>
+<area shape="rect" id="node11" href="$d4/db7/classSQGenFit_1_1GFField.html" title=" " alt="" coords="647,275,785,301"/>
+<area shape="rect" id="node12" title=" " alt="" coords="651,185,781,212"/>
+</map>

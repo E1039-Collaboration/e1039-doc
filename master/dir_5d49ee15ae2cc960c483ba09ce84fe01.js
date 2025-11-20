@@ -27,7 +27,7 @@ var dir_5d49ee15ae2cc960c483ba09ce84fe01 =
     [ "KalmanFastTrackletting.h", "d8/df4/KalmanFastTrackletting_8h.html", [
       [ "KalmanFastTrackletting", "de/d12/classKalmanFastTrackletting.html", "de/d12/classKalmanFastTrackletting" ]
     ] ],
-    [ "SQReco.cxx", "d0/d98/SQReco_8cxx.html", "d0/d98/SQReco_8cxx" ],
+    [ "SQReco.cxx", "d0/d98/SQReco_8cxx.html", null ],
     [ "SQReco.h", "d8/dde/SQReco_8h.html", [
       [ "SQReco", "df/df2/classSQReco.html", "df/df2/classSQReco" ]
     ] ],

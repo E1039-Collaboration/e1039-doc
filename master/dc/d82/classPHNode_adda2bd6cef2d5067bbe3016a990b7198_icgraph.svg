@@ -131,17 +131,17 @@
 <g id="node9" class="node">
 <title>Node10</title>
 <g id="a_node9"><a xlink:href="../../db/d1f/classFun4AllOscarInputManager.html#a6eba24090795ccb027a1dedc87db1a85" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="3.5,-1668.5 3.5,-1698.5 157.5,-1698.5 157.5,-1668.5 3.5,-1668.5"/>
-<text text-anchor="start" x="11.5" y="-1686.5" font-family="FreeSans" font-size="10.00">Fun4AllOscarInputManager</text>
-<text text-anchor="middle" x="80.5" y="-1675.5" font-family="FreeSans" font-size="10.00">::Fun4AllOscarInputManager</text>
+<polygon fill="none" stroke="black" points="3.5,-1692.5 3.5,-1722.5 157.5,-1722.5 157.5,-1692.5 3.5,-1692.5"/>
+<text text-anchor="start" x="11.5" y="-1710.5" font-family="FreeSans" font-size="10.00">Fun4AllOscarInputManager</text>
+<text text-anchor="middle" x="80.5" y="-1699.5" font-family="FreeSans" font-size="10.00">::Fun4AllOscarInputManager</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node10 -->
 <g id="edge8" class="edge">
 <title>Node2&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M512.54,-1145.15C507.49,-1197.85 486.05,-1343.12 400,-1414.5 329.29,-1473.15 270.27,-1398.08 197,-1453.5 122.7,-1509.7 92.81,-1626.92 84.28,-1668.49"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="516.03,-1145.38 513.4,-1135.12 509.05,-1144.78 516.03,-1145.38"/>
+<path fill="none" stroke="midnightblue" d="M513.79,-1145.25C512.04,-1203.78 498.41,-1377.6 400,-1463.5 330.79,-1523.92 271.57,-1448.84 197,-1502.5 128.86,-1551.53 95.69,-1653.94 85.26,-1692.44"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="517.3,-1145.21 514.01,-1135.14 510.3,-1145.06 517.3,-1145.21"/>
 </g>
 <!-- Node11 -->
 <g id="node10" class="node">
@@ -162,257 +162,257 @@
 <!-- Node12 -->
 <g id="node11" class="node">
 <title>Node12</title>
-<g id="a_node11"><a xlink:href="../../da/d1f/classFun4AllRUSInputManager.html#aef33e6edac5980ae6b2bf03419b60030" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="225.5,-1784.5 225.5,-1814.5 371.5,-1814.5 371.5,-1784.5 225.5,-1784.5"/>
-<text text-anchor="start" x="233.5" y="-1802.5" font-family="FreeSans" font-size="10.00">Fun4AllRUSInputManager</text>
-<text text-anchor="middle" x="298.5" y="-1791.5" font-family="FreeSans" font-size="10.00">::Fun4AllRUSInputManager</text>
+<g id="a_node11"><a xlink:href="../../d5/dd4/classFun4AllSRawEventInputManager.html#a72fc8aee367810a4f5104178ab58850d" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="208,-1784.5 208,-1814.5 389,-1814.5 389,-1784.5 208,-1784.5"/>
+<text text-anchor="start" x="216" y="-1802.5" font-family="FreeSans" font-size="10.00">Fun4AllSRawEventInputManager</text>
+<text text-anchor="middle" x="298.5" y="-1791.5" font-family="FreeSans" font-size="10.00">::Fun4AllSRawEventInputManager</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node12 -->
 <g id="edge10" class="edge">
 <title>Node2&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M513.35,-1145.6C509.74,-1244.78 488.93,-1680.99 400,-1775.5 392.26,-1783.73 382.24,-1789.36 371.53,-1793.18"/>
+<path fill="none" stroke="midnightblue" d="M513.35,-1145.6C509.74,-1244.78 488.93,-1680.99 400,-1775.5 396.8,-1778.9 393.22,-1781.85 389.36,-1784.42"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="516.85,-1145.56 513.7,-1135.45 509.86,-1145.32 516.85,-1145.56"/>
 </g>
 <!-- Node13 -->
 <g id="node12" class="node">
 <title>Node13</title>
-<g id="a_node12"><a xlink:href="../../d5/dd4/classFun4AllSRawEventInputManager.html#a72fc8aee367810a4f5104178ab58850d" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="208,-1735.5 208,-1765.5 389,-1765.5 389,-1735.5 208,-1735.5"/>
-<text text-anchor="start" x="216" y="-1753.5" font-family="FreeSans" font-size="10.00">Fun4AllSRawEventInputManager</text>
-<text text-anchor="middle" x="298.5" y="-1742.5" font-family="FreeSans" font-size="10.00">::Fun4AllSRawEventInputManager</text>
+<g id="a_node12"><a xlink:href="../../d1/dbe/classFun4AllTrackQAv1InputManager.html#a5f44a6fd15a06470d7e0dacf924616a8" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="210,-1735.5 210,-1765.5 387,-1765.5 387,-1735.5 210,-1735.5"/>
+<text text-anchor="start" x="218" y="-1753.5" font-family="FreeSans" font-size="10.00">Fun4AllTrackQAv1InputManager</text>
+<text text-anchor="middle" x="298.5" y="-1742.5" font-family="FreeSans" font-size="10.00">::Fun4AllTrackQAv1InputManager</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node13 -->
 <g id="edge11" class="edge">
 <title>Node2&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M513.06,-1145.26C508.17,-1239.21 482.69,-1639.83 400,-1726.5 396.78,-1729.87 393.18,-1732.81 389.3,-1735.36"/>
+<path fill="none" stroke="midnightblue" d="M513.06,-1145.26C508.17,-1239.21 482.69,-1639.83 400,-1726.5 396.16,-1730.52 391.78,-1733.92 387.04,-1736.79"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="516.56,-1145.31 513.56,-1135.15 509.57,-1144.96 516.56,-1145.31"/>
 </g>
 <!-- Node14 -->
 <g id="node13" class="node">
 <title>Node14</title>
-<g id="a_node13"><a xlink:href="../../d1/dbe/classFun4AllTrackQAv1InputManager.html#a5f44a6fd15a06470d7e0dacf924616a8" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="210,-1686.5 210,-1716.5 387,-1716.5 387,-1686.5 210,-1686.5"/>
-<text text-anchor="start" x="218" y="-1704.5" font-family="FreeSans" font-size="10.00">Fun4AllTrackQAv1InputManager</text>
-<text text-anchor="middle" x="298.5" y="-1693.5" font-family="FreeSans" font-size="10.00">::Fun4AllTrackQAv1InputManager</text>
+<g id="a_node13"><a xlink:href="../../d4/d7e/classFun4AllVectEventInputManager.html#a4179105bd27fd72bcf992efa8f3cc8d5" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="211,-1686.5 211,-1716.5 386,-1716.5 386,-1686.5 211,-1686.5"/>
+<text text-anchor="start" x="219" y="-1704.5" font-family="FreeSans" font-size="10.00">Fun4AllVectEventInputManager</text>
+<text text-anchor="middle" x="298.5" y="-1693.5" font-family="FreeSans" font-size="10.00">::Fun4AllVectEventInputManager</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node14 -->
 <g id="edge12" class="edge">
 <title>Node2&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M512.69,-1145.32C506.4,-1234.64 476.36,-1598.76 400,-1677.5 396.25,-1681.36 392.01,-1684.65 387.42,-1687.44"/>
+<path fill="none" stroke="midnightblue" d="M512.69,-1145.32C506.4,-1234.64 476.36,-1598.76 400,-1677.5 395.88,-1681.75 391.15,-1685.3 386.04,-1688.27"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="516.19,-1145.42 513.38,-1135.21 509.21,-1144.95 516.19,-1145.42"/>
 </g>
 <!-- Node15 -->
 <g id="node14" class="node">
 <title>Node15</title>
-<g id="a_node14"><a xlink:href="../../d4/d7e/classFun4AllVectEventInputManager.html#a4179105bd27fd72bcf992efa8f3cc8d5" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="211,-1637.5 211,-1667.5 386,-1667.5 386,-1637.5 211,-1637.5"/>
-<text text-anchor="start" x="219" y="-1655.5" font-family="FreeSans" font-size="10.00">Fun4AllVectEventInputManager</text>
-<text text-anchor="middle" x="298.5" y="-1644.5" font-family="FreeSans" font-size="10.00">::Fun4AllVectEventInputManager</text>
+<g id="a_node14"><a xlink:href="../../df/d4d/classPHFieldUtility.html#a822dcd7d1978f7a23a5f6f26b13f2468" target="_top" xlink:title="Get persistent PHGeomIOTGeo from DST nodes. If not found, make a new one.">
+<polygon fill="none" stroke="black" points="234,-1637.5 234,-1667.5 363,-1667.5 363,-1637.5 234,-1637.5"/>
+<text text-anchor="start" x="242" y="-1655.5" font-family="FreeSans" font-size="10.00">PHFieldUtility::GetField</text>
+<text text-anchor="middle" x="298.5" y="-1644.5" font-family="FreeSans" font-size="10.00">ConfigNode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node15 -->
 <g id="edge13" class="edge">
 <title>Node2&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M512.28,-1145.15C504.53,-1229.22 470.11,-1557.57 400,-1628.5 395.96,-1632.58 391.37,-1636.02 386.41,-1638.91"/>
+<path fill="none" stroke="midnightblue" d="M512.28,-1145.15C504.53,-1229.22 470.11,-1557.57 400,-1628.5 390.1,-1638.51 376.82,-1644.64 363.17,-1648.33"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="515.77,-1145.43 513.18,-1135.15 508.8,-1144.8 515.77,-1145.43"/>
 </g>
 <!-- Node16 -->
 <g id="node15" class="node">
 <title>Node16</title>
-<g id="a_node15"><a xlink:href="../../df/d4d/classPHFieldUtility.html#a822dcd7d1978f7a23a5f6f26b13f2468" target="_top" xlink:title="Get persistent PHGeomIOTGeo from DST nodes. If not found, make a new one.">
-<polygon fill="none" stroke="black" points="234,-1588.5 234,-1618.5 363,-1618.5 363,-1588.5 234,-1588.5"/>
+<g id="a_node15"><a xlink:href="../../df/d4d/classPHFieldUtility.html#a3afdd4e878d02b30b6f2c396e52b8e48" target="_top" xlink:title="Get transient PHField from DST nodes. If not found, make a new one based on default_config.">
+<polygon fill="none" stroke="red" points="234,-1588.5 234,-1618.5 363,-1618.5 363,-1588.5 234,-1588.5"/>
 <text text-anchor="start" x="242" y="-1606.5" font-family="FreeSans" font-size="10.00">PHFieldUtility::GetField</text>
-<text text-anchor="middle" x="298.5" y="-1595.5" font-family="FreeSans" font-size="10.00">ConfigNode</text>
+<text text-anchor="middle" x="298.5" y="-1595.5" font-family="FreeSans" font-size="10.00">MapNode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node16 -->
 <g id="edge14" class="edge">
 <title>Node2&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M511.73,-1145.48C502.3,-1224.82 463.76,-1516.47 400,-1579.5 389.99,-1589.4 376.66,-1595.48 363,-1599.16"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="515.22,-1145.7 512.91,-1135.36 508.27,-1144.89 515.22,-1145.7"/>
+<path fill="none" stroke="midnightblue" d="M511.7,-1145.42C502.19,-1224.52 463.35,-1515.32 400,-1578.5 390.01,-1588.47 376.69,-1594.67 363.03,-1598.48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="515.2,-1145.67 512.89,-1135.33 508.24,-1144.85 515.2,-1145.67"/>
 </g>
-<!-- Node17 -->
+<!-- Node23 -->
 <g id="node16" class="node">
-<title>Node17</title>
-<g id="a_node16"><a xlink:href="../../df/d4d/classPHFieldUtility.html#a3afdd4e878d02b30b6f2c396e52b8e48" target="_top" xlink:title="Get transient PHField from DST nodes. If not found, make a new one based on default_config.">
-<polygon fill="none" stroke="red" points="234,-1539.5 234,-1569.5 363,-1569.5 363,-1539.5 234,-1539.5"/>
-<text text-anchor="start" x="242" y="-1557.5" font-family="FreeSans" font-size="10.00">PHFieldUtility::GetField</text>
-<text text-anchor="middle" x="298.5" y="-1546.5" font-family="FreeSans" font-size="10.00">MapNode</text>
+<title>Node23</title>
+<g id="a_node16"><a xlink:href="../../d2/da1/classPHGeomUtility.html#a66cd62a2044016ba39bcb70730ef1985" target="_top" xlink:title="Get persistent PHGeomIOTGeo from DST nodes. If not found, make a new one.">
+<polygon fill="none" stroke="black" points="197,-1550 197,-1569 400,-1569 400,-1550 197,-1550"/>
+<text text-anchor="middle" x="298.5" y="-1557" font-family="FreeSans" font-size="10.00">PHGeomUtility::GetGeomIOTGeoNode</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node17 -->
+<!-- Node2&#45;&gt;Node23 -->
 <g id="edge15" class="edge">
-<title>Node2&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M511.03,-1145.58C499.73,-1219.38 457.12,-1474.13 400,-1529.5 389.93,-1539.26 376.67,-1545.39 363.09,-1549.2"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="514.54,-1145.76 512.57,-1135.35 507.62,-1144.72 514.54,-1145.76"/>
+<title>Node2&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M511.35,-1145.27C500.91,-1220.17 460.22,-1484.98 400,-1540.5 395.95,-1544.23 391.41,-1547.34 386.56,-1549.91"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="514.83,-1145.68 512.72,-1135.3 507.89,-1144.73 514.83,-1145.68"/>
 </g>
 <!-- Node24 -->
 <g id="node17" class="node">
 <title>Node24</title>
-<g id="a_node17"><a xlink:href="../../d2/da1/classPHGeomUtility.html#a66cd62a2044016ba39bcb70730ef1985" target="_top" xlink:title="Get persistent PHGeomIOTGeo from DST nodes. If not found, make a new one.">
-<polygon fill="none" stroke="black" points="197,-1501 197,-1520 400,-1520 400,-1501 197,-1501"/>
-<text text-anchor="middle" x="298.5" y="-1508" font-family="FreeSans" font-size="10.00">PHGeomUtility::GetGeomIOTGeoNode</text>
+<g id="a_node17"><a xlink:href="../../d2/da1/classPHGeomUtility.html#a93ec483f3447fdefc3a471601fc8587b" target="_top" xlink:title="Get non&#45;persistent PHGeomTGeo from DST nodes. If not found, make a new one.">
+<polygon fill="none" stroke="red" points="202.5,-1512 202.5,-1531 394.5,-1531 394.5,-1512 202.5,-1512"/>
+<text text-anchor="middle" x="298.5" y="-1519" font-family="FreeSans" font-size="10.00">PHGeomUtility::GetGeomTGeoNode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node24 -->
 <g id="edge16" class="edge">
 <title>Node2&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M514.39,-1145.62C514.42,-1207.67 505.5,-1397.5 400,-1491.5 395.76,-1495.28 391.01,-1498.41 385.94,-1501"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="517.89,-1145.25 514.3,-1135.28 510.89,-1145.31 517.89,-1145.25"/>
+<path fill="none" stroke="midnightblue" d="M514.31,-1145.31C514.14,-1207.27 504.78,-1399.11 400,-1497.5 393.4,-1503.7 385.49,-1508.39 377.04,-1511.92"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="517.81,-1144.99 514.25,-1135.01 510.81,-1145.03 517.81,-1144.99"/>
 </g>
-<!-- Node25 -->
+<!-- Node26 -->
 <g id="node18" class="node">
-<title>Node25</title>
-<g id="a_node18"><a xlink:href="../../d2/da1/classPHGeomUtility.html#a93ec483f3447fdefc3a471601fc8587b" target="_top" xlink:title="Get non&#45;persistent PHGeomTGeo from DST nodes. If not found, make a new one.">
-<polygon fill="none" stroke="red" points="202.5,-1463 202.5,-1482 394.5,-1482 394.5,-1463 202.5,-1463"/>
-<text text-anchor="middle" x="298.5" y="-1470" font-family="FreeSans" font-size="10.00">PHGeomUtility::GetGeomTGeoNode</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node25 -->
-<g id="edge17" class="edge">
-<title>Node2&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M513.25,-1145.3C509.99,-1201.8 492.62,-1365.12 400,-1448.5 393.07,-1454.74 384.8,-1459.44 376.04,-1462.96"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="516.75,-1145.36 513.74,-1135.2 509.76,-1145.02 516.75,-1145.36"/>
-</g>
-<!-- Node27 -->
-<g id="node19" class="node">
-<title>Node27</title>
-<g id="a_node19"><a xlink:href="../../da/d29/classFun4AllServer.html#ac42fd391b795d9605811abb9394c2011" target="_top" xlink:title=" ">
+<title>Node26</title>
+<g id="a_node18"><a xlink:href="../../da/d29/classFun4AllServer.html#ac42fd391b795d9605811abb9394c2011" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="red" points="233,-1883 233,-1902 364,-1902 364,-1883 233,-1883"/>
 <text text-anchor="middle" x="298.5" y="-1890" font-family="FreeSans" font-size="10.00">Fun4AllServer::getNode</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node27 -->
-<g id="edge18" class="edge">
-<title>Node2&#45;&gt;Node27</title>
+<!-- Node2&#45;&gt;Node26 -->
+<g id="edge17" class="edge">
+<title>Node2&#45;&gt;Node26</title>
 <path fill="none" stroke="midnightblue" d="M513.95,-1145.22C513.25,-1252.54 504.4,-1765.31 400,-1873.5 390.44,-1883.4 377.46,-1889.05 364.01,-1892.11"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="517.45,-1145.16 514,-1135.15 510.45,-1145.13 517.45,-1145.16"/>
+</g>
+<!-- Node32 -->
+<g id="node19" class="node">
+<title>Node32</title>
+<g id="a_node19"><a xlink:href="../../d9/df8/classPHG4GDMLUtility.html#a9a60cf236bc494934f1005d31e4da9fd" target="_top" xlink:title="Get or make the parameter node PHG4GDMLConfig from DST nodes. If not found, make a new one.">
+<polygon fill="none" stroke="black" points="217,-1424.5 217,-1454.5 380,-1454.5 380,-1424.5 217,-1424.5"/>
+<text text-anchor="start" x="225" y="-1442.5" font-family="FreeSans" font-size="10.00">PHG4GDMLUtility::GetOrMake</text>
+<text text-anchor="middle" x="298.5" y="-1431.5" font-family="FreeSans" font-size="10.00">ConfigNode</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node32 -->
+<g id="edge20" class="edge">
+<title>Node2&#45;&gt;Node32</title>
+<path fill="none" stroke="midnightblue" d="M512.28,-1145.26C506.65,-1197.62 483.91,-1340.99 400,-1414.5 394.18,-1419.59 387.49,-1423.68 380.37,-1426.96"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="515.77,-1145.56 513.27,-1135.26 508.81,-1144.87 515.77,-1145.56"/>
 </g>
 <!-- Node33 -->
 <g id="node20" class="node">
 <title>Node33</title>
-<g id="a_node20"><a xlink:href="../../d9/df8/classPHG4GDMLUtility.html#a9a60cf236bc494934f1005d31e4da9fd" target="_top" xlink:title="Get or make the parameter node PHG4GDMLConfig from DST nodes. If not found, make a new one.">
-<polygon fill="none" stroke="black" points="217,-1375.5 217,-1405.5 380,-1405.5 380,-1375.5 217,-1375.5"/>
-<text text-anchor="start" x="225" y="-1393.5" font-family="FreeSans" font-size="10.00">PHG4GDMLUtility::GetOrMake</text>
-<text text-anchor="middle" x="298.5" y="-1382.5" font-family="FreeSans" font-size="10.00">ConfigNode</text>
+<g id="a_node20"><a xlink:href="../../d8/d6e/classPHG4ConeSubsystem.html#ad28af91002a876e0061806c3c73e4cd1" target="_top" xlink:title="init">
+<polygon fill="none" stroke="black" points="226.5,-1386 226.5,-1405 370.5,-1405 370.5,-1386 226.5,-1386"/>
+<text text-anchor="middle" x="298.5" y="-1393" font-family="FreeSans" font-size="10.00">PHG4ConeSubsystem::Init</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node33 -->
 <g id="edge21" class="edge">
 <title>Node2&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M510.59,-1144.94C501.5,-1190.82 472.24,-1306.41 400,-1365.5 394.02,-1370.39 387.21,-1374.35 380.02,-1377.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="514.04,-1145.56 512.44,-1135.08 507.16,-1144.27 514.04,-1145.56"/>
+<path fill="none" stroke="midnightblue" d="M511.27,-1145.13C503.5,-1193.01 476.67,-1316.3 400,-1376.5 391.41,-1383.24 381.15,-1387.84 370.51,-1390.94"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="514.74,-1145.55 512.78,-1135.14 507.82,-1144.5 514.74,-1145.55"/>
 </g>
 <!-- Node34 -->
 <g id="node21" class="node">
 <title>Node34</title>
-<g id="a_node21"><a xlink:href="../../d8/d6e/classPHG4ConeSubsystem.html#ad28af91002a876e0061806c3c73e4cd1" target="_top" xlink:title="init">
-<polygon fill="none" stroke="black" points="226.5,-1337 226.5,-1356 370.5,-1356 370.5,-1337 226.5,-1337"/>
-<text text-anchor="middle" x="298.5" y="-1344" font-family="FreeSans" font-size="10.00">PHG4ConeSubsystem::Init</text>
+<g id="a_node21"><a xlink:href="../../d0/d7f/classHepMCCompress.html#a5598862de2cc018209be8b339701cac9" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="237.5,-1348 237.5,-1367 359.5,-1367 359.5,-1348 237.5,-1348"/>
+<text text-anchor="middle" x="298.5" y="-1355" font-family="FreeSans" font-size="10.00">HepMCCompress::Init</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node34 -->
 <g id="edge22" class="edge">
 <title>Node2&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M509.05,-1144.84C497.51,-1185.75 464.76,-1281.08 400,-1327.5 391.27,-1333.76 381.05,-1338.12 370.54,-1341.13"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="512.47,-1145.61 511.7,-1135.04 505.71,-1143.78 512.47,-1145.61"/>
+<path fill="none" stroke="midnightblue" d="M509.6,-1145C498.91,-1187.6 467.36,-1289.07 400,-1338.5 388.33,-1347.06 373.91,-1352.1 359.66,-1354.99"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="513.05,-1145.61 511.98,-1135.07 506.25,-1143.99 513.05,-1145.61"/>
 </g>
 <!-- Node35 -->
 <g id="node22" class="node">
 <title>Node35</title>
-<g id="a_node22"><a xlink:href="../../d0/d7f/classHepMCCompress.html#a5598862de2cc018209be8b339701cac9" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="237.5,-1299 237.5,-1318 359.5,-1318 359.5,-1299 237.5,-1299"/>
-<text text-anchor="middle" x="298.5" y="-1306" font-family="FreeSans" font-size="10.00">HepMCCompress::Init</text>
+<g id="a_node22"><a xlink:href="../../db/d6c/classHepMCNodeReader.html#a6bc7c84c413805989ae15ce520d6db2d" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="231.5,-1310 231.5,-1329 365.5,-1329 365.5,-1310 231.5,-1310"/>
+<text text-anchor="middle" x="298.5" y="-1317" font-family="FreeSans" font-size="10.00">HepMCNodeReader::Init</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node35 -->
 <g id="edge23" class="edge">
 <title>Node2&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M506.48,-1144.76C491.76,-1179.75 455.64,-1253.44 400,-1289.5 388.01,-1297.27 373.62,-1302.04 359.53,-1304.92"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="509.83,-1145.81 510.36,-1135.23 503.35,-1143.17 509.83,-1145.81"/>
+<path fill="none" stroke="midnightblue" d="M507.43,-1144.51C493.73,-1181.15 458.41,-1261.38 400,-1300.5 389.82,-1307.32 377.83,-1311.84 365.74,-1314.81"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="510.76,-1145.61 510.86,-1135.02 504.17,-1143.23 510.76,-1145.61"/>
 </g>
 <!-- Node36 -->
 <g id="node23" class="node">
 <title>Node36</title>
-<g id="a_node23"><a xlink:href="../../db/d6c/classHepMCNodeReader.html#a6bc7c84c413805989ae15ce520d6db2d" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="231.5,-1261 231.5,-1280 365.5,-1280 365.5,-1261 231.5,-1261"/>
-<text text-anchor="middle" x="298.5" y="-1268" font-family="FreeSans" font-size="10.00">HepMCNodeReader::Init</text>
+<g id="a_node23"><a xlink:href="../../d2/d2e/classPHG4HeadReco.html#a846ec00965508330db91db4b312831b3" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="241,-1272 241,-1291 356,-1291 356,-1272 241,-1272"/>
+<text text-anchor="middle" x="298.5" y="-1279" font-family="FreeSans" font-size="10.00">PHG4HeadReco::Init</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node36 -->
 <g id="edge24" class="edge">
 <title>Node2&#45;&gt;Node36</title>
-<path fill="none" stroke="midnightblue" d="M502.81,-1144.19C484.89,-1172.35 446.95,-1225.17 400,-1251.5 389.55,-1257.36 377.62,-1261.45 365.72,-1264.3"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="506,-1145.68 508.3,-1135.34 500.05,-1142 506,-1145.68"/>
+<path fill="none" stroke="midnightblue" d="M504.21,-1144.09C487.3,-1174.23 449.6,-1233.32 400,-1262.5 386.84,-1270.24 371.18,-1274.93 356.18,-1277.74"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="507.42,-1145.52 509.14,-1135.07 501.27,-1142.17 507.42,-1145.52"/>
 </g>
 <!-- Node37 -->
 <g id="node24" class="node">
 <title>Node37</title>
-<g id="a_node24"><a xlink:href="../../d2/d2e/classPHG4HeadReco.html#a846ec00965508330db91db4b312831b3" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="241,-1223 241,-1242 356,-1242 356,-1223 241,-1223"/>
-<text text-anchor="middle" x="298.5" y="-1230" font-family="FreeSans" font-size="10.00">PHG4HeadReco::Init</text>
+<g id="a_node24"><a xlink:href="../../da/d29/classFun4AllServer.html#a2ebfcdcf706670c98c189bfa93c3ff89" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="red" points="222.5,-1234 222.5,-1253 374.5,-1253 374.5,-1234 222.5,-1234"/>
+<text text-anchor="middle" x="298.5" y="-1241" font-family="FreeSans" font-size="10.00">Fun4AllServer::InitNodeTree</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node37 -->
 <g id="edge25" class="edge">
 <title>Node2&#45;&gt;Node37</title>
-<path fill="none" stroke="midnightblue" d="M497.32,-1142.59C476.49,-1162.84 438.86,-1196.05 400,-1213.5 386.39,-1219.61 370.9,-1223.76 356.21,-1226.57"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="500.05,-1144.8 504.68,-1135.27 495.12,-1139.84 500.05,-1144.8"/>
+<path fill="none" stroke="midnightblue" d="M499.21,-1142.84C479.12,-1165.19 440.99,-1203.54 400,-1223.5 391.04,-1227.86 381.2,-1231.27 371.28,-1233.94"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="502.01,-1144.95 505.99,-1135.13 496.76,-1140.32 502.01,-1144.95"/>
 </g>
-<!-- Node38 -->
+<!-- Node41 -->
 <g id="node25" class="node">
-<title>Node38</title>
-<g id="a_node25"><a xlink:href="../../da/d29/classFun4AllServer.html#a2ebfcdcf706670c98c189bfa93c3ff89" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="222.5,-1185 222.5,-1204 374.5,-1204 374.5,-1185 222.5,-1185"/>
-<text text-anchor="middle" x="298.5" y="-1192" font-family="FreeSans" font-size="10.00">Fun4AllServer::InitNodeTree</text>
+<title>Node41</title>
+<g id="a_node25"><a xlink:href="../../d6/dc8/classFun4AllPrdfOutputManager.html#a1d891012ff50062628d053f825426c80" target="_top" xlink:title="PRDF node initialization [class specific method].">
+<polygon fill="none" stroke="black" points="224.5,-1184.5 224.5,-1214.5 372.5,-1214.5 372.5,-1184.5 224.5,-1184.5"/>
+<text text-anchor="start" x="232.5" y="-1202.5" font-family="FreeSans" font-size="10.00">Fun4AllPrdfOutputManager</text>
+<text text-anchor="middle" x="298.5" y="-1191.5" font-family="FreeSans" font-size="10.00">::InitPrdfNode</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node38 -->
+<!-- Node2&#45;&gt;Node41 -->
 <g id="edge26" class="edge">
-<title>Node2&#45;&gt;Node38</title>
-<path fill="none" stroke="midnightblue" d="M486.05,-1139.48C463.34,-1150.34 430.24,-1165.11 400,-1174.5 386.66,-1178.64 372.06,-1182.13 358.21,-1184.96"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="487.63,-1142.6 495.1,-1135.08 484.58,-1136.3 487.63,-1142.6"/>
+<title>Node2&#45;&gt;Node41</title>
+<path fill="none" stroke="midnightblue" d="M485.1,-1139.47C462.36,-1150.08 429.65,-1164.51 400,-1174.5 389.27,-1178.12 377.73,-1181.47 366.43,-1184.46"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="486.65,-1142.61 494.2,-1135.18 483.67,-1136.28 486.65,-1142.61"/>
 </g>
 <!-- Node42 -->
 <g id="node26" class="node">
 <title>Node42</title>
-<g id="a_node26"><a xlink:href="../../d6/dc8/classFun4AllPrdfOutputManager.html#a1d891012ff50062628d053f825426c80" target="_top" xlink:title="PRDF node initialization [class specific method].">
-<polygon fill="none" stroke="black" points="224.5,-1135.5 224.5,-1165.5 372.5,-1165.5 372.5,-1135.5 224.5,-1135.5"/>
-<text text-anchor="start" x="232.5" y="-1153.5" font-family="FreeSans" font-size="10.00">Fun4AllPrdfOutputManager</text>
-<text text-anchor="middle" x="298.5" y="-1142.5" font-family="FreeSans" font-size="10.00">::InitPrdfNode</text>
+<g id="a_node26"><a xlink:href="../../d5/d85/classPHG4TruthSubsystem.html#a0dc4476d86bcfecbb026ca2d98caca32" target="_top" xlink:title="init">
+<polygon fill="none" stroke="black" points="237.5,-1135.5 237.5,-1165.5 359.5,-1165.5 359.5,-1135.5 237.5,-1135.5"/>
+<text text-anchor="start" x="245.5" y="-1153.5" font-family="FreeSans" font-size="10.00">PHG4TruthSubsystem</text>
+<text text-anchor="middle" x="298.5" y="-1142.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node42 -->
 <g id="edge27" class="edge">
 <title>Node2&#45;&gt;Node42</title>
-<path fill="none" stroke="midnightblue" d="M425.7,-1135.79C408.13,-1137.84 389.85,-1139.97 372.85,-1141.95"/>
+<path fill="none" stroke="midnightblue" d="M425.82,-1135.78C403.57,-1138.37 380.18,-1141.1 359.66,-1143.49"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="426.43,-1139.23 435.95,-1134.6 425.62,-1132.28 426.43,-1139.23"/>
 </g>
 <!-- Node43 -->
 <g id="node27" class="node">
 <title>Node43</title>
-<g id="a_node27"><a xlink:href="../../d5/d85/classPHG4TruthSubsystem.html#a0dc4476d86bcfecbb026ca2d98caca32" target="_top" xlink:title="init">
-<polygon fill="none" stroke="black" points="237.5,-1086.5 237.5,-1116.5 359.5,-1116.5 359.5,-1086.5 237.5,-1086.5"/>
-<text text-anchor="start" x="245.5" y="-1104.5" font-family="FreeSans" font-size="10.00">PHG4TruthSubsystem</text>
+<g id="a_node27"><a xlink:href="../../d7/d7f/classPHG4DetectorGroupSubsystem.html#a9c1bbc352e506b9b598fcd4d34ea279e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="214,-1086.5 214,-1116.5 383,-1116.5 383,-1086.5 214,-1086.5"/>
+<text text-anchor="start" x="222" y="-1104.5" font-family="FreeSans" font-size="10.00">PHG4DetectorGroupSubsystem</text>
 <text text-anchor="middle" x="298.5" y="-1093.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
 </a>
 </g>
@@ -420,15 +420,15 @@
 <!-- Node2&#45;&gt;Node43 -->
 <g id="edge28" class="edge">
 <title>Node2&#45;&gt;Node43</title>
-<path fill="none" stroke="midnightblue" d="M425.82,-1115.63C403.57,-1113.14 380.18,-1110.53 359.66,-1108.23"/>
+<path fill="none" stroke="midnightblue" d="M425.81,-1115.63C411.75,-1114.06 397.23,-1112.43 383.27,-1110.87"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="425.63,-1119.13 435.95,-1116.77 426.41,-1112.18 425.63,-1119.13"/>
 </g>
 <!-- Node44 -->
 <g id="node28" class="node">
 <title>Node44</title>
-<g id="a_node28"><a xlink:href="../../d7/d7f/classPHG4DetectorGroupSubsystem.html#a9c1bbc352e506b9b598fcd4d34ea279e" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="214,-1037.5 214,-1067.5 383,-1067.5 383,-1037.5 214,-1037.5"/>
-<text text-anchor="start" x="222" y="-1055.5" font-family="FreeSans" font-size="10.00">PHG4DetectorGroupSubsystem</text>
+<g id="a_node28"><a xlink:href="../../d5/d29/classPHG4DetectorSubsystem.html#a3c2ac5dc436f84e09140b6e2a1be8ff9" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="228.5,-1037.5 228.5,-1067.5 368.5,-1067.5 368.5,-1037.5 228.5,-1037.5"/>
+<text text-anchor="start" x="236.5" y="-1055.5" font-family="FreeSans" font-size="10.00">PHG4DetectorSubsystem</text>
 <text text-anchor="middle" x="298.5" y="-1044.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
 </a>
 </g>
@@ -436,77 +436,77 @@
 <!-- Node2&#45;&gt;Node44 -->
 <g id="edge29" class="edge">
 <title>Node2&#45;&gt;Node44</title>
-<path fill="none" stroke="midnightblue" d="M485.54,-1111.64C462.79,-1100.97 429.88,-1086.41 400,-1076.5 390.21,-1073.25 379.75,-1070.25 369.41,-1067.56"/>
+<path fill="none" stroke="midnightblue" d="M485.54,-1111.64C462.79,-1100.97 429.88,-1086.41 400,-1076.5 389.95,-1073.17 379.2,-1070.1 368.6,-1067.35"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="484.09,-1114.83 494.63,-1115.96 487.09,-1108.51 484.09,-1114.83"/>
 </g>
 <!-- Node45 -->
 <g id="node29" class="node">
 <title>Node45</title>
-<g id="a_node29"><a xlink:href="../../d5/d29/classPHG4DetectorSubsystem.html#a3c2ac5dc436f84e09140b6e2a1be8ff9" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="228.5,-988.5 228.5,-1018.5 368.5,-1018.5 368.5,-988.5 228.5,-988.5"/>
-<text text-anchor="start" x="236.5" y="-1006.5" font-family="FreeSans" font-size="10.00">PHG4DetectorSubsystem</text>
-<text text-anchor="middle" x="298.5" y="-995.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
+<g id="a_node29"><a xlink:href="../../d2/d1b/classDoEmbedding.html#a9e379c30bc0c6de84a6ccf13691b4649" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="236,-999 236,-1018 361,-1018 361,-999 236,-999"/>
+<text text-anchor="middle" x="298.5" y="-1006" font-family="FreeSans" font-size="10.00">DoEmbedding::InitRun</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node45 -->
 <g id="edge30" class="edge">
 <title>Node2&#45;&gt;Node45</title>
-<path fill="none" stroke="midnightblue" d="M498.78,-1108.06C478.48,-1085.92 440.4,-1048.13 400,-1027.5 390.26,-1022.52 379.45,-1018.55 368.64,-1015.4"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="496.37,-1110.61 505.66,-1115.71 501.58,-1105.93 496.37,-1110.61"/>
+<path fill="none" stroke="midnightblue" d="M499.24,-1108.1C479.18,-1085.69 441.08,-1047.27 400,-1027.5 388,-1021.73 374.4,-1017.7 361.18,-1014.9"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="496.79,-1110.62 506.01,-1115.84 502.05,-1106.01 496.79,-1110.62"/>
 </g>
 <!-- Node46 -->
 <g id="node30" class="node">
 <title>Node46</title>
-<g id="a_node30"><a xlink:href="../../d2/d1b/classDoEmbedding.html#a9e379c30bc0c6de84a6ccf13691b4649" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="236,-950 236,-969 361,-969 361,-950 236,-950"/>
-<text text-anchor="middle" x="298.5" y="-957" font-family="FreeSans" font-size="10.00">DoEmbedding::InitRun</text>
+<g id="a_node30"><a xlink:href="../../dd/d77/classSQSingleMuonGen.html#ab79f507a7ac2a15674e4546793b380ff" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="225,-961 225,-980 372,-980 372,-961 225,-961"/>
+<text text-anchor="middle" x="298.5" y="-968" font-family="FreeSans" font-size="10.00">SQSingleMuonGen::InitRun</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node46 -->
 <g id="edge31" class="edge">
 <title>Node2&#45;&gt;Node46</title>
-<path fill="none" stroke="midnightblue" d="M505.03,-1106.44C488.87,-1074.4 451.71,-1010.13 400,-978.5 388.34,-971.36 374.6,-966.8 361.09,-963.91"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="501.98,-1108.19 509.52,-1115.63 508.27,-1105.11 501.98,-1108.19"/>
+<path fill="none" stroke="midnightblue" d="M503.93,-1106.61C486.84,-1076.56 449.2,-1018.33 400,-989.5 391.5,-984.52 381.96,-980.8 372.23,-978.04"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="501.02,-1108.58 508.92,-1115.63 507.14,-1105.19 501.02,-1108.58"/>
 </g>
 <!-- Node47 -->
 <g id="node31" class="node">
 <title>Node47</title>
-<g id="a_node31"><a xlink:href="../../dd/d77/classSQSingleMuonGen.html#ab79f507a7ac2a15674e4546793b380ff" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="225,-912 225,-931 372,-931 372,-912 225,-912"/>
-<text text-anchor="middle" x="298.5" y="-919" font-family="FreeSans" font-size="10.00">SQSingleMuonGen::InitRun</text>
+<g id="a_node31"><a xlink:href="../../df/d5e/classPHG4BlockCellReco.html#aa62bbe31407e5e4c80f541dbd5c18aa4" target="_top" xlink:title="module initialization">
+<polygon fill="none" stroke="black" points="239,-911.5 239,-941.5 358,-941.5 358,-911.5 239,-911.5"/>
+<text text-anchor="start" x="247" y="-929.5" font-family="FreeSans" font-size="10.00">PHG4BlockCellReco::</text>
+<text text-anchor="middle" x="298.5" y="-918.5" font-family="FreeSans" font-size="10.00">InitRun</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node47 -->
 <g id="edge32" class="edge">
 <title>Node2&#45;&gt;Node47</title>
-<path fill="none" stroke="midnightblue" d="M507.94,-1105.96C494.95,-1067.51 460.53,-982.15 400,-940.5 391.66,-934.76 382.05,-930.64 372.16,-927.69"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="504.75,-1107.46 511.17,-1115.89 511.41,-1105.3 504.75,-1107.46"/>
+<path fill="none" stroke="midnightblue" d="M507,-1106.38C492.75,-1070.22 456.82,-991.84 400,-951.5 387.76,-942.81 372.81,-937.13 358.22,-933.42"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="503.75,-1107.68 510.59,-1115.77 510.29,-1105.18 503.75,-1107.68"/>
 </g>
 <!-- Node48 -->
 <g id="node32" class="node">
 <title>Node48</title>
-<g id="a_node32"><a xlink:href="../../df/d5e/classPHG4BlockCellReco.html#aa62bbe31407e5e4c80f541dbd5c18aa4" target="_top" xlink:title="module initialization">
-<polygon fill="none" stroke="black" points="239,-862.5 239,-892.5 358,-892.5 358,-862.5 239,-862.5"/>
-<text text-anchor="start" x="247" y="-880.5" font-family="FreeSans" font-size="10.00">PHG4BlockCellReco::</text>
-<text text-anchor="middle" x="298.5" y="-869.5" font-family="FreeSans" font-size="10.00">InitRun</text>
+<g id="a_node32"><a xlink:href="../../d5/dd0/classPHG4CylinderCellReco.html#ada869396a39d11561fcbb85572446310" target="_top" xlink:title="module initialization">
+<polygon fill="none" stroke="black" points="235,-862.5 235,-892.5 362,-892.5 362,-862.5 235,-862.5"/>
+<text text-anchor="start" x="243" y="-880.5" font-family="FreeSans" font-size="10.00">PHG4CylinderCellReco</text>
+<text text-anchor="middle" x="298.5" y="-869.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node48 -->
 <g id="edge33" class="edge">
 <title>Node2&#45;&gt;Node48</title>
-<path fill="none" stroke="midnightblue" d="M509.74,-1105.67C499.26,-1061.87 467.98,-956.47 400,-902.5 388.03,-893 372.93,-887.05 358.1,-883.34"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="506.38,-1106.66 512.01,-1115.64 513.2,-1105.11 506.38,-1106.66"/>
+<path fill="none" stroke="midnightblue" d="M509.8,-1105.54C499.46,-1061.44 468.43,-955.4 400,-901.5 389.08,-892.9 375.56,-887.3 362.02,-883.69"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="506.45,-1106.57 512.05,-1115.57 513.28,-1105.04 506.45,-1106.57"/>
 </g>
 <!-- Node49 -->
 <g id="node33" class="node">
 <title>Node49</title>
-<g id="a_node33"><a xlink:href="../../d5/dd0/classPHG4CylinderCellReco.html#ada869396a39d11561fcbb85572446310" target="_top" xlink:title="module initialization">
-<polygon fill="none" stroke="black" points="235,-813.5 235,-843.5 362,-843.5 362,-813.5 235,-813.5"/>
-<text text-anchor="start" x="243" y="-831.5" font-family="FreeSans" font-size="10.00">PHG4CylinderCellReco</text>
+<g id="a_node33"><a xlink:href="../../dc/d94/classPHG4CylinderCellTPCReco.html#a36f8dae72fae5f5d6e17b06fcec0b463" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="225.5,-813.5 225.5,-843.5 371.5,-843.5 371.5,-813.5 225.5,-813.5"/>
+<text text-anchor="start" x="233.5" y="-831.5" font-family="FreeSans" font-size="10.00">PHG4CylinderCellTPCReco</text>
 <text text-anchor="middle" x="298.5" y="-820.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
 </a>
 </g>
@@ -514,46 +514,46 @@
 <!-- Node2&#45;&gt;Node49 -->
 <g id="edge34" class="edge">
 <title>Node2&#45;&gt;Node49</title>
-<path fill="none" stroke="midnightblue" d="M511.83,-1105.8C505.18,-1055.39 480.4,-920.88 400,-852.5 389.34,-843.43 375.85,-837.67 362.24,-834.03"/>
+<path fill="none" stroke="midnightblue" d="M511.83,-1105.8C505.18,-1055.39 480.4,-920.88 400,-852.5 391.8,-845.53 381.93,-840.5 371.61,-836.9"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="508.38,-1106.48 513.07,-1115.98 515.33,-1105.63 508.38,-1106.48"/>
 </g>
 <!-- Node50 -->
 <g id="node34" class="node">
 <title>Node50</title>
-<g id="a_node34"><a xlink:href="../../dc/d94/classPHG4CylinderCellTPCReco.html#a36f8dae72fae5f5d6e17b06fcec0b463" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="225.5,-764.5 225.5,-794.5 371.5,-794.5 371.5,-764.5 225.5,-764.5"/>
-<text text-anchor="start" x="233.5" y="-782.5" font-family="FreeSans" font-size="10.00">PHG4CylinderCellTPCReco</text>
-<text text-anchor="middle" x="298.5" y="-771.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
+<g id="a_node34"><a xlink:href="../../df/d36/classSQDigitizer.html#a21d74c5a523ba8627e32e49714a6e26f" target="_top" xlink:title="module initialization">
+<polygon fill="none" stroke="black" points="242.5,-775 242.5,-794 354.5,-794 354.5,-775 242.5,-775"/>
+<text text-anchor="middle" x="298.5" y="-782" font-family="FreeSans" font-size="10.00">SQDigitizer::InitRun</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node50 -->
 <g id="edge35" class="edge">
 <title>Node2&#45;&gt;Node50</title>
-<path fill="none" stroke="midnightblue" d="M513.23,-1105.76C509.92,-1049.43 492.4,-886.6 400,-803.5 391.93,-796.24 382.06,-791.08 371.7,-787.41"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="509.74,-1106.01 513.73,-1115.83 516.73,-1105.67 509.74,-1106.01"/>
+<path fill="none" stroke="midnightblue" d="M513.42,-1105.54C510.62,-1048.62 494.35,-884.38 400,-803.5 387.46,-792.75 370.77,-787.31 354.6,-784.73"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="509.93,-1105.86 513.83,-1115.72 516.93,-1105.58 509.93,-1105.86"/>
 </g>
 <!-- Node51 -->
 <g id="node35" class="node">
 <title>Node51</title>
-<g id="a_node35"><a xlink:href="../../df/d36/classSQDigitizer.html#a21d74c5a523ba8627e32e49714a6e26f" target="_top" xlink:title="module initialization">
-<polygon fill="none" stroke="black" points="242.5,-726 242.5,-745 354.5,-745 354.5,-726 242.5,-726"/>
-<text text-anchor="middle" x="298.5" y="-733" font-family="FreeSans" font-size="10.00">SQDigitizer::InitRun</text>
+<g id="a_node35"><a xlink:href="../../dc/d9a/classPHG4InEventCompress.html#a6aeb4087c74a2fc61ce8e4f1df80c09c" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="234,-725.5 234,-755.5 363,-755.5 363,-725.5 234,-725.5"/>
+<text text-anchor="start" x="242" y="-743.5" font-family="FreeSans" font-size="10.00">PHG4InEventCompress</text>
+<text text-anchor="middle" x="298.5" y="-732.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node51 -->
 <g id="edge36" class="edge">
 <title>Node2&#45;&gt;Node51</title>
-<path fill="none" stroke="midnightblue" d="M514.49,-1105.53C514.84,-1043.09 506.87,-850.09 400,-754.5 387.63,-743.43 370.88,-737.91 354.62,-735.37"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="510.98,-1105.86 514.34,-1115.91 517.98,-1105.96 510.98,-1105.86"/>
+<path fill="none" stroke="midnightblue" d="M514.03,-1105.55C512.99,-1044.82 501.24,-860.57 400,-765.5 389.84,-755.96 376.62,-749.91 363.13,-746.1"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="510.53,-1105.73 514.12,-1115.7 517.53,-1105.67 510.53,-1105.73"/>
 </g>
 <!-- Node52 -->
 <g id="node36" class="node">
 <title>Node52</title>
-<g id="a_node36"><a xlink:href="../../dc/d9a/classPHG4InEventCompress.html#a6aeb4087c74a2fc61ce8e4f1df80c09c" target="_top" xlink:title=" ">
+<g id="a_node36"><a xlink:href="../../d8/ded/classPHG4InEventReadBack.html#aa31ef3721af746a498e04c7276e71e2f" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="234,-676.5 234,-706.5 363,-706.5 363,-676.5 234,-676.5"/>
-<text text-anchor="start" x="242" y="-694.5" font-family="FreeSans" font-size="10.00">PHG4InEventCompress</text>
+<text text-anchor="start" x="242" y="-694.5" font-family="FreeSans" font-size="10.00">PHG4InEventReadBack</text>
 <text text-anchor="middle" x="298.5" y="-683.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
 </a>
 </g>
@@ -561,15 +561,15 @@
 <!-- Node2&#45;&gt;Node52 -->
 <g id="edge37" class="edge">
 <title>Node2&#45;&gt;Node52</title>
-<path fill="none" stroke="midnightblue" d="M511.14,-1105.66C500.08,-1031.6 457.81,-772.72 400,-716.5 389.95,-706.72 376.69,-700.58 363.11,-696.77"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="507.73,-1106.51 512.64,-1115.9 514.65,-1105.49 507.73,-1106.51"/>
+<path fill="none" stroke="midnightblue" d="M511.16,-1105.59C500.19,-1031.29 458.19,-771.59 400,-715.5 389.93,-705.79 376.66,-699.77 363.08,-696.09"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="507.75,-1106.47 512.66,-1115.87 514.68,-1105.47 507.75,-1106.47"/>
 </g>
 <!-- Node53 -->
 <g id="node37" class="node">
 <title>Node53</title>
-<g id="a_node37"><a xlink:href="../../d8/ded/classPHG4InEventReadBack.html#aa31ef3721af746a498e04c7276e71e2f" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="234,-627.5 234,-657.5 363,-657.5 363,-627.5 234,-627.5"/>
-<text text-anchor="start" x="242" y="-645.5" font-family="FreeSans" font-size="10.00">PHG4InEventReadBack</text>
+<g id="a_node37"><a xlink:href="../../d8/d78/classPHG4ParticleGeneratorBase.html#a6d7c97ddfb202769c5b878454d8d07a7" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="red" points="222.5,-627.5 222.5,-657.5 374.5,-657.5 374.5,-627.5 222.5,-627.5"/>
+<text text-anchor="start" x="230.5" y="-645.5" font-family="FreeSans" font-size="10.00">PHG4ParticleGeneratorBase</text>
 <text text-anchor="middle" x="298.5" y="-634.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
 </a>
 </g>
@@ -577,47 +577,47 @@
 <!-- Node2&#45;&gt;Node53 -->
 <g id="edge38" class="edge">
 <title>Node2&#45;&gt;Node53</title>
-<path fill="none" stroke="midnightblue" d="M511.82,-1105.82C502.62,-1026.37 464.48,-730.4 400,-666.5 390,-656.59 376.68,-650.5 363.02,-646.82"/>
+<path fill="none" stroke="midnightblue" d="M511.82,-1105.82C502.62,-1026.37 464.48,-730.4 400,-666.5 392.86,-659.43 384.04,-654.3 374.61,-650.61"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="508.36,-1106.38 512.97,-1115.92 515.32,-1105.59 508.36,-1106.38"/>
 </g>
-<!-- Node54 -->
+<!-- Node56 -->
 <g id="node38" class="node">
-<title>Node54</title>
-<g id="a_node38"><a xlink:href="../../d8/d78/classPHG4ParticleGeneratorBase.html#a6d7c97ddfb202769c5b878454d8d07a7" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="222.5,-578.5 222.5,-608.5 374.5,-608.5 374.5,-578.5 222.5,-578.5"/>
-<text text-anchor="start" x="230.5" y="-596.5" font-family="FreeSans" font-size="10.00">PHG4ParticleGeneratorBase</text>
-<text text-anchor="middle" x="298.5" y="-585.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
+<title>Node56</title>
+<g id="a_node38"><a xlink:href="../../d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#ab94cb70aadedac669f75a44b8788fbfd" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="219,-578.5 219,-608.5 378,-608.5 378,-578.5 219,-578.5"/>
+<text text-anchor="start" x="227" y="-596.5" font-family="FreeSans" font-size="10.00">PHG4ParticleGeneratorVector</text>
+<text text-anchor="middle" x="298.5" y="-585.5" font-family="FreeSans" font-size="10.00">Meson::InitRun</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node54 -->
+<!-- Node2&#45;&gt;Node56 -->
 <g id="edge39" class="edge">
-<title>Node2&#45;&gt;Node54</title>
-<path fill="none" stroke="midnightblue" d="M512.31,-1105.66C504.68,-1020.76 470.7,-689.17 400,-617.5 392.88,-610.28 384.01,-605.08 374.51,-601.36"/>
+<title>Node2&#45;&gt;Node56</title>
+<path fill="none" stroke="midnightblue" d="M512.31,-1105.66C504.68,-1020.76 470.7,-689.17 400,-617.5 393.83,-611.24 386.34,-606.5 378.26,-602.92"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="508.83,-1106.1 513.2,-1115.75 515.81,-1105.48 508.83,-1106.1"/>
 </g>
 <!-- Node57 -->
 <g id="node39" class="node">
 <title>Node57</title>
-<g id="a_node39"><a xlink:href="../../d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#ab94cb70aadedac669f75a44b8788fbfd" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="219,-529.5 219,-559.5 378,-559.5 378,-529.5 219,-529.5"/>
-<text text-anchor="start" x="227" y="-547.5" font-family="FreeSans" font-size="10.00">PHG4ParticleGeneratorVector</text>
-<text text-anchor="middle" x="298.5" y="-536.5" font-family="FreeSans" font-size="10.00">Meson::InitRun</text>
+<g id="a_node39"><a xlink:href="../../de/d76/classPHG4PSScanGenerator.html#a910e9a4a0228a5185e97b5466b256ec6" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="234.5,-529.5 234.5,-559.5 362.5,-559.5 362.5,-529.5 234.5,-529.5"/>
+<text text-anchor="start" x="242.5" y="-547.5" font-family="FreeSans" font-size="10.00">PHG4PSScanGenerator</text>
+<text text-anchor="middle" x="298.5" y="-536.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node57 -->
 <g id="edge40" class="edge">
 <title>Node2&#45;&gt;Node57</title>
-<path fill="none" stroke="midnightblue" d="M512.72,-1105.5C506.55,-1015.38 476.95,-647.99 400,-568.5 393.89,-562.18 386.43,-557.41 378.37,-553.81"/>
+<path fill="none" stroke="midnightblue" d="M512.72,-1105.5C506.55,-1015.38 476.95,-647.99 400,-568.5 390.02,-558.19 376.46,-551.98 362.54,-548.31"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="509.24,-1105.96 513.4,-1115.7 516.23,-1105.49 509.24,-1105.96"/>
 </g>
 <!-- Node58 -->
 <g id="node40" class="node">
 <title>Node58</title>
-<g id="a_node40"><a xlink:href="../../de/d76/classPHG4PSScanGenerator.html#a910e9a4a0228a5185e97b5466b256ec6" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="234.5,-480.5 234.5,-510.5 362.5,-510.5 362.5,-480.5 234.5,-480.5"/>
-<text text-anchor="start" x="242.5" y="-498.5" font-family="FreeSans" font-size="10.00">PHG4PSScanGenerator</text>
+<g id="a_node40"><a xlink:href="../../d5/df3/classPHG4SimpleEventGenerator.html#a54f0db778c3a2a4154b76b30e75baf44" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="221.5,-480.5 221.5,-510.5 375.5,-510.5 375.5,-480.5 221.5,-480.5"/>
+<text text-anchor="start" x="229.5" y="-498.5" font-family="FreeSans" font-size="10.00">PHG4SimpleEventGenerator</text>
 <text text-anchor="middle" x="298.5" y="-487.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
 </a>
 </g>
@@ -625,46 +625,46 @@
 <!-- Node2&#45;&gt;Node58 -->
 <g id="edge41" class="edge">
 <title>Node2&#45;&gt;Node58</title>
-<path fill="none" stroke="midnightblue" d="M513.08,-1105.58C508.31,-1010.85 483.29,-606.93 400,-519.5 390.1,-509.11 376.57,-502.87 362.65,-499.2"/>
+<path fill="none" stroke="midnightblue" d="M513.08,-1105.58C508.31,-1010.85 483.29,-606.93 400,-519.5 393.26,-512.42 384.83,-507.27 375.74,-503.54"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="509.6,-1105.96 513.58,-1115.77 516.59,-1105.62 509.6,-1105.96"/>
 </g>
 <!-- Node59 -->
 <g id="node41" class="node">
 <title>Node59</title>
-<g id="a_node41"><a xlink:href="../../d5/df3/classPHG4SimpleEventGenerator.html#a54f0db778c3a2a4154b76b30e75baf44" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="221.5,-431.5 221.5,-461.5 375.5,-461.5 375.5,-431.5 221.5,-431.5"/>
-<text text-anchor="start" x="229.5" y="-449.5" font-family="FreeSans" font-size="10.00">PHG4SimpleEventGenerator</text>
-<text text-anchor="middle" x="298.5" y="-438.5" font-family="FreeSans" font-size="10.00">::InitRun</text>
+<g id="a_node41"><a xlink:href="../../d8/d0f/classSQCosmicGen.html#a53be9b78ceb9188badce2263849afa1e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="235.5,-442 235.5,-461 361.5,-461 361.5,-442 235.5,-442"/>
+<text text-anchor="middle" x="298.5" y="-449" font-family="FreeSans" font-size="10.00">SQCosmicGen::InitRun</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node59 -->
 <g id="edge42" class="edge">
 <title>Node2&#45;&gt;Node59</title>
-<path fill="none" stroke="midnightblue" d="M513.4,-1105.88C509.96,-1007.18 489.72,-565.97 400,-470.5 393.24,-463.31 384.75,-458.1 375.58,-454.36"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="509.9,-1106.07 513.73,-1115.95 516.9,-1105.84 509.9,-1106.07"/>
+<path fill="none" stroke="midnightblue" d="M513.48,-1105.8C510.47,-1006.69 491.97,-563.81 400,-470.5 389.78,-460.13 375.79,-454.45 361.51,-451.53"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="509.99,-1106.01 513.77,-1115.91 516.99,-1105.81 509.99,-1106.01"/>
 </g>
 <!-- Node60 -->
 <g id="node42" class="node">
 <title>Node60</title>
-<g id="a_node42"><a xlink:href="../../d8/d0f/classSQCosmicGen.html#a53be9b78ceb9188badce2263849afa1e" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="235.5,-393 235.5,-412 361.5,-412 361.5,-393 235.5,-393"/>
-<text text-anchor="middle" x="298.5" y="-400" font-family="FreeSans" font-size="10.00">SQCosmicGen::InitRun</text>
+<g id="a_node42"><a xlink:href="../../df/d14/classPHG4BlockSubsystem.html#ac0d173351f388609274a5105753746c3" target="_top" xlink:title="InitRunSubsystem.">
+<polygon fill="none" stroke="black" points="236,-392.5 236,-422.5 361,-422.5 361,-392.5 236,-392.5"/>
+<text text-anchor="start" x="244" y="-410.5" font-family="FreeSans" font-size="10.00">PHG4BlockSubsystem</text>
+<text text-anchor="middle" x="298.5" y="-399.5" font-family="FreeSans" font-size="10.00">::InitRunSubsystem</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node60 -->
 <g id="edge43" class="edge">
 <title>Node2&#45;&gt;Node60</title>
-<path fill="none" stroke="midnightblue" d="M513.74,-1105.64C511.96,-1001.85 498.47,-522.59 400,-421.5 389.84,-411.07 375.88,-405.37 361.59,-402.44"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="510.24,-1105.75 513.89,-1115.69 517.24,-1105.64 510.24,-1105.75"/>
+<path fill="none" stroke="midnightblue" d="M513.58,-1105.74C511,-1003.41 494.13,-534.55 400,-432.5 389.82,-421.46 375.59,-414.97 361.03,-411.22"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="510.08,-1105.98 513.82,-1115.89 517.08,-1105.82 510.08,-1105.98"/>
 </g>
 <!-- Node61 -->
 <g id="node43" class="node">
 <title>Node61</title>
-<g id="a_node43"><a xlink:href="../../df/d14/classPHG4BlockSubsystem.html#ac0d173351f388609274a5105753746c3" target="_top" xlink:title="InitRunSubsystem.">
-<polygon fill="none" stroke="black" points="236,-343.5 236,-373.5 361,-373.5 361,-343.5 236,-343.5"/>
-<text text-anchor="start" x="244" y="-361.5" font-family="FreeSans" font-size="10.00">PHG4BlockSubsystem</text>
+<g id="a_node43"><a xlink:href="../../d9/df7/classPHG4BNLTargetCoilSubsystem.html#a51eacfee4ecd504d8a424baa292de510" target="_top" xlink:title="init runwise stuff">
+<polygon fill="none" stroke="black" points="216,-343.5 216,-373.5 381,-373.5 381,-343.5 216,-343.5"/>
+<text text-anchor="start" x="224" y="-361.5" font-family="FreeSans" font-size="10.00">PHG4BNLTargetCoilSubsystem</text>
 <text text-anchor="middle" x="298.5" y="-350.5" font-family="FreeSans" font-size="10.00">::InitRunSubsystem</text>
 </a>
 </g>
@@ -672,15 +672,15 @@
 <!-- Node2&#45;&gt;Node61 -->
 <g id="edge44" class="edge">
 <title>Node2&#45;&gt;Node61</title>
-<path fill="none" stroke="midnightblue" d="M513.81,-1105.7C512.41,-999.02 500.45,-493.57 400,-383.5 389.88,-372.41 375.67,-365.9 361.11,-362.15"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="510.31,-1105.77 513.93,-1115.73 517.31,-1105.69 510.31,-1105.77"/>
+<path fill="none" stroke="midnightblue" d="M513.84,-1105.65C512.54,-998.75 501.08,-492.25 400,-382.5 394.65,-376.69 388.17,-372.18 381.11,-368.67"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="510.34,-1105.75 513.94,-1115.71 517.34,-1105.67 510.34,-1105.75"/>
 </g>
 <!-- Node62 -->
 <g id="node44" class="node">
 <title>Node62</title>
-<g id="a_node44"><a xlink:href="../../d9/df7/classPHG4BNLTargetCoilSubsystem.html#a51eacfee4ecd504d8a424baa292de510" target="_top" xlink:title="init runwise stuff">
-<polygon fill="none" stroke="black" points="216,-294.5 216,-324.5 381,-324.5 381,-294.5 216,-294.5"/>
-<text text-anchor="start" x="224" y="-312.5" font-family="FreeSans" font-size="10.00">PHG4BNLTargetCoilSubsystem</text>
+<g id="a_node44"><a xlink:href="../../de/d78/classPHG4CollimatorSubsystem.html#a92f9e8f0d2891f34d9a638a76577a6b2" target="_top" xlink:title="InitRunSubsystem.">
+<polygon fill="none" stroke="black" points="224,-294.5 224,-324.5 373,-324.5 373,-294.5 224,-294.5"/>
+<text text-anchor="start" x="232" y="-312.5" font-family="FreeSans" font-size="10.00">PHG4CollimatorSubsystem</text>
 <text text-anchor="middle" x="298.5" y="-301.5" font-family="FreeSans" font-size="10.00">::InitRunSubsystem</text>
 </a>
 </g>
@@ -688,15 +688,15 @@
 <!-- Node2&#45;&gt;Node62 -->
 <g id="edge45" class="edge">
 <title>Node2&#45;&gt;Node62</title>
-<path fill="none" stroke="midnightblue" d="M514.04,-1105.76C513.87,-994.98 507.51,-451.32 400,-333.5 394.68,-327.67 388.22,-323.13 381.17,-319.62"/>
+<path fill="none" stroke="midnightblue" d="M514.04,-1105.76C513.87,-994.98 507.51,-451.32 400,-333.5 392.68,-325.48 383.21,-319.92 373.02,-316.09"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="510.54,-1105.86 514.04,-1115.86 517.54,-1105.86 510.54,-1105.86"/>
 </g>
 <!-- Node63 -->
 <g id="node45" class="node">
 <title>Node63</title>
-<g id="a_node45"><a xlink:href="../../de/d78/classPHG4CollimatorSubsystem.html#a92f9e8f0d2891f34d9a638a76577a6b2" target="_top" xlink:title="InitRunSubsystem.">
-<polygon fill="none" stroke="black" points="224,-245.5 224,-275.5 373,-275.5 373,-245.5 224,-245.5"/>
-<text text-anchor="start" x="232" y="-263.5" font-family="FreeSans" font-size="10.00">PHG4CollimatorSubsystem</text>
+<g id="a_node45"><a xlink:href="../../db/dc5/classPHG4CylinderSubsystem.html#a034cd0c643ec03070dcaf5f3bae175e0" target="_top" xlink:title="init runwise stuff">
+<polygon fill="none" stroke="black" points="229.5,-245.5 229.5,-275.5 367.5,-275.5 367.5,-245.5 229.5,-245.5"/>
+<text text-anchor="start" x="237.5" y="-263.5" font-family="FreeSans" font-size="10.00">PHG4CylinderSubsystem</text>
 <text text-anchor="middle" x="298.5" y="-252.5" font-family="FreeSans" font-size="10.00">::InitRunSubsystem</text>
 </a>
 </g>
@@ -704,15 +704,15 @@
 <!-- Node2&#45;&gt;Node63 -->
 <g id="edge46" class="edge">
 <title>Node2&#45;&gt;Node63</title>
-<path fill="none" stroke="midnightblue" d="M514.23,-1105.64C515.12,-990.58 513.86,-410.32 400,-284.5 392.72,-276.45 383.26,-270.87 373.07,-267.03"/>
+<path fill="none" stroke="midnightblue" d="M514.23,-1105.64C515.12,-990.58 513.86,-410.32 400,-284.5 391.45,-275.06 379.92,-269.01 367.71,-265.19"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="510.72,-1105.78 514.13,-1115.81 517.72,-1105.84 510.72,-1105.78"/>
 </g>
 <!-- Node64 -->
 <g id="node46" class="node">
 <title>Node64</title>
-<g id="a_node46"><a xlink:href="../../db/dc5/classPHG4CylinderSubsystem.html#a034cd0c643ec03070dcaf5f3bae175e0" target="_top" xlink:title="init runwise stuff">
-<polygon fill="none" stroke="black" points="229.5,-196.5 229.5,-226.5 367.5,-226.5 367.5,-196.5 229.5,-196.5"/>
-<text text-anchor="start" x="237.5" y="-214.5" font-family="FreeSans" font-size="10.00">PHG4CylinderSubsystem</text>
+<g id="a_node46"><a xlink:href="../../d5/d2e/classPHG4EMCalSubsystem.html#a4b7754402aa0f4c796195d69ce4186e2" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="234.5,-196.5 234.5,-226.5 362.5,-226.5 362.5,-196.5 234.5,-196.5"/>
+<text text-anchor="start" x="242.5" y="-214.5" font-family="FreeSans" font-size="10.00">PHG4EMCalSubsystem</text>
 <text text-anchor="middle" x="298.5" y="-203.5" font-family="FreeSans" font-size="10.00">::InitRunSubsystem</text>
 </a>
 </g>
@@ -720,15 +720,15 @@
 <!-- Node2&#45;&gt;Node64 -->
 <g id="edge47" class="edge">
 <title>Node2&#45;&gt;Node64</title>
-<path fill="none" stroke="midnightblue" d="M514.39,-1105.61C516.3,-986.6 520.27,-369.38 400,-235.5 391.43,-225.96 379.81,-219.87 367.5,-216.06"/>
+<path fill="none" stroke="midnightblue" d="M514.39,-1105.61C516.3,-986.6 520.27,-369.38 400,-235.5 390.29,-224.69 376.66,-218.32 362.57,-214.66"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="510.89,-1105.75 514.21,-1115.81 517.89,-1105.87 510.89,-1105.75"/>
 </g>
 <!-- Node65 -->
 <g id="node47" class="node">
 <title>Node65</title>
-<g id="a_node47"><a xlink:href="../../d5/d2e/classPHG4EMCalSubsystem.html#a4b7754402aa0f4c796195d69ce4186e2" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="234.5,-147.5 234.5,-177.5 362.5,-177.5 362.5,-147.5 234.5,-147.5"/>
-<text text-anchor="start" x="242.5" y="-165.5" font-family="FreeSans" font-size="10.00">PHG4EMCalSubsystem</text>
+<g id="a_node47"><a xlink:href="../../d6/d12/classPHG4PolyconSubsystem.html#aaeebd3d4f0dc15785098c0dcb44b6740" target="_top" xlink:title="init runwise stuff">
+<polygon fill="none" stroke="black" points="230.5,-147.5 230.5,-177.5 366.5,-177.5 366.5,-147.5 230.5,-147.5"/>
+<text text-anchor="start" x="238.5" y="-165.5" font-family="FreeSans" font-size="10.00">PHG4PolyconSubsystem</text>
 <text text-anchor="middle" x="298.5" y="-154.5" font-family="FreeSans" font-size="10.00">::InitRunSubsystem</text>
 </a>
 </g>
@@ -736,15 +736,15 @@
 <!-- Node2&#45;&gt;Node65 -->
 <g id="edge48" class="edge">
 <title>Node2&#45;&gt;Node65</title>
-<path fill="none" stroke="midnightblue" d="M512.94,-1105.8C505.87,-976.98 463.68,-257.86 400,-186.5 390.33,-175.66 376.71,-169.28 362.62,-165.61"/>
+<path fill="none" stroke="midnightblue" d="M512.94,-1105.8C505.87,-976.98 463.68,-257.86 400,-186.5 391.22,-176.66 379.2,-170.5 366.52,-166.7"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="509.45,-1106.02 513.49,-1115.82 516.44,-1105.64 509.45,-1106.02"/>
 </g>
 <!-- Node66 -->
 <g id="node48" class="node">
 <title>Node66</title>
-<g id="a_node48"><a xlink:href="../../d6/d12/classPHG4PolyconSubsystem.html#aaeebd3d4f0dc15785098c0dcb44b6740" target="_top" xlink:title="init runwise stuff">
-<polygon fill="none" stroke="black" points="230.5,-98.5 230.5,-128.5 366.5,-128.5 366.5,-98.5 230.5,-98.5"/>
-<text text-anchor="start" x="238.5" y="-116.5" font-family="FreeSans" font-size="10.00">PHG4PolyconSubsystem</text>
+<g id="a_node48"><a xlink:href="../../d4/d2d/classPHG4SquareTubeSubsystem.html#a5b92b85e8435b833679496938bc6c4d8" target="_top" xlink:title="InitRunSubsystem.">
+<polygon fill="none" stroke="black" points="221.5,-98.5 221.5,-128.5 375.5,-128.5 375.5,-98.5 221.5,-98.5"/>
+<text text-anchor="start" x="229.5" y="-116.5" font-family="FreeSans" font-size="10.00">PHG4SquareTubeSubsystem</text>
 <text text-anchor="middle" x="298.5" y="-105.5" font-family="FreeSans" font-size="10.00">::InitRunSubsystem</text>
 </a>
 </g>
@@ -752,15 +752,15 @@
 <!-- Node2&#45;&gt;Node66 -->
 <g id="edge49" class="edge">
 <title>Node2&#45;&gt;Node66</title>
-<path fill="none" stroke="midnightblue" d="M513.06,-1105.61C506.58,-972.42 466.87,-212.89 400,-137.5 391.25,-127.64 379.24,-121.46 366.56,-117.66"/>
+<path fill="none" stroke="midnightblue" d="M513.06,-1105.61C506.58,-972.42 466.87,-212.89 400,-137.5 393.45,-130.12 385.08,-124.8 375.97,-121"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="509.58,-1106.11 513.55,-1115.93 516.57,-1105.77 509.58,-1106.11"/>
 </g>
 <!-- Node67 -->
 <g id="node49" class="node">
 <title>Node67</title>
-<g id="a_node49"><a xlink:href="../../d4/d2d/classPHG4SquareTubeSubsystem.html#a5b92b85e8435b833679496938bc6c4d8" target="_top" xlink:title="InitRunSubsystem.">
-<polygon fill="none" stroke="black" points="221.5,-49.5 221.5,-79.5 375.5,-79.5 375.5,-49.5 221.5,-49.5"/>
-<text text-anchor="start" x="229.5" y="-67.5" font-family="FreeSans" font-size="10.00">PHG4SquareTubeSubsystem</text>
+<g id="a_node49"><a xlink:href="../../d8/d86/classPHG4TargetCoilSubsystem.html#ab2523afc854bd0070f5de6bd2448664e" target="_top" xlink:title="init runwise stuff">
+<polygon fill="none" stroke="black" points="225.5,-49.5 225.5,-79.5 371.5,-79.5 371.5,-49.5 225.5,-49.5"/>
+<text text-anchor="start" x="233.5" y="-67.5" font-family="FreeSans" font-size="10.00">PHG4TargetCoilSubsystem</text>
 <text text-anchor="middle" x="298.5" y="-56.5" font-family="FreeSans" font-size="10.00">::InitRunSubsystem</text>
 </a>
 </g>
@@ -768,15 +768,15 @@
 <!-- Node2&#45;&gt;Node67 -->
 <g id="edge50" class="edge">
 <title>Node2&#45;&gt;Node67</title>
-<path fill="none" stroke="midnightblue" d="M513.17,-1105.48C507.27,-968.11 470.08,-167.93 400,-88.5 393.35,-80.97 384.81,-75.58 375.51,-71.76"/>
+<path fill="none" stroke="midnightblue" d="M513.17,-1105.48C507.27,-968.11 470.08,-167.93 400,-88.5 392.46,-79.96 382.48,-74.18 371.73,-70.31"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="509.68,-1105.93 513.6,-1115.77 516.68,-1105.63 509.68,-1105.93"/>
 </g>
 <!-- Node68 -->
 <g id="node50" class="node">
 <title>Node68</title>
-<g id="a_node50"><a xlink:href="../../d8/d86/classPHG4TargetCoilSubsystem.html#ab2523afc854bd0070f5de6bd2448664e" target="_top" xlink:title="init runwise stuff">
-<polygon fill="none" stroke="black" points="225.5,-0.5 225.5,-30.5 371.5,-30.5 371.5,-0.5 225.5,-0.5"/>
-<text text-anchor="start" x="233.5" y="-18.5" font-family="FreeSans" font-size="10.00">PHG4TargetCoilSubsystem</text>
+<g id="a_node50"><a xlink:href="../../db/ddf/classPHG4TargetCoilV2Subsystem.html#a90105993fc507bc86e1605a1ea0f5b28" target="_top" xlink:title="init runwise stuff">
+<polygon fill="none" stroke="black" points="219,-0.5 219,-30.5 378,-30.5 378,-0.5 219,-0.5"/>
+<text text-anchor="start" x="227" y="-18.5" font-family="FreeSans" font-size="10.00">PHG4TargetCoilV2Subsystem</text>
 <text text-anchor="middle" x="298.5" y="-7.5" font-family="FreeSans" font-size="10.00">::InitRunSubsystem</text>
 </a>
 </g>
@@ -784,20 +784,20 @@
 <!-- Node2&#45;&gt;Node68 -->
 <g id="edge51" class="edge">
 <title>Node2&#45;&gt;Node68</title>
-<path fill="none" stroke="midnightblue" d="M513.28,-1105.85C508.02,-965.88 473.37,-123.07 400,-39.5 392.43,-30.87 382.36,-25.06 371.52,-21.19"/>
+<path fill="none" stroke="midnightblue" d="M513.28,-1105.85C508.02,-965.88 473.37,-123.07 400,-39.5 393.96,-32.62 386.34,-27.54 378.01,-23.8"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="509.79,-1106.09 513.66,-1115.96 516.79,-1105.83 509.79,-1106.09"/>
 </g>
-<!-- Node27&#45;&gt;Node8 -->
-<g id="edge19" class="edge">
-<title>Node27&#45;&gt;Node8</title>
+<!-- Node26&#45;&gt;Node8 -->
+<g id="edge18" class="edge">
+<title>Node26&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M239.27,-1904C225.41,-1906.76 210.68,-1909.72 197,-1912.5 182.85,-1915.38 167.74,-1918.49 153.26,-1921.49"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="240.05,-1907.41 249.18,-1902.03 238.69,-1900.55 240.05,-1907.41"/>
 </g>
-<!-- Node27&#45;&gt;Node10 -->
-<g id="edge20" class="edge">
-<title>Node27&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M223.15,-1885.85C213.85,-1882.93 204.85,-1878.94 197,-1873.5 132.42,-1828.77 97.53,-1735.09 85.93,-1698.55"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="222.36,-1889.26 232.93,-1888.51 224.2,-1882.5 222.36,-1889.26"/>
+<!-- Node26&#45;&gt;Node10 -->
+<g id="edge19" class="edge">
+<title>Node26&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M223.07,-1885.27C213.86,-1882.44 204.91,-1878.62 197,-1873.5 138.22,-1835.42 100.91,-1755.88 87.3,-1722.62"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="222.18,-1888.65 232.74,-1887.88 224,-1881.89 222.18,-1888.65"/>
 </g>
 </g>
 </svg>

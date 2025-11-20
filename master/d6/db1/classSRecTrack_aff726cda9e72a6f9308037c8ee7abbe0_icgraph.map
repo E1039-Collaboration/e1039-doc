@@ -1,5 +1,7 @@
 <map id="SRecTrack::setChisqVertex" name="SRecTrack::setChisqVertex">
-<area shape="rect" id="node1" title=" " alt="" coords="411,13,605,39"/>
-<area shape="rect" id="node2" href="$d2/d6b/classSQGenFit_1_1GFTrack.html#a4c47a82cf378aae1787e2dc4d168b658" title=" " alt="" coords="213,5,363,47"/>
-<area shape="rect" id="node3" href="$df/df2/classSQReco.html#a32bb088e7896b2ecdb5b9aa4df1f6a50" title=" " alt="" coords="5,13,165,39"/>
+<area shape="rect" id="node1" title=" " alt="" coords="529,46,724,73"/>
+<area shape="rect" id="node2" href="$d5/d90/classSQVertexing__v2.html#a0f0422a6e70faddcf44c6994b190c13f" title=" " alt="" coords="236,17,481,43"/>
+<area shape="rect" id="node4" href="$d5/d65/classSQVertexing.html#a49350d3d5fc5f9e897ee9e848958a7c2" title=" " alt="" coords="247,71,470,98"/>
+<area shape="rect" id="node3" href="$d5/d90/classSQVertexing__v2.html#a943939538d529dcc89041075c4dc68f1" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node5" href="$d5/d65/classSQVertexing.html#a0f9835a784584f7779ba9b9a93809e31" title=" " alt="" coords="17,71,177,112"/>
 </map>

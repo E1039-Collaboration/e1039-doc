@@ -1,0 +1,16 @@
+<map id="UtilTrack::FindMatchedRoads" name="UtilTrack::FindMatchedRoads">
+<area shape="rect" id="node1" title="Find all roads that match to the given track within the hodo paddle width plus the given margin." alt="" coords="5,156,216,183"/>
+<area shape="rect" id="node2" href="$d6/db1/classSRecTrack.html#a814961fa48925cf2631a8a2bf139736c" title="Return the track momentum at Station 1." alt="" coords="264,80,449,107"/>
+<area shape="rect" id="node6" href="$d6/db1/classSRecTrack.html#a1aabc09efeb8cda96ce61e631695def8" title="Return the track momentum at Station 3." alt="" coords="264,131,449,157"/>
+<area shape="rect" id="node9" href="$d6/db1/classSRecTrack.html#a74c8a3200daa80dab39f42aa063b5e14" title="Return the track position at Station 1." alt="" coords="269,181,444,208"/>
+<area shape="rect" id="node12" href="$d6/db1/classSRecTrack.html#a001aa373a679d4d69fba6cbd4a4044c3" title="Return the track position at Station 3." alt="" coords="269,237,444,264"/>
+<area shape="rect" id="node3" href="$d6/db1/classSRecTrack.html#a17d97c9b4bc2fb59945a4fb6371de729" title=" " alt="" coords="543,80,687,107"/>
+<area shape="rect" id="node4" href="$d6/db1/classSRecTrack.html#a67a068107aea618a15d0b08a3c1fa6d3" title=" " alt="" coords="497,29,733,56"/>
+<area shape="rect" id="node5" href="$d6/db1/classSRecTrack.html#a77e0003773e2f81c88264d098ff098c1" title=" " alt="" coords="781,29,995,56"/>
+<area shape="rect" id="node7" href="$d6/db1/classSRecTrack.html#a185ee3c59a5b564f42bb1c9e716adbe8" title=" " alt="" coords="497,131,733,157"/>
+<area shape="rect" id="node8" href="$d6/db1/classSRecTrack.html#a4d82c522ea194e035756a2342b76dcf4" title=" " alt="" coords="781,107,995,133"/>
+<area shape="rect" id="node10" href="$d6/db1/classSRecTrack.html#a72b15b96889271e79372ab8308a694da" title=" " alt="" coords="509,181,722,208"/>
+<area shape="rect" id="node11" href="$d6/db1/classSRecTrack.html#aea0b28c0f17589836ab6147543af5305" title=" " alt="" coords="793,181,983,208"/>
+<area shape="rect" id="node13" href="$d6/db1/classSRecTrack.html#a7c3f30e13a4977a1e6de1099d41b9363" title=" " alt="" coords="509,249,722,276"/>
+<area shape="rect" id="node14" href="$d6/db1/classSRecTrack.html#a53cacc55299e048db0e85203a9e07c87" title=" " alt="" coords="793,256,983,283"/>
+</map>

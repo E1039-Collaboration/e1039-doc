@@ -1,5 +1,13 @@
 var classSQPrimaryParticleGen =
 [
+    [ "ProcessCode_t", "d4/d06/classSQPrimaryParticleGen.html#a344415029886795b0af9fc8569351007", [
+      [ "Undef", "d4/d06/classSQPrimaryParticleGen.html#a344415029886795b0af9fc8569351007aca4c615f6da63d0cafe06fbc2aff36ec", null ],
+      [ "DrellYan", "d4/d06/classSQPrimaryParticleGen.html#a344415029886795b0af9fc8569351007a89875ca248d5b5f22a105ffcd8e9e525", null ],
+      [ "JPsi", "d4/d06/classSQPrimaryParticleGen.html#a344415029886795b0af9fc8569351007aa903a8cd37225b9e37a7868c26780b1e", null ],
+      [ "PsiPrime", "d4/d06/classSQPrimaryParticleGen.html#a344415029886795b0af9fc8569351007a2091ca972d9ca6766f8359ff0cf7ae78", null ],
+      [ "Pythia", "d4/d06/classSQPrimaryParticleGen.html#a344415029886795b0af9fc8569351007a4079e0c3e71acccf1dcf6cfeab43ede1", null ],
+      [ "Custom", "d4/d06/classSQPrimaryParticleGen.html#a344415029886795b0af9fc8569351007aa655f4690ea41748f7b1d8ea78eea99f", null ]
+    ] ],
     [ "SQPrimaryParticleGen", "d4/d06/classSQPrimaryParticleGen.html#a9d58405f49e0d408f8bbc5f2756b1fbb", null ],
     [ "~SQPrimaryParticleGen", "d4/d06/classSQPrimaryParticleGen.html#ad3fd4bfa9f982958ff3ccbc86cf68a75", null ],
     [ "CrossSectionDrellYan", "d4/d06/classSQPrimaryParticleGen.html#ad9953e74d17ddccbeb33801056187898", null ],

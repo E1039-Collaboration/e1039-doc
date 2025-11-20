@@ -1,0 +1,28 @@
+var structOccData =
+[
+    [ "OccData", "d3/dda/structOccData.html#a1837569e4fa47b17af66487db226f595", null ],
+    [ "~OccData", "d3/dda/structOccData.html#a33f0f2899eddd6f69619c7994190f7b6", null ],
+    [ "OccData", "d3/dda/structOccData.html#a1837569e4fa47b17af66487db226f595", null ],
+    [ "~OccData", "d3/dda/structOccData.html#a33f0f2899eddd6f69619c7994190f7b6", null ],
+    [ "ClassDef", "d3/dda/structOccData.html#ad102fc2527e7c655fc830928492a4b18", null ],
+    [ "ClassDef", "d3/dda/structOccData.html#ad102fc2527e7c655fc830928492a4b18", null ],
+    [ "Clear", "d3/dda/structOccData.html#aefdee4cb6661e34edec3a0784b059bd2", null ],
+    [ "D1", "d3/dda/structOccData.html#ab835d07dace92b42fc7ecaae4b24e089", null ],
+    [ "D2", "d3/dda/structOccData.html#a0d504f15971b39eda4d93a0ef08d5ead", null ],
+    [ "D3m", "d3/dda/structOccData.html#a7b2a3866bf2738191f6939431f009c4f", null ],
+    [ "D3p", "d3/dda/structOccData.html#ac1810d1227f3ea780d7114a9e3328b90", null ],
+    [ "event_id", "d3/dda/structOccData.html#a335de17e85f707de53570183aaf6a21f", null ],
+    [ "fpga1", "d3/dda/structOccData.html#a4d17a5c4c435e1549d3854015193bb93", null ],
+    [ "fpga2", "d3/dda/structOccData.html#aec88af4cbad12de5daf3c510dba4df7a", null ],
+    [ "fpga3", "d3/dda/structOccData.html#a4dddb31377d4a03d2785233b1242afa4", null ],
+    [ "N_PL", "d3/dda/structOccData.html#a2e364f499c3af5a6428656c1a0c6bc27", null ],
+    [ "nim3", "d3/dda/structOccData.html#aa520f210ce2eab76bb4134aa05754236", null ],
+    [ "occ_all", "d3/dda/structOccData.html#abe70bfa7a32581b0a7792ee2452b8ed1", null ],
+    [ "occ_intime", "d3/dda/structOccData.html#a383ac338d7536e6c0c14aba046617620", null ],
+    [ "rf_id", "d3/dda/structOccData.html#abd740c7c808f421a12b3a9a90c79b4d5", null ],
+    [ "rfp00", "d3/dda/structOccData.html#ae43bd4f6b0ca82ec4c94b360bd59cae0", null ],
+    [ "run_id", "d3/dda/structOccData.html#af1c36f8199bebd002bc0d27989b22e1f", null ],
+    [ "spill_id", "d3/dda/structOccData.html#a018d1f9504579bd0d2da104e26ed3ede", null ],
+    [ "target_pos", "d3/dda/structOccData.html#a467a80e5b18c685752b93b50136d6460", null ],
+    [ "turn_id", "d3/dda/structOccData.html#a1e54680f59b96aab1fa1f618bf9d99d9", null ]
+];

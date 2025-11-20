@@ -83,7 +83,8 @@ $(document).ready(function(){initNavTree('d2/d1e/namespaceUtilTrack.html','../..
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">UtilTrack Namespace Reference</div>  </div>
 </div><!--header-->
@@ -106,6 +107,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a179c80b71b2e0cb0da3192259a60b283"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1e/namespaceUtilTrack.html#a179c80b71b2e0cb0da3192259a60b283">FindHodoHitsOfTrack</a> (const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *vec_in, const int id_trk)</td></tr>
 <tr class="memdesc:a179c80b71b2e0cb0da3192259a60b283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all hodoscope hits hits associated with the given track.  <a href="../../d2/d1e/namespaceUtilTrack.html#a179c80b71b2e0cb0da3192259a60b283">More...</a><br /></td></tr>
 <tr class="separator:a179c80b71b2e0cb0da3192259a60b283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a080bcbd1788cdfed720699b1d7624f6e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1e/namespaceUtilTrack.html#a080bcbd1788cdfed720699b1d7624f6e">FindMatchedRoads</a> (<a class="el" href="../../d6/db1/classSRecTrack.html">SRecTrack</a> *trk, const double margin=0)</td></tr>
+<tr class="memdesc:a080bcbd1788cdfed720699b1d7624f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all roads that match to the given track within the hodo paddle width plus the given margin.  <a href="../../d2/d1e/namespaceUtilTrack.html#a080bcbd1788cdfed720699b1d7624f6e">More...</a><br /></td></tr>
+<tr class="separator:a080bcbd1788cdfed720699b1d7624f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7d22f1b53f29b760e5097fa5344bc4d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1e/namespaceUtilTrack.html#ac7d22f1b53f29b760e5097fa5344bc4d">FindMatchedRoads</a> (const TVector3 pos1, const TLorentzVector mom1, const TVector3 pos3, const TLorentzVector mom3, const double margin=0)</td></tr>
+<tr class="memdesc:ac7d22f1b53f29b760e5097fa5344bc4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all roads that match to the given track within the hodo paddle width plus the given margin.  <a href="../../d2/d1e/namespaceUtilTrack.html#ac7d22f1b53f29b760e5097fa5344bc4d">More...</a><br /></td></tr>
+<tr class="separator:ac7d22f1b53f29b760e5097fa5344bc4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a0f41c24f29e9cf59c47a35029a8e617c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1e/namespaceUtilTrack.html#a0f41c24f29e9cf59c47a35029a8e617c">verbosity</a> = 0</td></tr>
+<tr class="separator:a0f41c24f29e9cf59c47a35029a8e617c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a55db6cb14121511e40dd8248a27002c5"></a>
@@ -142,9 +154,9 @@ Functions</h2></td></tr>
 
 <p>Find track-associated hits whose detector name starts with 'det_name'. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00067">67</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00071">71</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00052">FindDetectorHitsOfTrack()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00056">FindDetectorHitsOfTrack()</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -190,14 +202,14 @@ Functions</h2></td></tr>
 
 <p>Find track-associated hits whose detector name starts with 'det_name'. </p>
 <p>Examples: </p><div class="fragment"><div class="line">shared_ptr&lt;SQHitVector&gt; hit_vec_trk_d0(<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a066646acae0efd8b9e0429ee5b46c6ef">UtilTrack::FindDetectorHitsOfTrack</a>(hit_vec, id_trk, <span class="stringliteral">&quot;D0&quot;</span>));</div>
-<div class="ttc" id="anamespaceUtilTrack_html_a066646acae0efd8b9e0429ee5b46c6ef"><div class="ttname"><a href="../../d2/d1e/namespaceUtilTrack.html#a066646acae0efd8b9e0429ee5b46c6ef">UtilTrack::FindDetectorHitsOfTrack</a></div><div class="ttdeci">SQHitVector * FindDetectorHitsOfTrack(const SQHitVector *vec_in, const int id_trk, const std::string det_name)</div><div class="ttdoc">Find track-associated hits whose detector name starts with 'det_name'.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd0/UtilTrack_8cc_source.html#l00052">UtilTrack.cc:52</a></div></div>
+<div class="ttc" id="anamespaceUtilTrack_html_a066646acae0efd8b9e0429ee5b46c6ef"><div class="ttname"><a href="../../d2/d1e/namespaceUtilTrack.html#a066646acae0efd8b9e0429ee5b46c6ef">UtilTrack::FindDetectorHitsOfTrack</a></div><div class="ttdeci">SQHitVector * FindDetectorHitsOfTrack(const SQHitVector *vec_in, const int id_trk, const std::string det_name)</div><div class="ttdoc">Find track-associated hits whose detector name starts with 'det_name'.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd0/UtilTrack_8cc_source.html#l00056">UtilTrack.cc:56</a></div></div>
 </div><!-- fragment --><p>You can use "FindHodoHitsOfTrack()" to more-conveniently find all hodoscope hits. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00052">52</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00056">56</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/dbc/classSQHitVector.html#ab80ab078afa096098e099be6767ac2f4">SQHitVector::begin()</a>, <a class="el" href="../../d9/dbc/classSQHitVector.html#afa18406db2084dbf3db845354efeed57">SQHitVector::clear()</a>, <a class="el" href="../../d9/dbc/classSQHitVector.html#a120d51256c31f7e120075f5f2db501a5">SQHitVector::Clone()</a>, <a class="el" href="../../d9/dbc/classSQHitVector.html#ab6c79c3e8a48176ebc5b0415067d862b">SQHitVector::end()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00066">SQHit::get_track_id()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">GeomSvc::getDetectorName()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>, and <a class="el" href="../../d9/dbc/classSQHitVector.html#ae19e25eb6c51cbdd56d80cb865ffb6ef">SQHitVector::push_back()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00067">FindDetectorHitsOfTrack()</a>, and <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00079">FindHodoHitsOfTrack()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00071">FindDetectorHitsOfTrack()</a>, and <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00083">FindHodoHitsOfTrack()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -245,9 +257,9 @@ Functions</h2></td></tr>
 
 <p>Find all hits associated with the given track. </p>
 <p>It is recommended to receive the returned pointer by "shared_ptr". </p><div class="fragment"><div class="line">shared_ptr&lt;SQHitVector&gt; hit_vec_trk(<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a4f98351af026365c3239050066154f65">UtilTrack::FindHitsOfTrack</a>(hit_vec, id_trk));</div>
-<div class="ttc" id="anamespaceUtilTrack_html_a4f98351af026365c3239050066154f65"><div class="ttname"><a href="../../d2/d1e/namespaceUtilTrack.html#a4f98351af026365c3239050066154f65">UtilTrack::FindHitsOfTrack</a></div><div class="ttdeci">SQHitVector * FindHitsOfTrack(const SQHitVector *vec_in, const int id_trk)</div><div class="ttdoc">Find all hits associated with the given track.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd0/UtilTrack_8cc_source.html#l00032">UtilTrack.cc:32</a></div></div>
+<div class="ttc" id="anamespaceUtilTrack_html_a4f98351af026365c3239050066154f65"><div class="ttname"><a href="../../d2/d1e/namespaceUtilTrack.html#a4f98351af026365c3239050066154f65">UtilTrack::FindHitsOfTrack</a></div><div class="ttdeci">SQHitVector * FindHitsOfTrack(const SQHitVector *vec_in, const int id_trk)</div><div class="ttdoc">Find all hits associated with the given track.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd0/UtilTrack_8cc_source.html#l00036">UtilTrack.cc:36</a></div></div>
 </div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00032">32</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00036">36</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/dbc/classSQHitVector.html#ab80ab078afa096098e099be6767ac2f4">SQHitVector::begin()</a>, <a class="el" href="../../d9/dbc/classSQHitVector.html#afa18406db2084dbf3db845354efeed57">SQHitVector::clear()</a>, <a class="el" href="../../d9/dbc/classSQHitVector.html#a120d51256c31f7e120075f5f2db501a5">SQHitVector::Clone()</a>, <a class="el" href="../../d9/dbc/classSQHitVector.html#ab6c79c3e8a48176ebc5b0415067d862b">SQHitVector::end()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00066">SQHit::get_track_id()</a>, and <a class="el" href="../../d9/dbc/classSQHitVector.html#ae19e25eb6c51cbdd56d80cb865ffb6ef">SQHitVector::push_back()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -289,11 +301,11 @@ Functions</h2></td></tr>
 
 <p>Find all hodoscope hits hits associated with the given track. </p>
 <p>Example: </p><div class="fragment"><div class="line">shared_ptr&lt;SQHitVector&gt; hit_vec_trk(<a class="code" href="../../d2/d1e/namespaceUtilTrack.html#a179c80b71b2e0cb0da3192259a60b283">UtilTrack::FindHodoHitsOfTrack</a>(hit_vec, id_trk));</div>
-<div class="ttc" id="anamespaceUtilTrack_html_a179c80b71b2e0cb0da3192259a60b283"><div class="ttname"><a href="../../d2/d1e/namespaceUtilTrack.html#a179c80b71b2e0cb0da3192259a60b283">UtilTrack::FindHodoHitsOfTrack</a></div><div class="ttdeci">SQHitVector * FindHodoHitsOfTrack(const SQHitVector *vec_in, const int id_trk)</div><div class="ttdoc">Find all hodoscope hits hits associated with the given track.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd0/UtilTrack_8cc_source.html#l00079">UtilTrack.cc:79</a></div></div>
+<div class="ttc" id="anamespaceUtilTrack_html_a179c80b71b2e0cb0da3192259a60b283"><div class="ttname"><a href="../../d2/d1e/namespaceUtilTrack.html#a179c80b71b2e0cb0da3192259a60b283">UtilTrack::FindHodoHitsOfTrack</a></div><div class="ttdeci">SQHitVector * FindHodoHitsOfTrack(const SQHitVector *vec_in, const int id_trk)</div><div class="ttdoc">Find all hodoscope hits hits associated with the given track.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd0/UtilTrack_8cc_source.html#l00083">UtilTrack.cc:83</a></div></div>
 </div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00079">79</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00083">83</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00052">FindDetectorHitsOfTrack()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00056">FindDetectorHitsOfTrack()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dc9/SubsysRecoSignal_8cc_source.html#l00043">SubsysRecoSignal::process_event()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -310,6 +322,113 @@ Functions</h2></td></tr>
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d1e/namespaceUtilTrack_a179c80b71b2e0cb0da3192259a60b283_icgraph.svg" width="447" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac7d22f1b53f29b760e5097fa5344bc4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7d22f1b53f29b760e5097fa5344bc4d">&#9670;&nbsp;</a></span>FindMatchedRoads() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; int &gt; UtilTrack::FindMatchedRoads </td>
+          <td>(</td>
+          <td class="paramtype">const TVector3&#160;</td>
+          <td class="paramname"><em>pos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TLorentzVector&#160;</td>
+          <td class="paramname"><em>mom1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TVector3&#160;</td>
+          <td class="paramname"><em>pos3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TLorentzVector&#160;</td>
+          <td class="paramname"><em>mom3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>margin</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find all roads that match to the given track within the hodo paddle width plus the given margin. </p>
+<p>Check three elements, assuming the margin is much smaller than the half width.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00105">105</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00071">Plane::cellWidth</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00094">Plane::deltaX</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00096">Plane::deltaZ</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00219">GeomSvc::getDetectorID()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00233">GeomSvc::getPlanePtr()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00013">UtilTrigger::Hodo2Road()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00069">Plane::nElements</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00070">Plane::spacing</a>, <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00010">verbosity</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00105">Plane::xc</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00107">Plane::zc</a>.</p>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d1e/namespaceUtilTrack_ac7d22f1b53f29b760e5097fa5344bc4d_cgraph.svg" width="2038" height="848"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a080bcbd1788cdfed720699b1d7624f6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a080bcbd1788cdfed720699b1d7624f6e">&#9670;&nbsp;</a></span>FindMatchedRoads() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; int &gt; UtilTrack::FindMatchedRoads </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/db1/classSRecTrack.html">SRecTrack</a> *&#160;</td>
+          <td class="paramname"><em>trk</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>margin</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find all roads that match to the given track within the hodo paddle width plus the given margin. </p>
+<p>The closest paddle to the given track at each hodoscope X plane (H1T/B, H2T/B, H3T/B and H4T/B) is selected based on the expected track x-position. The two adjacent paddles are also selected if they are within "width/2 + margin". All selected paddles are used to list up matched roads. </p><div class="fragment"><div class="line"><a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a>* trk = ...</div>
+<div class="line">const <span class="keywordtype">double</span> margin = 1.0; <span class="comment">// in cm</span></div>
+<div class="line">vector&lt;int&gt; list_road_id = UtilTrack::FindMatchedRoad(trk, margin);</div>
+<div class="ttc" id="aclassSRecTrack_html"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html">SRecTrack</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00042">SRecEvent.h:43</a></div></div>
+</div><!-- fragment --> 
+<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00099">99</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00078">SRecTrack::get_mom_st1()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00081">SRecTrack::get_mom_st3()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00069">SRecTrack::get_pos_st1()</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00072">SRecTrack::get_pos_st3()</a>.</p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d1e/namespaceUtilTrack_a080bcbd1788cdfed720699b1d7624f6e_cgraph.svg" width="1000" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -350,27 +469,54 @@ Functions</h2></td></tr>
 <p>Find a track by track ID in the given track list. </p>
 <p>This function returns a <a class="el" href="../../d7/d1b/classSQTrack.html" title="An SQ interface class to hold one true or reconstructed track.">SQTrack</a> pointer if successful. Otherwise it returns '0' by default, or aborts when 'do_assert' = true. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00013">13</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00017">17</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../db/d03/classSQTrackVector.html#a2fc60d67bed68359cf96c11a90ec0245">SQTrackVector::begin()</a>, <a class="el" href="../../db/d03/classSQTrackVector.html#a53f537e0b71057a25658d4668f29ae7c">SQTrackVector::end()</a>, and <a class="el" href="../../d7/d1b/classSQTrack.html#a03de8a7a2e6437772da44913ed2427df">SQTrack::get_track_id()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dc9/SubsysRecoSignal_8cc_source.html#l00043">SubsysRecoSignal::process_event()</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d1e/namespaceUtilTrack_aefd238d0135515157f220ff1b7ede535_cgraph.svg" width="400" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d1e/namespaceUtilTrack_aefd238d0135515157f220ff1b7ede535_icgraph.svg" width="436" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a0f41c24f29e9cf59c47a35029a8e617c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f41c24f29e9cf59c47a35029a8e617c">&#9670;&nbsp;</a></span>verbosity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int UtilTrack::verbosity = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00010">10</a> of file <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html">UtilTrack.cc</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d51/PHFieldUtility_8cc_source.html#l00042">PHFieldUtility::BuildFieldMap()</a>, <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00105">FindMatchedRoads()</a>, <a class="el" href="../../d1/d51/PHFieldUtility_8cc_source.html#l00164">PHFieldUtility::GetFieldConfigNode()</a>, <a class="el" href="../../d1/d51/PHFieldUtility_8cc_source.html#l00126">PHFieldUtility::GetFieldMapNode()</a>, <a class="el" href="../../d8/dcf/PHG4SteppingAction_8cc_source.html#l00095">PHG4SteppingAction::GetVisibleEnergyDeposition()</a>, and <a class="el" href="../../dc/d01/PHNodeReset_8cc_source.html#l00013">PHNodeReset::perform()</a>.</p>
 
 </div>
 </div>
@@ -384,7 +530,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d2/d1e/namespaceUtilTrack.html">UtilTrack</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 30 2025 10:15:19</em> using <a
+			updated: <em>Thu Nov 20 2025 08:33:29</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

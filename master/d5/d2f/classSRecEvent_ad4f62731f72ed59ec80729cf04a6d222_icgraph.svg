@@ -50,9 +50,9 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d2/de6/classAnaEmbeddedData.html#a8e1eeccd8b4d4b05a79fc4c5b599a879" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="312,-147.5 312,-177.5 466,-177.5 466,-147.5 312,-147.5"/>
-<text text-anchor="start" x="320" y="-165.5" font-family="FreeSans" font-size="10.00">AnaEmbeddedData::process</text>
+<g id="a_node6"><a xlink:href="../../d5/d90/classSQVertexing__v2.html#a943939538d529dcc89041075c4dc68f1" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="320.5,-147.5 320.5,-177.5 457.5,-177.5 457.5,-147.5 320.5,-147.5"/>
+<text text-anchor="start" x="328.5" y="-165.5" font-family="FreeSans" font-size="10.00">SQVertexing_v2::process</text>
 <text text-anchor="middle" x="389" y="-154.5" font-family="FreeSans" font-size="10.00">_event</text>
 </a>
 </g>
@@ -60,7 +60,7 @@
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M500.96,-147.42C489.47,-148.98 477.57,-150.6 466.01,-152.17"/>
+<path fill="none" stroke="midnightblue" d="M500.73,-147.46C486.53,-149.38 471.71,-151.4 457.7,-153.3"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="501.5,-150.88 510.94,-146.07 500.55,-143.95 501.5,-150.88"/>
 </g>
 <!-- Node7 -->

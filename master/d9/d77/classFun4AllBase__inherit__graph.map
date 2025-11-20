@@ -30,9 +30,9 @@
 <area shape="rect" id="node26" href="$d7/d48/classFun4AllVectEventOutputManager.html" title=" " alt="" coords="394,1035,630,1061"/>
 <area shape="rect" id="node30" href="$d7/d73/classAnaChamHit.html" title="An example class to analyze hodoscope hits in E1039 DST file." alt="" coords="460,1085,564,1112"/>
 <area shape="rect" id="node31" href="$d3/d28/classAnaChamPlane.html" title=" " alt="" coords="451,1136,573,1163"/>
-<area shape="rect" id="node32" href="$d6/d3f/classAnaDimuon.html" title="An example class to analyze hodoscope hits in E1039 DST file." alt="" coords="463,1187,561,1213"/>
+<area shape="rect" id="node32" href="$d6/d3f/classAnaDimuon.html" title="An example class to analyze dimuons." alt="" coords="463,1187,561,1213"/>
 <area shape="rect" id="node33" href="$d4/d32/classAnaDimuonLikeSign.html" title="An example class to analyze hodoscope hits in E1039 DST file." alt="" coords="436,1237,588,1264"/>
-<area shape="rect" id="node34" href="$d6/d91/classAnaDimuonV2.html" title="An example class to analyze hodoscope hits in E1039 DST file." alt="" coords="455,1288,569,1315"/>
+<area shape="rect" id="node34" href="$d5/d93/classAnaDimuonSRec.html" title="An example class to analyze dimuons stored as SRecEvent." alt="" coords="447,1288,577,1315"/>
 <area shape="rect" id="node35" href="$db/d63/classAnaEffCham.html" title=" " alt="" coords="461,1339,563,1365"/>
 <area shape="rect" id="node36" href="$db/d7d/classAnaEffHodo.html" title=" " alt="" coords="463,1389,561,1416"/>
 <area shape="rect" id="node37" href="$d2/de6/classAnaEmbeddedData.html" title="A SubsysReco module to analyze the hit&#45;embedded data." alt="" coords="439,1440,585,1467"/>

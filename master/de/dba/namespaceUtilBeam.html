@@ -88,6 +88,9 @@ $(document).ready(function(){initNavTree('de/dba/namespaceUtilBeam.html','../../
 <div class="title">UtilBeam Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A set of utility functions about the beam info.  
+<a href="../../de/dba/namespaceUtilBeam.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -97,8 +100,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a9c7481dcb971e7ee503cfbcc70e921a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dba/namespaceUtilBeam.html#a9c7481dcb971e7ee503cfbcc70e921a3">ListOfRfValues</a> (int &amp;n_value, double *&amp;list_values)</td></tr>
 <tr class="memdesc:a9c7481dcb971e7ee503cfbcc70e921a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a list of QIE RF+nn values.  <a href="../../de/dba/namespaceUtilBeam.html#a9c7481dcb971e7ee503cfbcc70e921a3">More...</a><br /></td></tr>
 <tr class="separator:a9c7481dcb971e7ee503cfbcc70e921a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66803066c9e850b0bb29069324d8e817"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dba/namespaceUtilBeam.html#a66803066c9e850b0bb29069324d8e817">PoTRaw</a> (const unsigned int spill_id)</td></tr>
+<tr class="memdesc:a66803066c9e850b0bb29069324d8e817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the raw number of PoT.  <a href="../../de/dba/namespaceUtilBeam.html#a66803066c9e850b0bb29069324d8e817">More...</a><br /></td></tr>
+<tr class="separator:a66803066c9e850b0bb29069324d8e817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbbf97c806b30c165bcb631118eb33c2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dba/namespaceUtilBeam.html#acbbf97c806b30c165bcb631118eb33c2">PoTLive</a> (const unsigned int spill_id)</td></tr>
+<tr class="memdesc:acbbf97c806b30c165bcb631118eb33c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the live number of PoT.  <a href="../../de/dba/namespaceUtilBeam.html#acbbf97c806b30c165bcb631118eb33c2">More...</a><br /></td></tr>
+<tr class="separator:acbbf97c806b30c165bcb631118eb33c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dd278300da50ff551a38daaf526e40c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dba/namespaceUtilBeam.html#a0dd278300da50ff551a38daaf526e40c">PoTPerQIE</a> (const unsigned int spill_id)</td></tr>
+<tr class="memdesc:a0dd278300da50ff551a38daaf526e40c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return PoT/QIEsum.  <a href="../../de/dba/namespaceUtilBeam.html#a0dd278300da50ff551a38daaf526e40c">More...</a><br /></td></tr>
+<tr class="separator:a0dd278300da50ff551a38daaf526e40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ddc571571c220d4ded61c17b082710e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dba/namespaceUtilBeam.html#a4ddc571571c220d4ded61c17b082710e">QIE2Proton</a> (const int qie_count, const unsigned int spill_id)</td></tr>
+<tr class="memdesc:a4ddc571571c220d4ded61c17b082710e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the QIE count to the number of protons.  <a href="../../de/dba/namespaceUtilBeam.html#a4ddc571571c220d4ded61c17b082710e">More...</a><br /></td></tr>
+<tr class="separator:a4ddc571571c220d4ded61c17b082710e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A set of utility functions about the beam info. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a9c7481dcb971e7ee503cfbcc70e921a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c7481dcb971e7ee503cfbcc70e921a3">&#9670;&nbsp;</a></span>ListOfRfValues() <span class="overload">[1/2]</span></h2>
 
@@ -130,11 +147,11 @@ Functions</h2></td></tr>
 <div class="line"><span class="keywordtype">double</span>* list_inte;</div>
 <div class="line"><a class="code" href="../../de/dba/namespaceUtilBeam.html#a3df2257c9faf4451b949631e2ce09b17">UtilBeam::ListOfRfValues</a>(num_inte, list_inte);</div>
 <div class="line">TH1* h1_rf_inte = <span class="keyword">new</span> TH1D(<span class="stringliteral">&quot;h1_rf_inte&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, num_inte - 1, list_inte);</div>
-<div class="ttc" id="anamespaceUtilBeam_html_a3df2257c9faf4451b949631e2ce09b17"><div class="ttname"><a href="../../de/dba/namespaceUtilBeam.html#a3df2257c9faf4451b949631e2ce09b17">UtilBeam::ListOfRfValues</a></div><div class="ttdeci">void ListOfRfValues(int &amp;n_value, int *&amp;list_values)</div><div class="ttdoc">Make a list of QIE RF+nn values.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d91/UtilBeam_8cc_source.html#l00010">UtilBeam.cc:10</a></div></div>
+<div class="ttc" id="anamespaceUtilBeam_html_a3df2257c9faf4451b949631e2ce09b17"><div class="ttname"><a href="../../de/dba/namespaceUtilBeam.html#a3df2257c9faf4451b949631e2ce09b17">UtilBeam::ListOfRfValues</a></div><div class="ttdeci">void ListOfRfValues(int &amp;n_value, int *&amp;list_values)</div><div class="ttdoc">Make a list of QIE RF+nn values.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/e1039-core_2packages_2UtilAna_2UtilBeam_8cc_source.html#l00010">UtilBeam.cc:10</a></div></div>
 </div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="../../d3/d91/UtilBeam_8cc_source.html#l00048">48</a> of file <a class="el" href="../../d3/d91/UtilBeam_8cc_source.html">UtilBeam.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d1c/e1039-core_2packages_2UtilAna_2UtilBeam_8cc_source.html#l00048">48</a> of file <a class="el" href="../../d0/d1c/e1039-core_2packages_2UtilAna_2UtilBeam_8cc_source.html">UtilBeam.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d91/UtilBeam_8cc_source.html#l00010">ListOfRfValues()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d1c/e1039-core_2packages_2UtilAna_2UtilBeam_8cc_source.html#l00010">ListOfRfValues()</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -175,9 +192,9 @@ Functions</h2></td></tr>
 <p>Make a list of QIE RF+nn values. </p>
 <p>The possible values for QIE RF+nn are not evenly distributed. This function just fills <code>list_values</code> with a list of all values. The values are taken from "float_2_linrom-2.xls" in DocDB 537. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d91/UtilBeam_8cc_source.html#l00010">10</a> of file <a class="el" href="../../d3/d91/UtilBeam_8cc_source.html">UtilBeam.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d1c/e1039-core_2packages_2UtilAna_2UtilBeam_8cc_source.html#l00010">10</a> of file <a class="el" href="../../d0/d1c/e1039-core_2packages_2UtilAna_2UtilBeam_8cc_source.html">UtilBeam.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dfe/AnaBG_8cc_source.html#l00042">AnaBG::Init()</a>, and <a class="el" href="../../d3/d91/UtilBeam_8cc_source.html#l00048">ListOfRfValues()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dfe/AnaBG_8cc_source.html#l00042">AnaBG::Init()</a>, and <a class="el" href="../../d0/d1c/e1039-core_2packages_2UtilAna_2UtilBeam_8cc_source.html#l00048">ListOfRfValues()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -186,6 +203,127 @@ Functions</h2></td></tr>
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dba/namespaceUtilBeam_a3df2257c9faf4451b949631e2ce09b17_icgraph.svg" width="432" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
+
+</div>
+</div>
+<a id="acbbf97c806b30c165bcb631118eb33c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbbf97c806b30c165bcb631118eb33c2">&#9670;&nbsp;</a></span>PoTLive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double UtilBeam::PoTLive </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>spill_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the live number of PoT. </p>
+<p>The QIE pedestal is <em>not</em> subtracted at present. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d2f/e1039-analysis_2TrackMixingNMSU_2src_2UtilBeam_8cc_source.html#l00019">19</a> of file <a class="el" href="../../d8/d2f/e1039-analysis_2TrackMixingNMSU_2src_2UtilBeam_8cc_source.html">UtilBeam.cc</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/d28/AnaSortMixVertex_8cc_source.html#l00086">AnaSortMixVertex::Analyze()</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dba/namespaceUtilBeam_acbbf97c806b30c165bcb631118eb33c2_icgraph.svg" width="400" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a0dd278300da50ff551a38daaf526e40c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dd278300da50ff551a38daaf526e40c">&#9670;&nbsp;</a></span>PoTPerQIE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double UtilBeam::PoTPerQIE </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>spill_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return PoT/QIEsum. </p>
+<p>The QIE pedestal is subtracted from QIEsum. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d2f/e1039-analysis_2TrackMixingNMSU_2src_2UtilBeam_8cc_source.html#l00038">38</a> of file <a class="el" href="../../d8/d2f/e1039-analysis_2TrackMixingNMSU_2src_2UtilBeam_8cc_source.html">UtilBeam.cc</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/d28/AnaSortMixVertex_8cc_source.html#l00086">AnaSortMixVertex::Analyze()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dba/namespaceUtilBeam_a0dd278300da50ff551a38daaf526e40c_icgraph.svg" width="416" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a66803066c9e850b0bb29069324d8e817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66803066c9e850b0bb29069324d8e817">&#9670;&nbsp;</a></span>PoTRaw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double UtilBeam::PoTRaw </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>spill_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the raw number of PoT. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d2f/e1039-analysis_2TrackMixingNMSU_2src_2UtilBeam_8cc_source.html#l00006">6</a> of file <a class="el" href="../../d8/d2f/e1039-analysis_2TrackMixingNMSU_2src_2UtilBeam_8cc_source.html">UtilBeam.cc</a>.</p>
+
+</div>
+</div>
+<a id="a4ddc571571c220d4ded61c17b082710e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ddc571571c220d4ded61c17b082710e">&#9670;&nbsp;</a></span>QIE2Proton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double UtilBeam::QIE2Proton </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>qie_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>spill_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert the QIE count to the number of protons. </p>
+<p>This function does <em>not</em> subtract the QIE pedestal from <code>qie_count</code>. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d2f/e1039-analysis_2TrackMixingNMSU_2src_2UtilBeam_8cc_source.html#l00060">60</a> of file <a class="el" href="../../d8/d2f/e1039-analysis_2TrackMixingNMSU_2src_2UtilBeam_8cc_source.html">UtilBeam.cc</a>.</p>
 
 </div>
 </div>
@@ -199,7 +337,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../de/dba/namespaceUtilBeam.html">UtilBeam</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 30 2025 10:15:19</em> using <a
+			updated: <em>Thu Nov 20 2025 08:33:29</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

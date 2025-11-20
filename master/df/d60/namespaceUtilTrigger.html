@@ -108,9 +108,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a26c776dbd619458af7fa35b6faae6056"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d60/namespaceUtilTrigger.html#a26c776dbd619458af7fa35b6faae6056">Road2Hodo</a> (const int road, int &amp;h1, int &amp;h2, int &amp;h3, int &amp;h4, int &amp;tb)</td></tr>
 <tr class="memdesc:a26c776dbd619458af7fa35b6faae6056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a roadset ID to a set of hodo IDs.  <a href="../../df/d60/namespaceUtilTrigger.html#a26c776dbd619458af7fa35b6faae6056">More...</a><br /></td></tr>
 <tr class="separator:a26c776dbd619458af7fa35b6faae6056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16bebd496d3f6cfe29343aa87ff09adf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d60/namespaceUtilTrigger.html#a16bebd496d3f6cfe29343aa87ff09adf">FlipRoadLeftRight</a> (const int road)</td></tr>
+<tr class="memdesc:a16bebd496d3f6cfe29343aa87ff09adf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flip the given road ID in the left-right direction.  <a href="../../df/d60/namespaceUtilTrigger.html#a16bebd496d3f6cfe29343aa87ff09adf">More...</a><br /></td></tr>
+<tr class="separator:a16bebd496d3f6cfe29343aa87ff09adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef25f39135dcdcbb8e9291a7294a63ca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d60/namespaceUtilTrigger.html#aef25f39135dcdcbb8e9291a7294a63ca">FlipRoadTopBottom</a> (const int road)</td></tr>
+<tr class="memdesc:aef25f39135dcdcbb8e9291a7294a63ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flip the given road ID in the top-bottom direction.  <a href="../../df/d60/namespaceUtilTrigger.html#aef25f39135dcdcbb8e9291a7294a63ca">More...</a><br /></td></tr>
+<tr class="separator:aef25f39135dcdcbb8e9291a7294a63ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdd030c4cb67c41d7abc754c205b0626"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d60/namespaceUtilTrigger.html#afdd030c4cb67c41d7abc754c205b0626">ExtractRoadID</a> (const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *vec)</td></tr>
 <tr class="memdesc:afdd030c4cb67c41d7abc754c205b0626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a unique road in the given list of SQHits.  <a href="../../df/d60/namespaceUtilTrigger.html#afdd030c4cb67c41d7abc754c205b0626">More...</a><br /></td></tr>
 <tr class="separator:afdd030c4cb67c41d7abc754c205b0626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b160f34a1e1b7ad19e724764a803eb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d60/namespaceUtilTrigger.html#a2b160f34a1e1b7ad19e724764a803eb4">FindFiredRoads</a> (const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *vec, const <a class="el" href="../../d4/d61/classUtilTrigger_1_1TrigRoadset.html">TrigRoadset</a> *<a class="el" href="../../d9/d3c/classrs.html">rs</a>, const bool in_time, std::vector&lt; int &gt; *pos_top, std::vector&lt; int &gt; *pos_bot, std::vector&lt; int &gt; *neg_top, std::vector&lt; int &gt; *neg_bot)</td></tr>
+<tr class="memdesc:a2b160f34a1e1b7ad19e724764a803eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all fired roads enabled in <code>rs</code>, by taking all hit combinations from <code>vec</code>.  <a href="../../df/d60/namespaceUtilTrigger.html#a2b160f34a1e1b7ad19e724764a803eb4">More...</a><br /></td></tr>
+<tr class="separator:a2b160f34a1e1b7ad19e724764a803eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="afdd030c4cb67c41d7abc754c205b0626"></a>
@@ -132,9 +141,9 @@ Functions</h2></td></tr>
 <p>Find a unique road in the given list of SQHits. </p>
 <p>This function returns a road ID if the given list contains exactly one hit every top plane (i.e. H1T, H2T, H3T &amp; H4T) or every bottom plane. It returns '0' if any plan has no hit or multiple hit. The given list can contain any extra Y-hodoscope, chamber or prop tube hit, which is just ignored. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00040">40</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00062">62</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dbc/classSQHitVector.html#ab80ab078afa096098e099be6767ac2f4">SQHitVector::begin()</a>, <a class="el" href="../../d9/dbc/classSQHitVector.html#ab6c79c3e8a48176ebc5b0415067d862b">SQHitVector::end()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00045">SQHit::get_element_id()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">GeomSvc::getDetectorName()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00011">Hodo2Road()</a>, and <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dbc/classSQHitVector.html#ab80ab078afa096098e099be6767ac2f4">SQHitVector::begin()</a>, <a class="el" href="../../d9/dbc/classSQHitVector.html#ab6c79c3e8a48176ebc5b0415067d862b">SQHitVector::end()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00045">SQHit::get_element_id()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">GeomSvc::getDetectorName()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00013">Hodo2Road()</a>, and <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dc9/SubsysRecoSignal_8cc_source.html#l00043">SubsysRecoSignal::process_event()</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -151,6 +160,154 @@ Functions</h2></td></tr>
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d60/namespaceUtilTrigger_afdd030c4cb67c41d7abc754c205b0626_icgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a2b160f34a1e1b7ad19e724764a803eb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b160f34a1e1b7ad19e724764a803eb4">&#9670;&nbsp;</a></span>FindFiredRoads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UtilTrigger::FindFiredRoads </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *&#160;</td>
+          <td class="paramname"><em>vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d4/d61/classUtilTrigger_1_1TrigRoadset.html">TrigRoadset</a> *&#160;</td>
+          <td class="paramname"><em>rs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>in_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>pos_top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>pos_bot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>neg_top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>neg_bot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find all fired roads enabled in <code>rs</code>, by taking all hit combinations from <code>vec</code>. </p>
+<div class="fragment"><div class="line"><a class="code" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a>* vec = ...;</div>
+<div class="line"><span class="keyword">const</span> TrigRoadset* <a class="code" href="../../d9/d3c/classrs.html">rs</a> = ...;</div>
+<div class="line"><span class="keyword">const</span> <span class="keywordtype">bool</span> in_time = <span class="keyword">true</span>;</div>
+<div class="line">std::vector&lt;int&gt; fired_roads_PT;</div>
+<div class="line">std::vector&lt;int&gt; fired_roads_PB;</div>
+<div class="line">std::vector&lt;int&gt; fired_roads_NT;</div>
+<div class="line">std::vector&lt;int&gt; fired_roads_NB;</div>
+<div class="line"><a class="code" href="../../df/d60/namespaceUtilTrigger.html#a2b160f34a1e1b7ad19e724764a803eb4">UtilTrigger::FindFiredRoads</a>(vec, <a class="code" href="../../d9/d3c/classrs.html">rs</a>, in_time, fired_roads_PT, fired_roads_PB, fired_roads_NT, fired_roads_NB);</div>
+<div class="line"><span class="keywordflow">if</span> (fired_roads_PT.size() &gt; 0) { ... }</div>
+<div class="ttc" id="aclassSQHitVector_html"><div class="ttname"><a href="../../d9/dbc/classSQHitVector.html">SQHitVector</a></div><div class="ttdoc">An SQ interface class to hold a list of SQHit objects.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/ddd/SQHitVector_8h_source.html#l00032">SQHitVector.h:32</a></div></div>
+<div class="ttc" id="aclassrs_html"><div class="ttname"><a href="../../d9/d3c/classrs.html">rs</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d90/rs__Reader_8h_source.html#l00009">rs_Reader.h:9</a></div></div>
+<div class="ttc" id="anamespaceUtilTrigger_html_a2b160f34a1e1b7ad19e724764a803eb4"><div class="ttname"><a href="../../df/d60/namespaceUtilTrigger.html#a2b160f34a1e1b7ad19e724764a803eb4">UtilTrigger::FindFiredRoads</a></div><div class="ttdeci">void FindFiredRoads(const SQHitVector *vec, const TrigRoadset *rs, const bool in_time, std::vector&lt; int &gt; *pos_top, std::vector&lt; int &gt; *pos_bot, std::vector&lt; int &gt; *neg_top, std::vector&lt; int &gt; *neg_bot)</div><div class="ttdoc">Find all fired roads enabled in rs, by taking all hit combinations from vec.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d5e/UtilTrigger_8cc_source.html#l00101">UtilTrigger.cc:101</a></div></div>
+</div><!-- fragment --> 
+<p class="definition">Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00101">101</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00040">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00016">UtilSQHit::FindHits()</a>, and <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00013">Hodo2Road()</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d60/namespaceUtilTrigger_a2b160f34a1e1b7ad19e724764a803eb4_cgraph.svg" width="2243" height="848"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a16bebd496d3f6cfe29343aa87ff09adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16bebd496d3f6cfe29343aa87ff09adf">&#9670;&nbsp;</a></span>FlipRoadLeftRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int UtilTrigger::FlipRoadLeftRight </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>road</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flip the given road ID in the left-right direction. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00036">36</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00013">Hodo2Road()</a>, and <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00021">Road2Hodo()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d60/namespaceUtilTrigger_a16bebd496d3f6cfe29343aa87ff09adf_cgraph.svg" width="410" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aef25f39135dcdcbb8e9291a7294a63ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef25f39135dcdcbb8e9291a7294a63ca">&#9670;&nbsp;</a></span>FlipRoadTopBottom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int UtilTrigger::FlipRoadTopBottom </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>road</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flip the given road ID in the top-bottom direction. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00048">48</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00013">Hodo2Road()</a>, and <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00021">Road2Hodo()</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d60/namespaceUtilTrigger_aef25f39135dcdcbb8e9291a7294a63ca_cgraph.svg" width="407" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -203,15 +360,15 @@ Functions</h2></td></tr>
 <p>Convert a set of hodo IDs to a roadset ID. </p>
 <p>Note that the max hodo IDs are 23 (H1), 16 (H2), 16 (H3) and 16 (H4). </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00011">11</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00013">13</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00040">ExtractRoadID()</a>, <a class="el" href="../../db/dfe/AnaBG_8cc_source.html#l00217">AnaBG::FindAllRoads()</a>, <a class="el" href="../../d0/d04/GenRoadset_8cc_source.html#l00200">GenRoadset::FlipRoadLeftRight()</a>, and <a class="el" href="../../d0/d04/GenRoadset_8cc_source.html#l00211">GenRoadset::FlipRoadTopBottom()</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00062">ExtractRoadID()</a>, <a class="el" href="../../db/dfe/AnaBG_8cc_source.html#l00217">AnaBG::FindAllRoads()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00101">FindFiredRoads()</a>, <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00105">UtilTrack::FindMatchedRoads()</a>, <a class="el" href="../../d0/d04/GenRoadset_8cc_source.html#l00200">GenRoadset::FlipRoadLeftRight()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00036">FlipRoadLeftRight()</a>, <a class="el" href="../../d0/d04/GenRoadset_8cc_source.html#l00211">GenRoadset::FlipRoadTopBottom()</a>, and <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00048">FlipRoadTopBottom()</a>.</p>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d60/namespaceUtilTrigger_a36f02c79502113f6ce616ca486f2d8fe_icgraph.svg" width="954" height="271"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d60/namespaceUtilTrigger_a36f02c79502113f6ce616ca486f2d8fe_icgraph.svg" width="954" height="454"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -269,15 +426,15 @@ Functions</h2></td></tr>
 
 <p>Convert a roadset ID to a set of hodo IDs. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00019">19</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00021">21</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d10/DrawRoadset_8cc_source.html#l00041">DrawRoadset::DrawOneSet()</a>, <a class="el" href="../../d0/d04/GenRoadset_8cc_source.html#l00200">GenRoadset::FlipRoadLeftRight()</a>, and <a class="el" href="../../d0/d04/GenRoadset_8cc_source.html#l00211">GenRoadset::FlipRoadTopBottom()</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/d10/DrawRoadset_8cc_source.html#l00041">DrawRoadset::DrawOneSet()</a>, <a class="el" href="../../d0/d04/GenRoadset_8cc_source.html#l00200">GenRoadset::FlipRoadLeftRight()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00036">FlipRoadLeftRight()</a>, <a class="el" href="../../d0/d04/GenRoadset_8cc_source.html#l00211">GenRoadset::FlipRoadTopBottom()</a>, and <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00048">FlipRoadTopBottom()</a>.</p>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d60/namespaceUtilTrigger_a26c776dbd619458af7fa35b6faae6056_icgraph.svg" width="755" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d60/namespaceUtilTrigger_a26c776dbd619458af7fa35b6faae6056_icgraph.svg" width="755" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -293,7 +450,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../df/d60/namespaceUtilTrigger.html">UtilTrigger</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 30 2025 10:15:19</em> using <a
+			updated: <em>Thu Nov 20 2025 08:33:29</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

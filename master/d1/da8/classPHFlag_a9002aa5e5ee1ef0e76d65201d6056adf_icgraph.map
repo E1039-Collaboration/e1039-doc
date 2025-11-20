@@ -1,52 +1,52 @@
 <map id="PHFlag::get_IntFlag" name="PHFlag::get_IntFlag">
-<area shape="rect" id="node1" title=" " alt="" coords="1353,869,1503,895"/>
-<area shape="rect" id="node2" href="$d7/d57/SRecEvent_8cxx.html#adf5310a914f807f051dc2ccc2c541a78" title=" " alt="" coords="1158,417,1241,443"/>
-<area shape="rect" id="node3" href="$d3/d96/classFun4AllHistoManager.html#a61c2043c62739de451de3f9287832a08" title=" " alt="" coords="1119,468,1280,509"/>
-<area shape="rect" id="node4" href="$da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8" title=" " alt="" coords="1127,534,1271,561"/>
-<area shape="rect" id="node5" href="$d6/d6f/classFun4AllHepMCInputManager.html#aaf891596a876957d656c23ea03b39f1a" title=" " alt="" coords="1096,585,1303,627"/>
-<area shape="rect" id="node9" href="$db/d1f/classFun4AllOscarInputManager.html#a6fbe420ea4972e895f4061bb94ab9d77" title=" " alt="" coords="1101,651,1298,692"/>
-<area shape="rect" id="node12" href="$d2/da1/classPHGeomUtility.html#a84ee9f9eaf686f5c98ddc1af089ae248" title="Verbosity for geometry IO like, TGeoMangers." alt="" coords="1094,717,1305,743"/>
-<area shape="rect" id="node13" href="$d0/da0/classGeomSvc.html#adbe1473f9b3a8ff942da8d7d8ee28322" title=" " alt="" coords="1104,767,1295,794"/>
-<area shape="rect" id="node40" href="$dd/def/classCalibDriftDistMod.html#a7752167df8cf9a3766bce767b47617d6" title=" " alt="" coords="281,1269,426,1311"/>
-<area shape="rect" id="node41" href="$d4/d73/classCalibDriftDist.html#ab8f98ba3b01859d64f958f280d0fe22f" title=" " alt="" coords="272,1335,435,1362"/>
-<area shape="rect" id="node42" href="$d6/dc8/classFun4AllPrdfOutputManager.html#a34a327859dafb50190588e6393d8ec2b" title=" " alt="" coords="1101,920,1298,961"/>
-<area shape="rect" id="node44" href="$d5/d85/classPHG4TruthSubsystem.html#a0dc4476d86bcfecbb026ca2d98caca32" title="init" alt="" coords="1118,985,1281,1027"/>
-<area shape="rect" id="node45" href="$d4/d41/classCalibHodoInTime.html#aa02bceb910335dc4ed67613212bf1eec" title=" " alt="" coords="1105,1051,1293,1078"/>
-<area shape="rect" id="node46" href="$d5/d65/classSQVertexing.html#a0b299744b58cb90fa2722eea3a42fb4b" title=" " alt="" coords="1121,1102,1277,1129"/>
-<area shape="rect" id="node47" href="$dc/dcd/classSQChamberRealization.html#a69eb66408dc5f9cb20f92dcc12c89d14" title=" " alt="" coords="1113,1153,1285,1195"/>
-<area shape="rect" id="node48" href="$dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55" title=" " alt="" coords="1106,1219,1293,1246"/>
-<area shape="rect" id="node49" href="$da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a" title="run n events (0 means up to end of file)" alt="" coords="1129,1270,1270,1297"/>
-<area shape="rect" id="node50" href="$df/d43/classFun4AllDummyInputManager.html#a3863cb07576f56e8e514ae272b322679" title=" " alt="" coords="1093,1321,1305,1363"/>
-<area shape="rect" id="node6" href="$d6/d6f/classFun4AllHepMCInputManager.html#a0eee823ea0302273e9e2d3459bcc3508" title=" " alt="" coords="839,585,1045,627"/>
-<area shape="rect" id="node7" href="$d6/d6f/classFun4AllHepMCInputManager.html#ab6c80a8ee0701bfff5eee3ec3623015c" title=" " alt="" coords="535,546,771,573"/>
-<area shape="rect" id="node8" href="$de/d99/classFun4AllHepMCPileupInputManager.html#a81bf2b69c3c4d3aae0aadebafe1c2c2e" title=" " alt="" coords="515,597,791,623"/>
-<area shape="rect" id="node10" href="$db/d1f/classFun4AllOscarInputManager.html#ab9a8e0287bd958f964a5dbd00d8be9f4" title=" " alt="" coords="843,651,1041,692"/>
-<area shape="rect" id="node11" href="$db/d1f/classFun4AllOscarInputManager.html#a4be602bd8c9fe73f9dcc81c8871784a6" title=" " alt="" coords="539,654,766,681"/>
-<area shape="rect" id="node14" href="$d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6" title="Initialization, either from MySQL or from ascii file." alt="" coords="885,742,999,769"/>
-<area shape="rect" id="node15" href="$d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4" title="singlton instance" alt="" coords="579,705,726,731"/>
-<area shape="rect" id="node16" href="$d2/d4f/classChanMapV1495.html#afc196432d35a86c60b6136d4c4fcde89" title=" " alt="" coords="275,325,432,351"/>
-<area shape="rect" id="node17" href="$d3/d21/classChanMapTaiwan.html#a935b6903c5a4e4476f295f6a74185ec1" title=" " alt="" coords="273,375,434,402"/>
-<area shape="rect" id="node18" href="$da/d44/classCalibParamXT.html#a5483b9b9bd60b5b43611c1dec536dc46" title=" " alt="" coords="281,426,426,453"/>
-<area shape="rect" id="node19" href="$d7/dec/classCalibParamInTimeTaiwan.html#a1864ffda0e47eb50d37155b015ab41e3" title=" " alt="" coords="244,477,463,503"/>
-<area shape="rect" id="node20" href="$d0/dd2/classCalibParamInTimeV1495.html#ac884b85f75be97c5e9739672aad4daa5" title=" " alt="" coords="246,527,461,554"/>
-<area shape="rect" id="node21" href="$d7/d73/classAnaChamHit.html#ad777528649781df9b04d0477b2908ed6" title=" " alt="" coords="258,578,449,605"/>
-<area shape="rect" id="node22" href="$d6/deb/classTriggerAnalyzer.html#a095d42811ed0348e26a4e42b1cc12d49" title=" " alt="" coords="256,629,451,655"/>
-<area shape="rect" id="node23" href="$d0/d06/FastTracklet_8cxx.html#af9f19d05dd700160d8e2a2c05dd87c61" title=" " alt="" coords="312,679,395,706"/>
-<area shape="rect" id="node24" href="$de/d72/classMakeRTCurve.html#ab4ada927ad5286b66dabc0346194ee4f" title=" " alt="" coords="240,730,467,757"/>
-<area shape="rect" id="node25" href="$d8/de3/classSRMakeRTCurve.html#a3eeaeaebde2b5d201f440b902aed02b8" title=" " alt="" coords="252,781,455,823"/>
-<area shape="rect" id="node26" href="$de/d52/classCalibData.html#a57ff174a2221479087a1522cc41a146d" title=" " alt="" coords="267,847,440,874"/>
-<area shape="rect" id="node27" href="$d5/dda/classEventReducer.html#a561a06dc56cee12696d12ba18d207433" title=" " alt="" coords="248,898,459,925"/>
-<area shape="rect" id="node28" href="$df/d60/namespaceUtilTrigger.html#afdd030c4cb67c41d7abc754c205b0626" title="Find a unique road in the given list of SQHits." alt="" coords="258,949,449,975"/>
-<area shape="rect" id="node29" href="$d2/d1e/namespaceUtilTrack.html#a066646acae0efd8b9e0429ee5b46c6ef" title="Find track&#45;associated hits whose detector name starts with &#39;det_name&#39;." alt="" coords="255,1000,451,1041"/>
-<area shape="rect" id="node30" href="$d0/dc5/namespaceUtilSQHit.html#a5fb03b8a409fe9772bfae09b0d316aba" title="Extract a set of first hits that are of the given detector (det_name), where &quot;first&quot; means the earlie..." alt="" coords="268,1066,439,1093"/>
-<area shape="rect" id="node31" href="$d0/dc5/namespaceUtilSQHit.html#ad5349065a009f07069307079980f975b" title="Extract a set of hits that are of the given detector (det_name)." alt="" coords="282,1117,425,1143"/>
-<area shape="rect" id="node32" href="$d0/dc5/namespaceUtilSQHit.html#a3a9e581499adf80e352222d24efc20ec" title="Fast&#45;extract a set of hits that are of the given detector (det_name)." alt="" coords="269,1167,438,1194"/>
-<area shape="rect" id="node33" href="$d0/dc5/namespaceUtilSQHit.html#a77bf0d74fb4b1e05bbb748a60d6db0a0" title="Fast&#45;extract a set of trigger hits that are of the given detector (det_name)." alt="" coords="247,1218,460,1245"/>
-<area shape="rect" id="node34" href="$dc/dcd/classSQChamberRealization.html#ac5156a0914d0055571c857829c6e2f1f" title="Set the single&#45;plane resolution of the chamber planes to the given values." alt="" coords="267,5,439,47"/>
-<area shape="rect" id="node35" href="$d9/dc3/classKalmanTrack.html#a130df9a64175b4854a25f0de3120cf91" title=" " alt="" coords="252,71,455,98"/>
-<area shape="rect" id="node36" href="$d9/d7c/namespaceUtilHodo.html#aa969bb67fd62bb607c12ca68a992c69a" title=" " alt="" coords="5,147,192,174"/>
-<area shape="rect" id="node37" href="$d9/dc3/classKalmanTrack.html#abfa2e153a77c41a07e0821aaed4ec834" title=" " alt="" coords="247,223,460,250"/>
-<area shape="rect" id="node38" href="$d5/d72/classTriggerRoad.html#a427d8d8c38db73607327ca6ae3b389b4" title=" " alt="" coords="281,274,425,301"/>
-<area shape="rect" id="node39" href="$d9/d7c/namespaceUtilHodo.html#a1b46f5fa340d48eb176f18d4f87bf7d2" title=" " alt="" coords="269,173,438,199"/>
-<area shape="rect" id="node43" href="$d6/dc8/classFun4AllPrdfOutputManager.html#a6aaed7e9b0b32a481661fde72ff44fa2" title="event write method (startNode argument is ignored. prdfNode is always used)" alt="" coords="843,920,1041,961"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1135,889,1284,916"/>
+<area shape="rect" id="node2" href="$d7/d57/SRecEvent_8cxx.html#adf5310a914f807f051dc2ccc2c541a78" title=" " alt="" coords="939,408,1022,435"/>
+<area shape="rect" id="node3" href="$d3/d96/classFun4AllHistoManager.html#a61c2043c62739de451de3f9287832a08" title=" " alt="" coords="900,459,1061,501"/>
+<area shape="rect" id="node4" href="$da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8" title=" " alt="" coords="909,525,1053,552"/>
+<area shape="rect" id="node5" href="$d6/d6f/classFun4AllHepMCInputManager.html#aaf891596a876957d656c23ea03b39f1a" title=" " alt="" coords="877,577,1084,618"/>
+<area shape="rect" id="node9" href="$db/d1f/classFun4AllOscarInputManager.html#a6fbe420ea4972e895f4061bb94ab9d77" title=" " alt="" coords="882,642,1079,683"/>
+<area shape="rect" id="node12" href="$d2/da1/classPHGeomUtility.html#a84ee9f9eaf686f5c98ddc1af089ae248" title="Verbosity for geometry IO like, TGeoMangers." alt="" coords="875,708,1086,735"/>
+<area shape="rect" id="node13" href="$d0/da0/classGeomSvc.html#adbe1473f9b3a8ff942da8d7d8ee28322" title=" " alt="" coords="885,759,1076,785"/>
+<area shape="rect" id="node39" href="$dd/def/classCalibDriftDistMod.html#a7752167df8cf9a3766bce767b47617d6" title=" " alt="" coords="54,1235,199,1277"/>
+<area shape="rect" id="node40" href="$d4/d73/classCalibDriftDist.html#ab8f98ba3b01859d64f958f280d0fe22f" title=" " alt="" coords="45,1301,208,1328"/>
+<area shape="rect" id="node41" href="$d6/dc8/classFun4AllPrdfOutputManager.html#a34a327859dafb50190588e6393d8ec2b" title=" " alt="" coords="882,911,1079,953"/>
+<area shape="rect" id="node43" href="$d5/d85/classPHG4TruthSubsystem.html#a0dc4476d86bcfecbb026ca2d98caca32" title="init" alt="" coords="899,977,1062,1018"/>
+<area shape="rect" id="node44" href="$d2/de6/classAnaEmbeddedData.html#aec11a5ba2a17b9ad09db370994579597" title=" " alt="" coords="880,1043,1081,1069"/>
+<area shape="rect" id="node45" href="$d4/d41/classCalibHodoInTime.html#aa02bceb910335dc4ed67613212bf1eec" title=" " alt="" coords="887,1093,1075,1120"/>
+<area shape="rect" id="node46" href="$dc/dcd/classSQChamberRealization.html#a69eb66408dc5f9cb20f92dcc12c89d14" title=" " alt="" coords="895,1145,1067,1186"/>
+<area shape="rect" id="node47" href="$d5/d65/classSQVertexing.html#a29dad7767e9d537774953e9115472574" title=" " alt="" coords="903,1211,1059,1237"/>
+<area shape="rect" id="node48" href="$dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55" title=" " alt="" coords="887,1261,1074,1288"/>
+<area shape="rect" id="node49" href="$da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a" title="run n events (0 means up to end of file)" alt="" coords="910,1312,1051,1339"/>
+<area shape="rect" id="node50" href="$df/d43/classFun4AllDummyInputManager.html#a3863cb07576f56e8e514ae272b322679" title=" " alt="" coords="875,1363,1087,1405"/>
+<area shape="rect" id="node6" href="$d6/d6f/classFun4AllHepMCInputManager.html#a0eee823ea0302273e9e2d3459bcc3508" title=" " alt="" coords="620,577,827,618"/>
+<area shape="rect" id="node7" href="$d6/d6f/classFun4AllHepMCInputManager.html#ab6c80a8ee0701bfff5eee3ec3623015c" title=" " alt="" coords="316,537,552,564"/>
+<area shape="rect" id="node8" href="$de/d99/classFun4AllHepMCPileupInputManager.html#a81bf2b69c3c4d3aae0aadebafe1c2c2e" title=" " alt="" coords="296,588,572,615"/>
+<area shape="rect" id="node10" href="$db/d1f/classFun4AllOscarInputManager.html#ab9a8e0287bd958f964a5dbd00d8be9f4" title=" " alt="" coords="625,642,822,683"/>
+<area shape="rect" id="node11" href="$db/d1f/classFun4AllOscarInputManager.html#a4be602bd8c9fe73f9dcc81c8871784a6" title=" " alt="" coords="321,645,547,672"/>
+<area shape="rect" id="node14" href="$d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6" title="Initialization, either from MySQL or from ascii file." alt="" coords="667,733,780,760"/>
+<area shape="rect" id="node15" href="$d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4" title="singlton instance" alt="" coords="361,696,507,723"/>
+<area shape="rect" id="node16" href="$d2/d4f/classChanMapV1495.html#afc196432d35a86c60b6136d4c4fcde89" title=" " alt="" coords="48,341,205,368"/>
+<area shape="rect" id="node17" href="$d3/d21/classChanMapTaiwan.html#a935b6903c5a4e4476f295f6a74185ec1" title=" " alt="" coords="46,392,207,419"/>
+<area shape="rect" id="node18" href="$da/d44/classCalibParamXT.html#a5483b9b9bd60b5b43611c1dec536dc46" title=" " alt="" coords="54,443,199,469"/>
+<area shape="rect" id="node19" href="$d7/dec/classCalibParamInTimeTaiwan.html#a1864ffda0e47eb50d37155b015ab41e3" title=" " alt="" coords="17,493,236,520"/>
+<area shape="rect" id="node20" href="$d0/dd2/classCalibParamInTimeV1495.html#ac884b85f75be97c5e9739672aad4daa5" title=" " alt="" coords="19,544,234,571"/>
+<area shape="rect" id="node21" href="$d7/d73/classAnaChamHit.html#ad777528649781df9b04d0477b2908ed6" title=" " alt="" coords="31,595,222,621"/>
+<area shape="rect" id="node22" href="$d6/deb/classTriggerAnalyzer.html#a095d42811ed0348e26a4e42b1cc12d49" title=" " alt="" coords="29,645,224,672"/>
+<area shape="rect" id="node23" href="$d0/d06/FastTracklet_8cxx.html#af9f19d05dd700160d8e2a2c05dd87c61" title=" " alt="" coords="85,696,168,723"/>
+<area shape="rect" id="node24" href="$de/d72/classMakeRTCurve.html#ab4ada927ad5286b66dabc0346194ee4f" title=" " alt="" coords="13,747,240,773"/>
+<area shape="rect" id="node25" href="$d8/de3/classSRMakeRTCurve.html#a3eeaeaebde2b5d201f440b902aed02b8" title=" " alt="" coords="25,798,228,839"/>
+<area shape="rect" id="node26" href="$de/d52/classCalibData.html#a57ff174a2221479087a1522cc41a146d" title=" " alt="" coords="40,864,213,891"/>
+<area shape="rect" id="node27" href="$d5/dda/classEventReducer.html#a561a06dc56cee12696d12ba18d207433" title=" " alt="" coords="21,915,232,941"/>
+<area shape="rect" id="node28" href="$df/d60/namespaceUtilTrigger.html#afdd030c4cb67c41d7abc754c205b0626" title="Find a unique road in the given list of SQHits." alt="" coords="31,965,222,992"/>
+<area shape="rect" id="node29" href="$d2/d1e/namespaceUtilTrack.html#a066646acae0efd8b9e0429ee5b46c6ef" title="Find track&#45;associated hits whose detector name starts with &#39;det_name&#39;." alt="" coords="29,1017,225,1058"/>
+<area shape="rect" id="node30" href="$d0/dc5/namespaceUtilSQHit.html#a5fb03b8a409fe9772bfae09b0d316aba" title="Extract a set of first hits that are of the given detector (det_name), where &quot;first&quot; means the earlie..." alt="" coords="41,1083,212,1109"/>
+<area shape="rect" id="node31" href="$d0/dc5/namespaceUtilSQHit.html#ad5349065a009f07069307079980f975b" title="Extract a set of hits that are of the given detector (det_name)." alt="" coords="55,1133,198,1160"/>
+<area shape="rect" id="node32" href="$d0/dc5/namespaceUtilSQHit.html#a3a9e581499adf80e352222d24efc20ec" title="Fast&#45;extract a set of hits that are of the given detector (det_name)." alt="" coords="42,1184,211,1211"/>
+<area shape="rect" id="node33" href="$d2/d1e/namespaceUtilTrack.html#ac7d22f1b53f29b760e5097fa5344bc4d" title="Find all roads that match to the given track within the hodo paddle width plus the given margin." alt="" coords="21,5,232,32"/>
+<area shape="rect" id="node34" href="$d0/dc5/namespaceUtilSQHit.html#a77bf0d74fb4b1e05bbb748a60d6db0a0" title="Fast&#45;extract a set of trigger hits that are of the given detector (det_name)." alt="" coords="20,56,233,83"/>
+<area shape="rect" id="node35" href="$dc/dcd/classSQChamberRealization.html#ac5156a0914d0055571c857829c6e2f1f" title="Set the single&#45;plane resolution of the chamber planes to the given values." alt="" coords="41,107,213,149"/>
+<area shape="rect" id="node36" href="$d9/dc3/classKalmanTrack.html#a130df9a64175b4854a25f0de3120cf91" title=" " alt="" coords="25,173,228,200"/>
+<area shape="rect" id="node37" href="$d3/d8e/classDimuAnaRUS.html#a4179ccff58774a23e7536507e4b22c3c" title=" " alt="" coords="5,225,248,266"/>
+<area shape="rect" id="node38" href="$d9/d7c/namespaceUtilHodo.html#aa969bb67fd62bb607c12ca68a992c69a" title=" " alt="" coords="33,291,220,317"/>
+<area shape="rect" id="node42" href="$d6/dc8/classFun4AllPrdfOutputManager.html#a6aaed7e9b0b32a481661fde72ff44fa2" title="event write method (startNode argument is ignored. prdfNode is always used)" alt="" coords="625,911,822,953"/>
 </map>

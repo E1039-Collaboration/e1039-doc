@@ -115,48 +115,68 @@ $(document).ready(function(){initNavTree('de/db9/TrigRoads_8cc_source.html','../
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordflow">if</span> (it != m_idx_map.end()) <span class="keywordflow">return</span> &amp;m_roads[it-&gt;second];</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a0a3773000df42825ebd009ffe2663c27">   31</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a0a3773000df42825ebd009ffe2663c27">TrigRoads::LoadConfig</a>(<span class="keyword">const</span> std::string file_name)</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="comment">//cout &lt;&lt; &quot;TrigRoads::LoadConfig(&quot; &lt;&lt; file_name &lt;&lt; &quot;)\n&quot;;</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  m_roads.clear();</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  m_idx_map.clear();</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  m_file_name = file_name;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  ifstream ifs(file_name);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordflow">if</span> (! ifs) <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordtype">int</span> idx = 0;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">string</span> buffer;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  istringstream iss;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordflow">while</span> (getline(ifs, buffer)) {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">if</span> (buffer[0] == <span class="charliteral">&#39;#&#39;</span> || buffer[0] == <span class="charliteral">&#39;r&#39;</span>) <span class="keywordflow">continue</span>; <span class="comment">// &#39;r&#39; of &#39;roadID&#39;</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    iss.clear(); <span class="comment">// clear any error flags</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    iss.str(buffer);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html">TrigRoad</a> road;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span> (! (iss &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#abdd95d77ab5ba03667dbe511586b60ab">road_id</a> &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a27da07c80cd1e59d43f6426227e481d6">charge</a></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;               &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#aa041c5993ab56f6901c773affcff45c2">H1X</a> &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a8345c92dc83facd6ab99a9e4b018e12f">H2X</a> &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a5510b7f550a2ffb836472485b80148a0">H3X</a> &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a260c6f353862bbd2d47e696e77378876">H4X</a>)) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#abdd95d77ab5ba03667dbe511586b60ab">road_id</a> * m_top_bot &lt;= 0) <span class="keywordflow">continue</span>; <span class="comment">// top-bottom mismatch</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span> (road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a27da07c80cd1e59d43f6426227e481d6">charge</a>  * m_pol     &lt;= 0) <span class="keywordflow">continue</span>; <span class="comment">// charge mismatch</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    m_roads.push_back(road);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    m_idx_map[road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#abdd95d77ab5ba03667dbe511586b60ab">road_id</a>] = idx++;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  }</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  ifs.close();</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordflow">return</span> 0; <span class="comment">// no validation so far</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a34fcc2ba9f879b0e04fe3c0ebf0d24d1">   31</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a34fcc2ba9f879b0e04fe3c0ebf0d24d1">TrigRoads::FindRoadIndex</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> road_id)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">auto</span> it = m_idx_map.find(road_id);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordflow">if</span> (it != m_idx_map.end()) <span class="keywordflow">return</span> it-&gt;second;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a8f1e32e09aea62f97659849a854711db">   38</a></span>&#160;<span class="keyword">const</span> <a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html">TrigRoad</a>* <a class="code" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#ad0712dafbc675485d8f550763c0b79d4">TrigRoads::GetRoad</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> idx)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordflow">if</span> (idx &lt; 0 || idx &gt; (<span class="keywordtype">int</span>)m_roads.size()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordflow">return</span> &amp;m_roads[idx];</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a7587d39b07cc96276e65c8f95f5703a4">   44</a></span>&#160;<span class="keyword">const</span> <a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html">TrigRoad</a>* <a class="code" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a2463cf2fbf8495bef6a23b57ceb38c7a">TrigRoads::FindRoad</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> road_id)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keyword">auto</span> it = m_idx_map.find(road_id);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordflow">if</span> (it != m_idx_map.end()) <span class="keywordflow">return</span> &amp;m_roads[it-&gt;second];</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  </div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a0a3773000df42825ebd009ffe2663c27">   51</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a0a3773000df42825ebd009ffe2663c27">TrigRoads::LoadConfig</a>(<span class="keyword">const</span> std::string file_name)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="comment">//cout &lt;&lt; &quot;TrigRoads::LoadConfig(&quot; &lt;&lt; file_name &lt;&lt; &quot;)\n&quot;;</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  m_roads.clear();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  m_idx_map.clear();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  m_file_name = file_name;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  ifstream ifs(file_name);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordflow">if</span> (! ifs) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a77ca9284aba5ac4ef1a1911152e1b23e">   60</a></span>&#160;std::string <a class="code" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a77ca9284aba5ac4ef1a1911152e1b23e">TrigRoads::str</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> level)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  ostringstream oss;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  oss &lt;&lt; (m_pol &gt; 0 ? <span class="charliteral">&#39;+&#39;</span> : <span class="charliteral">&#39;-&#39;</span>) &lt;&lt; (m_top_bot &gt; 0 ? <span class="charliteral">&#39;T&#39;</span> : <span class="charliteral">&#39;B&#39;</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keywordflow">if</span> (level &gt; 0) oss &lt;&lt; <span class="stringliteral">&quot;[&quot;</span> &lt;&lt; m_roads.size() &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordflow">if</span> (level &gt; 1) {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = m_roads.begin(); it != m_roads.end(); it++) oss &lt;&lt; <span class="stringliteral">&quot;  &quot;</span> &lt;&lt; it-&gt;str(level - 2);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  }</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keywordflow">return</span> oss.str();</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}; <span class="comment">// End of &quot;namespace UtilTrigger&quot;</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keywordtype">int</span> idx = 0;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordtype">string</span> buffer;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  istringstream iss;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keywordflow">while</span> (getline(ifs, buffer)) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">if</span> (buffer[0] == <span class="charliteral">&#39;#&#39;</span> || buffer[0] == <span class="charliteral">&#39;r&#39;</span>) <span class="keywordflow">continue</span>; <span class="comment">// &#39;r&#39; of &#39;roadID&#39;</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    iss.clear(); <span class="comment">// clear any error flags</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    iss.str(buffer);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html">TrigRoad</a> road;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">if</span> (! (iss &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#abdd95d77ab5ba03667dbe511586b60ab">road_id</a> &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a27da07c80cd1e59d43f6426227e481d6">charge</a></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;               &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#aa041c5993ab56f6901c773affcff45c2">H1X</a> &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a8345c92dc83facd6ab99a9e4b018e12f">H2X</a> &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a5510b7f550a2ffb836472485b80148a0">H3X</a> &gt;&gt; road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a260c6f353862bbd2d47e696e77378876">H4X</a>)) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">if</span> (road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#abdd95d77ab5ba03667dbe511586b60ab">road_id</a> * m_top_bot &lt;= 0) <span class="keywordflow">continue</span>; <span class="comment">// top-bottom mismatch</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">if</span> (road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a27da07c80cd1e59d43f6426227e481d6">charge</a>  * m_pol     &lt;= 0) <span class="keywordflow">continue</span>; <span class="comment">// charge mismatch</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    m_roads.push_back(road);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    m_idx_map[road.<a class="code" href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#abdd95d77ab5ba03667dbe511586b60ab">road_id</a>] = idx++;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  ifs.close();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordflow">return</span> 0; <span class="comment">// no validation so far</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a77ca9284aba5ac4ef1a1911152e1b23e">   80</a></span>&#160;std::string <a class="code" href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a77ca9284aba5ac4ef1a1911152e1b23e">TrigRoads::str</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> level)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  ostringstream oss;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  oss &lt;&lt; (m_pol &gt; 0 ? <span class="charliteral">&#39;+&#39;</span> : <span class="charliteral">&#39;-&#39;</span>) &lt;&lt; (m_top_bot &gt; 0 ? <span class="charliteral">&#39;T&#39;</span> : <span class="charliteral">&#39;B&#39;</span>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordflow">if</span> (level &gt; 0) oss &lt;&lt; <span class="stringliteral">&quot;[&quot;</span> &lt;&lt; m_roads.size() &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordflow">if</span> (level &gt; 1) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = m_roads.begin(); it != m_roads.end(); it++) oss &lt;&lt; <span class="stringliteral">&quot;  &quot;</span> &lt;&lt; it-&gt;str(level - 2);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keywordflow">return</span> oss.str();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}; <span class="comment">// End of &quot;namespace UtilTrigger&quot;</span></div>
 <div class="ttc" id="aTrigRoads_8h_html"><div class="ttname"><a href="../../db/d89/TrigRoads_8h.html">TrigRoads.h</a></div></div>
 <div class="ttc" id="aclassUtilTrigger_1_1TrigRoad_html"><div class="ttname"><a href="../../db/df5/classUtilTrigger_1_1TrigRoad.html">UtilTrigger::TrigRoad</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d13/TrigRoad_8h_source.html#l00007">TrigRoad.h:7</a></div></div>
 <div class="ttc" id="aclassUtilTrigger_1_1TrigRoad_html_a260c6f353862bbd2d47e696e77378876"><div class="ttname"><a href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a260c6f353862bbd2d47e696e77378876">UtilTrigger::TrigRoad::H4X</a></div><div class="ttdeci">int H4X</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d13/TrigRoad_8h_source.html#l00014">TrigRoad.h:14</a></div></div>
@@ -165,9 +185,10 @@ $(document).ready(function(){initNavTree('de/db9/TrigRoads_8cc_source.html','../
 <div class="ttc" id="aclassUtilTrigger_1_1TrigRoad_html_a8345c92dc83facd6ab99a9e4b018e12f"><div class="ttname"><a href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#a8345c92dc83facd6ab99a9e4b018e12f">UtilTrigger::TrigRoad::H2X</a></div><div class="ttdeci">int H2X</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d13/TrigRoad_8h_source.html#l00012">TrigRoad.h:12</a></div></div>
 <div class="ttc" id="aclassUtilTrigger_1_1TrigRoad_html_aa041c5993ab56f6901c773affcff45c2"><div class="ttname"><a href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#aa041c5993ab56f6901c773affcff45c2">UtilTrigger::TrigRoad::H1X</a></div><div class="ttdeci">int H1X</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d13/TrigRoad_8h_source.html#l00011">TrigRoad.h:11</a></div></div>
 <div class="ttc" id="aclassUtilTrigger_1_1TrigRoad_html_abdd95d77ab5ba03667dbe511586b60ab"><div class="ttname"><a href="../../db/df5/classUtilTrigger_1_1TrigRoad.html#abdd95d77ab5ba03667dbe511586b60ab">UtilTrigger::TrigRoad::road_id</a></div><div class="ttdeci">int road_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d13/TrigRoad_8h_source.html#l00009">TrigRoad.h:9</a></div></div>
-<div class="ttc" id="aclassUtilTrigger_1_1TrigRoads_html_a0a3773000df42825ebd009ffe2663c27"><div class="ttname"><a href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a0a3773000df42825ebd009ffe2663c27">UtilTrigger::TrigRoads::LoadConfig</a></div><div class="ttdeci">int LoadConfig(const std::string file_name)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db9/TrigRoads_8cc_source.html#l00031">TrigRoads.cc:31</a></div></div>
+<div class="ttc" id="aclassUtilTrigger_1_1TrigRoads_html_a0a3773000df42825ebd009ffe2663c27"><div class="ttname"><a href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a0a3773000df42825ebd009ffe2663c27">UtilTrigger::TrigRoads::LoadConfig</a></div><div class="ttdeci">int LoadConfig(const std::string file_name)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db9/TrigRoads_8cc_source.html#l00051">TrigRoads.cc:51</a></div></div>
 <div class="ttc" id="aclassUtilTrigger_1_1TrigRoads_html_a2463cf2fbf8495bef6a23b57ceb38c7a"><div class="ttname"><a href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a2463cf2fbf8495bef6a23b57ceb38c7a">UtilTrigger::TrigRoads::FindRoad</a></div><div class="ttdeci">TrigRoad * FindRoad(const int road_id)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db9/TrigRoads_8cc_source.html#l00024">TrigRoads.cc:24</a></div></div>
-<div class="ttc" id="aclassUtilTrigger_1_1TrigRoads_html_a77ca9284aba5ac4ef1a1911152e1b23e"><div class="ttname"><a href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a77ca9284aba5ac4ef1a1911152e1b23e">UtilTrigger::TrigRoads::str</a></div><div class="ttdeci">std::string str(const int level=0) const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db9/TrigRoads_8cc_source.html#l00060">TrigRoads.cc:60</a></div></div>
+<div class="ttc" id="aclassUtilTrigger_1_1TrigRoads_html_a34fcc2ba9f879b0e04fe3c0ebf0d24d1"><div class="ttname"><a href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a34fcc2ba9f879b0e04fe3c0ebf0d24d1">UtilTrigger::TrigRoads::FindRoadIndex</a></div><div class="ttdeci">int FindRoadIndex(const int road_id) const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db9/TrigRoads_8cc_source.html#l00031">TrigRoads.cc:31</a></div></div>
+<div class="ttc" id="aclassUtilTrigger_1_1TrigRoads_html_a77ca9284aba5ac4ef1a1911152e1b23e"><div class="ttname"><a href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#a77ca9284aba5ac4ef1a1911152e1b23e">UtilTrigger::TrigRoads::str</a></div><div class="ttdeci">std::string str(const int level=0) const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db9/TrigRoads_8cc_source.html#l00080">TrigRoads.cc:80</a></div></div>
 <div class="ttc" id="aclassUtilTrigger_1_1TrigRoads_html_ad0712dafbc675485d8f550763c0b79d4"><div class="ttname"><a href="../../dc/dcc/classUtilTrigger_1_1TrigRoads.html#ad0712dafbc675485d8f550763c0b79d4">UtilTrigger::TrigRoads::GetRoad</a></div><div class="ttdeci">TrigRoad * GetRoad(const int idx)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db9/TrigRoads_8cc_source.html#l00018">TrigRoads.cc:18</a></div></div>
 <div class="ttc" id="anamespaceUtilTrigger_html"><div class="ttname"><a href="../../df/d60/namespaceUtilTrigger.html">UtilTrigger</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/TrigRoad_8cc_source.html#l00006">TrigRoad.cc:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -180,7 +201,7 @@ $(document).ready(function(){initNavTree('de/db9/TrigRoads_8cc_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_c252d373c2dfd5bf2b63283e19448f22.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_580285352ad11749b46c2981d6aa0acd.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_2c8b3d4df1d6999bc985fb31920d0f6a.html">UtilAna</a></li><li class="navelem"><a class="el" href="../../de/db9/TrigRoads_8cc.html">TrigRoads.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 30 2025 10:15:16</em> using <a
+			updated: <em>Thu Nov 20 2025 08:33:27</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

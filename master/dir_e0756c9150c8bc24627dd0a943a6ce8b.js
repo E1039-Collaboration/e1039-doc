@@ -8,9 +8,9 @@ var dir_e0756c9150c8bc24627dd0a943a6ce8b =
     [ "AnaDimuonLikeSign.h", "d3/d4f/AnaDimuonLikeSign_8h.html", [
       [ "AnaDimuonLikeSign", "d4/d32/classAnaDimuonLikeSign.html", "d4/d32/classAnaDimuonLikeSign" ]
     ] ],
-    [ "AnaDimuonV2.cc", "d5/d9c/AnaDimuonV2_8cc.html", null ],
-    [ "AnaDimuonV2.h", "d3/deb/AnaDimuonV2_8h.html", [
-      [ "AnaDimuonV2", "d6/d91/classAnaDimuonV2.html", "d6/d91/classAnaDimuonV2" ]
+    [ "AnaDimuonSRec.cc", "d2/dc5/AnaDimuonSRec_8cc.html", null ],
+    [ "AnaDimuonSRec.h", "d5/ddf/AnaDimuonSRec_8h.html", [
+      [ "AnaDimuonSRec", "d5/d93/classAnaDimuonSRec.html", "d5/d93/classAnaDimuonSRec" ]
     ] ],
     [ "AnaTrack.cc", "da/d34/RecoData2024_2src_2AnaTrack_8cc.html", null ],
     [ "AnaTrack.h", "d4/dc2/RecoData2024_2src_2AnaTrack_8h.html", [

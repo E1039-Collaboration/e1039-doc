@@ -1,6 +1,8 @@
 <map id="SRawEvent::getNHitsAll" name="SRawEvent::getNHitsAll">
-<area shape="rect" id="node1" title=" " alt="" coords="467,35,644,61"/>
-<area shape="rect" id="node2" href="$d5/d2f/classSRecEvent.html#a79c7950118ac5e00c6a7e2e1ef4301ff" title="directly setup everything by raw event" alt="" coords="235,35,419,61"/>
-<area shape="rect" id="node3" href="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb" title=" " alt="" coords="9,5,183,32"/>
-<area shape="rect" id="node4" href="$dd/d62/classSQTrackletReco.html#a8da2377e83fb17bc8189b89175833872" title=" " alt="" coords="5,57,187,98"/>
+<area shape="rect" id="node1" title=" " alt="" coords="467,31,644,57"/>
+<area shape="rect" id="node2" href="$d2/d43/namespaceUtilTdc.html#aedde14b815ddcbce797bb00e7b25c40d" title="Get the occupancy of each detector (plane)." alt="" coords="241,5,412,32"/>
+<area shape="rect" id="node4" href="$d5/d2f/classSRecEvent.html#a79c7950118ac5e00c6a7e2e1ef4301ff" title="directly setup everything by raw event" alt="" coords="235,56,419,83"/>
+<area shape="rect" id="node3" href="$d2/d43/namespaceUtilTdc.html#a753f712aa6296e0c41e5099308db3ffd" title="Get the occupancy of each station." alt="" coords="11,5,181,32"/>
+<area shape="rect" id="node5" href="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb" title=" " alt="" coords="9,56,183,83"/>
+<area shape="rect" id="node6" href="$dd/d62/classSQTrackletReco.html#a8da2377e83fb17bc8189b89175833872" title=" " alt="" coords="5,107,187,149"/>
 </map>

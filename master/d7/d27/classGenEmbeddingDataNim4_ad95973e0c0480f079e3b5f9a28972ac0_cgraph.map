@@ -1,0 +1,10 @@
+<map id="GenEmbeddingDataNim4::process_event" name="GenEmbeddingDataNim4::process_event">
+<area shape="rect" id="node1" title=" " alt="" coords="5,150,192,191"/>
+<area shape="rect" id="node2" href="$d9/dbc/classSQHitVector.html#ab80ab078afa096098e099be6767ac2f4" title=" " alt="" coords="261,5,405,32"/>
+<area shape="rect" id="node3" href="$d9/dbc/classSQHitVector.html#ab6c79c3e8a48176ebc5b0415067d862b" title=" " alt="" coords="267,56,399,83"/>
+<area shape="rect" id="node4" href="$de/d79/classSQHit.html#ae69d6d52727c281a3a314cc8a48a8d6c" title="Return the detector ID of this hit." alt="" coords="249,107,417,133"/>
+<area shape="rect" id="node5" href="$d9/dd7/classSQEvent.html#aabc7c4e57e08fd62fca31be965e90ba8" title="Return the QIE RF ID." alt="" coords="248,157,417,184"/>
+<area shape="rect" id="node6" href="$d9/dd7/classSQEvent.html#a7592da49f16b4a1ad6ccf1fbf4ce8d31" title="Return the i&#45;th QIE RF intensity, where i=&#45;16...+16." alt="" coords="257,209,408,250"/>
+<area shape="rect" id="node7" href="$d9/dd7/classSQEvent.html#a7dfcfaa62f3da38bd875f768940eb5cd" title="Return the QIE turn ID." alt="" coords="240,275,425,301"/>
+<area shape="rect" id="node8" href="$d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680" title="Return the spill ID." alt="" coords="253,325,412,352"/>
+</map>

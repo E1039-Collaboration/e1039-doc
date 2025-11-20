@@ -1,6 +1,8 @@
 <map id="SQTrackVector::begin" name="SQTrackVector::begin">
-<area shape="rect" id="node1" title=" " alt="" coords="479,42,637,69"/>
-<area shape="rect" id="node2" href="$d2/d1e/namespaceUtilTrack.html#aefd238d0135515157f220ff1b7ede535" title="Find a track by track ID in the given track list." alt="" coords="252,13,431,39"/>
-<area shape="rect" id="node4" href="$d2/d1b/classDoEmbedding.html#a08f06aee61f980a00108c593ad864913" title=" " alt="" coords="256,64,427,105"/>
-<area shape="rect" id="node3" href="$d4/d8e/classSubsysRecoSignal.html#a023c927af2d203e52b156711e260d277" title=" " alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="499,85,657,112"/>
+<area shape="rect" id="node2" href="$d0/d39/classAnaSortMixVertex.html#adb2e66e2fb6d8829b0bb4b4e7ca4551c" title=" " alt="" coords="252,5,451,32"/>
+<area shape="rect" id="node3" href="$d2/d1e/namespaceUtilTrack.html#aefd238d0135515157f220ff1b7ede535" title="Find a track by track ID in the given track list." alt="" coords="262,56,441,83"/>
+<area shape="rect" id="node5" href="$d3/d8e/classDimuAnaRUS.html#a29fa669c7c19fac8dad50b557dba9449" title=" " alt="" coords="268,107,435,149"/>
+<area shape="rect" id="node6" href="$d2/d1b/classDoEmbedding.html#a08f06aee61f980a00108c593ad864913" title=" " alt="" coords="266,173,437,214"/>
+<area shape="rect" id="node4" href="$d4/d8e/classSubsysRecoSignal.html#a023c927af2d203e52b156711e260d277" title=" " alt="" coords="5,49,204,90"/>
 </map>

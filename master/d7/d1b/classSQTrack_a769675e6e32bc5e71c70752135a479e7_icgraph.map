@@ -1,7 +1,9 @@
 <map id="SQTrack::get_mom_vtx" name="SQTrack::get_mom_vtx">
-<area shape="rect" id="node1" title="Return the track momentum at vertex." alt="" coords="259,101,431,127"/>
-<area shape="rect" id="node2" href="$d1/d9e/classAnaSimDst.html#a2cf8cb92aa16247867fe679f439e01ee" title=" " alt="" coords="32,5,184,47"/>
-<area shape="rect" id="node3" href="$de/d8a/classAnaTrack.html#acd209507ac8607391d4f242158e49cde" title=" " alt="" coords="17,71,199,98"/>
-<area shape="rect" id="node4" href="$d2/de6/classAnaEmbeddedData.html#a8e1eeccd8b4d4b05a79fc4c5b599a879" title=" " alt="" coords="5,123,211,164"/>
-<area shape="rect" id="node5" href="$dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397" title=" " alt="" coords="15,188,201,229"/>
+<area shape="rect" id="node1" title="Return the track momentum at vertex." alt="" coords="259,166,431,193"/>
+<area shape="rect" id="node2" href="$d3/d8e/classDimuAnaRUS.html#a29fa669c7c19fac8dad50b557dba9449" title=" " alt="" coords="25,5,191,47"/>
+<area shape="rect" id="node3" href="$d1/d9e/classAnaSimDst.html#a2cf8cb92aa16247867fe679f439e01ee" title=" " alt="" coords="32,71,184,112"/>
+<area shape="rect" id="node4" href="$de/d8a/classAnaTrack.html#acd209507ac8607391d4f242158e49cde" title=" " alt="" coords="17,137,199,163"/>
+<area shape="rect" id="node5" href="$d2/de6/classAnaEmbeddedData.html#a8e1eeccd8b4d4b05a79fc4c5b599a879" title=" " alt="" coords="5,188,211,229"/>
+<area shape="rect" id="node6" href="$dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397" title=" " alt="" coords="15,253,201,295"/>
+<area shape="rect" id="node7" href="$d2/d94/classFun4AllRUSOutputManager.html#ad25332eccd44a2ea2132790876cb2584" title="write starting from given node" alt="" coords="9,319,207,360"/>
 </map>

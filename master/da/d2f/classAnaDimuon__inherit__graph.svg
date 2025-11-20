@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="An example class to analyze hodoscope hits in E1039 DST file.">
+<g id="a_node1"><a xlink:title="An example class to analyze dimuons.">
 <polygon fill="#bfbfbf" stroke="black" points="1.5,-0.5 1.5,-19.5 75.5,-19.5 75.5,-0.5 1.5,-0.5"/>
 <text text-anchor="middle" x="38.5" y="-7.5" font-family="FreeSans" font-size="10.00">AnaDimuon</text>
 </a>

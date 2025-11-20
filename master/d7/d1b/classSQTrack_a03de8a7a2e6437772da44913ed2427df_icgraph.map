@@ -1,9 +1,11 @@
 <map id="SQTrack::get_track_id" name="SQTrack::get_track_id">
-<area shape="rect" id="node1" title="Return the track ID, which is unique per event(?)." alt="" coords="492,137,655,163"/>
-<area shape="rect" id="node2" href="$d2/d1e/namespaceUtilTrack.html#aefd238d0135515157f220ff1b7ede535" title="Find a track by track ID in the given track list." alt="" coords="259,13,437,39"/>
-<area shape="rect" id="node4" href="$d2/d1b/classDoEmbedding.html#a08f06aee61f980a00108c593ad864913" title=" " alt="" coords="263,64,433,105"/>
-<area shape="rect" id="node5" href="$d8/d3e/classSimpleTree.html#a5b31087274e5e810e670395c811fd358" title=" " alt="" coords="272,129,424,171"/>
-<area shape="rect" id="node6" href="$d8/d20/classSQTruthVertexing.html#a6a575557b10800326ed193fa397229bd" title=" " alt="" coords="252,195,444,236"/>
-<area shape="rect" id="node7" href="$dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397" title=" " alt="" coords="255,260,441,301"/>
+<area shape="rect" id="node1" title="Return the track ID, which is unique per event(?)." alt="" coords="499,202,661,229"/>
+<area shape="rect" id="node2" href="$d2/d1e/namespaceUtilTrack.html#aefd238d0135515157f220ff1b7ede535" title="Find a track by track ID in the given track list." alt="" coords="262,13,441,39"/>
+<area shape="rect" id="node4" href="$d3/d8e/classDimuAnaRUS.html#a29fa669c7c19fac8dad50b557dba9449" title=" " alt="" coords="268,64,435,105"/>
+<area shape="rect" id="node5" href="$d2/d1b/classDoEmbedding.html#a08f06aee61f980a00108c593ad864913" title=" " alt="" coords="266,129,437,171"/>
+<area shape="rect" id="node6" href="$d8/d3e/classSimpleTree.html#a5b31087274e5e810e670395c811fd358" title=" " alt="" coords="275,195,427,236"/>
+<area shape="rect" id="node7" href="$d8/d20/classSQTruthVertexing.html#a6a575557b10800326ed193fa397229bd" title=" " alt="" coords="255,260,447,301"/>
+<area shape="rect" id="node8" href="$dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397" title=" " alt="" coords="258,325,445,367"/>
+<area shape="rect" id="node9" href="$d2/d94/classFun4AllRUSOutputManager.html#ad25332eccd44a2ea2132790876cb2584" title="write starting from given node" alt="" coords="252,391,451,432"/>
 <area shape="rect" id="node3" href="$d4/d8e/classSubsysRecoSignal.html#a023c927af2d203e52b156711e260d277" title=" " alt="" coords="5,5,204,47"/>
 </map>

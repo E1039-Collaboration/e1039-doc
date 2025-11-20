@@ -1,0 +1,4 @@
+<map id="UtilTdc::GetOccupancy" name="UtilTdc::GetOccupancy">
+<area shape="rect" id="node1" title="Get the occupancy of each detector (plane)." alt="" coords="224,5,395,32"/>
+<area shape="rect" id="node2" href="$d2/d43/namespaceUtilTdc.html#a753f712aa6296e0c41e5099308db3ffd" title="Get the occupancy of each station." alt="" coords="5,5,176,32"/>
+</map>
